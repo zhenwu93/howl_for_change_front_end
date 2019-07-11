@@ -16,15 +16,15 @@ class App extends Component {
         <div>
           <h1>Howl for Change</h1>
           <ul className="header">
-            <li><a href="/">Home</a></li>
-            <li><a href="/signup">Sign Up</a></li>
-            <li><a href="/login">Log In</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><NavLink exact to="/">Home</NavLink></li>
+            <li><NavLink to="/signup">Sign Up</NavLink></li>
+            <li><NavLink to="/login">Log In</NavLink></li>
+            <li><NavLink to="/contact">Contact</NavLink></li>
             </ul>
 
             <div className="content">
-            <Route path="/" component={Home}/>
-            
+            <Route exact path="/" component={Home}/>
+
             <Route path="/contact" component={Contact}/>
             </div>
           </div>

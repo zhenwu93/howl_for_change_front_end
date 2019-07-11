@@ -5,8 +5,8 @@ class Contact extends Component {
     return (
       <div>
         <h2>GOT QUESTIONS?</h2>
-        <p>The easiest thing to do is post on
-        our <a href="http://forum.kirupa.com">forums</a>.
+        <p>The easiest thing to do is contact us on
+        our <a href="https://www.littlegiantwolf.com/contact">web page</a>.
         </p>
       </div>
     );
