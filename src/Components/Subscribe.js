@@ -1,6 +1,6 @@
 import React from 'react'
 
-class SubscribePage extends React.Component {
+class Subscribe extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -12,9 +12,9 @@ class SubscribePage extends React.Component {
 
     render() {
         return (
-                <form action="https://cool.us16.list-manage.com/subscribe/post" method="POST" noValidate>
-                  <input type="hidden" name="u" value="eb05e4f830c2a04be30171b01"/>
-                <input type="hidden" name="id" value="8281a64779"/>
+                <form action="https://howlforchange.us19.list-manage.com/subscribe/post" method="POST" noValidate>
+                  <input type="hidden" name="u" value="6397bd73322c1f70600e82d2e"/>
+                  <input type="hidden" name="id" value="ded48d18b3"/>
                 <label htmlFor='MERGE0'>
                     Email
                     <input
@@ -64,4 +64,4 @@ class SubscribePage extends React.Component {
     }
 }
 
-export default SubscribePage
+export default Subscribe
