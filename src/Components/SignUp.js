@@ -46,6 +46,20 @@ class SignUp extends Component {
         >
         <Segment stacked>
           <Form.Input
+            label="First Name"
+            placeholder="First Name"
+            name="first_name"
+            onChange={this.handleChange}
+            value={this.state.first_name}
+          />
+          <Form.Input
+            label="Last Name"
+            placeholder="Last Name"
+            name="last_name"
+            onChange={this.handleChange}
+            value={this.state.last_name}
+          />
+          <Form.Input
             fluid icon='user'
             iconPosition='left'
             label="Username"
@@ -63,21 +77,6 @@ class SignUp extends Component {
             name="password"
             onChange={this.handleChange}
             value={this.state.password}
-          />
-
-          <Form.Input
-            label="First Name"
-            placeholder="First Name"
-            name="first_name"
-            onChange={this.handleChange}
-            value={this.state.first_name}
-          />
-          <Form.Input
-            label="Last Name"
-            placeholder="Last Name"
-            name="last_name"
-            onChange={this.handleChange}
-            value={this.state.last_name}
           />
           <Form.Input
             fluid icon='mail'
