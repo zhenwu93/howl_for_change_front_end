@@ -6,25 +6,32 @@ body {
 h1, h2, p, ul, li {
   font-family: sans-serif;
 }
+
+ul{
+  display: inline-block;
+  height: auto;
+}
+
 ul.header li {
   display: inline;
   list-style-type: none;
   margin: 0;
 }
 ul.header {
-  background-color: #111;
+  background-color: white;
   padding: 0;
+  margin: 0;
 }
 ul.header li a {
-  color: #FFF;
+  color: black;
   font-weight: bold;
   text-decoration: none;
-  padding: 20px;
-  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .content {
+  margin-top: 10vh;
   background-color: #FFF;
-  padding: 20px;
 }
 .content h2 {
   padding: 0;
@@ -34,5 +41,39 @@ ul.header li a {
   margin-bottom: 10px;
 }
 .active {
-  background-color: #0099FF;
+  background-color: orange;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw
+}
+
+.topnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100vw;
+  height: 10vh;
+  background: white;
+  margin: 0;
+  background-color: gray;
+  vertical-align: top;
+}
+
+.logo{
+  display: inline;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav {
+  display: inline-block;
+}
+
+.topnavdiv{
+  display: block;
+  height: 10vh;
 }

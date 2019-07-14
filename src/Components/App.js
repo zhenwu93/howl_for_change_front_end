@@ -5,7 +5,7 @@ import Contact from "./Contact";
 import Event from "./Event";
 import Podcast from "./Podcast";
 import SignUp from "./SignUp";
-import Subscribe from "./Subscribe";
+import Subscribe from "./Subscribe"
 //TODO
 // import LogIn from "./LogIn";
 //<Route path="/signup" component={SignUp}/>
@@ -18,15 +18,21 @@ class App extends Component {
     return (
       <Fragment>
         <HashRouter>
-          <div>
-            <h1>Howl for Change</h1>
-            <ul className="header">
-              <li><NavLink exact to="/">About</NavLink></li>
-              <li><NavLink to="/event">Community Events</NavLink></li>
-              <li><NavLink to="/podcast">More From HFC</NavLink></li>
-              <li><NavLink to="/contact">Contact</NavLink></li>
-              <li><NavLink to="/subscribe">Request an Invite</NavLink></li>
-            </ul>
+            <nav class="topnav">
+              <div class="topnavdiv">
+                <a class="logo">
+                  logo placeholder
+                  <img src="../public/favicon.ico"/>
+                </a>
+                <ul className="header">
+                  <li><NavLink exact to="/">About</NavLink></li>
+                  <li><NavLink to="/event">Community Events</NavLink></li>
+                  <li><NavLink to="/podcast">More From HFC</NavLink></li>
+                  <li><NavLink to="/contact">Contact</NavLink></li>
+                  <li><NavLink to="/subscribe">Request an Invite</NavLink></li>
+                </ul>
+              </div>
+            </nav>
 
             <div className="content">
               <Route exact path="/" component={About}/>
@@ -35,10 +41,7 @@ class App extends Component {
               <Route path="/contact" component={Contact}/>
               <Route path="/subscribe" component={Subscribe}/>
             </div>
-          </div>
       </HashRouter>
-        <Subscribe>
-        </Subscribe>
       </Fragment>
     );
   }
