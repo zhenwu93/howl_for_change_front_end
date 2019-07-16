@@ -13,7 +13,7 @@ ul{
   display: inline-block;
 }
 
-ul.header li {
+li {
   display: inline;
   list-style-type: none;
   margin: 0;
@@ -26,7 +26,6 @@ ul.header {
 }
 ul.header li a {
   color: black;
-  font-weight: bold;
   text-decoration: none;
   padding-left: 10px;
   padding-right: 10px;
@@ -46,7 +45,6 @@ ul.header li a {
 }
 
 .container {
-  padding-top: 12vh;
   height: 90vh;
   width: 100vw
 }
@@ -77,4 +75,33 @@ nav {
 .topnavdiv{
   display: block;
   height: 10vh;
+}
+
+.landing{
+  padding-top: 12vh;
+}
+
+.whatwedo{
+  color: white;
+  background-color: #1E1E1E;
+}
+
+.footer{
+  color: white;
+   background-color: #1E1E1E;
+   height: auto;
+}
+
+.globalissuesimg{
+  max-height: 100vh;
+}
+
+.textdiv{
+  /* padding-top: 10px; */
+}
+
+.headertext{
+  font-size: 48px;
+  width: auto;
+  border-top: 3px solid #EBBE0F;
 }
