@@ -1,11 +1,13 @@
 import React, { Component, Fragment } from 'react'
 import { Route, NavLink, HashRouter } from "react-router-dom";
+import { Image } from 'semantic-ui-react'
 import About from "./About";
 import Contact from "./Contact";
 import Event from "./Event";
 import Podcast from "./Podcast";
 import SignUp from "./SignUp";
 import Subscribe from "./Subscribe"
+import logo from "../assets/hfclogo.png"
 //TODO
 // import LogIn from "./LogIn";
 //<Route path="/signup" component={SignUp}/>
@@ -20,12 +22,8 @@ class App extends Component {
         <HashRouter>
             <nav class="topnav">
               <div class="topnavdiv">
-                <a class="logo">
-                  logo placeholder
-                  <img src="../public/favicon.ico"/>
-                </a>
                 <ul className="header">
-                  <li><NavLink exact to="/">About</NavLink></li>
+                  <li><NavLink exact to="/"><Image src={logo} size='large'/></NavLink></li>
                   <li><NavLink to="/event">Community Events</NavLink></li>
                   <li><NavLink to="/podcast">More From HFC</NavLink></li>
                   <li><NavLink to="/contact">Contact</NavLink></li>
