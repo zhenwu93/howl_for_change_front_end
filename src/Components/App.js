@@ -23,7 +23,7 @@ class App extends Component {
             <nav class="topnav">
               <div class="topnavdiv">
                 <ul className="header">
-                  <li><NavLink exact to="/"><Image src={logo} size='large'/></NavLink></li>
+                  <li><NavLink exact to="/"><Image src={logo} size='medium'/></NavLink></li>
                   <li><NavLink to="/event">Community Events</NavLink></li>
                   <li><NavLink to="/podcast">More From HFC</NavLink></li>
                   <li><NavLink to="/contact">Contact</NavLink></li>
