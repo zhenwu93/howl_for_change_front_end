@@ -8,6 +8,8 @@ import Podcast from "./Podcast";
 import SignUp from "./SignUp";
 import Subscribe from "./Subscribe"
 import logo from "../assets/hfclogo.png"
+import Topnav from "./Topnav"
+import Footer from "./Footer"
 //TODO
 // import LogIn from "./LogIn";
 //<Route path="/signup" component={SignUp}/>
@@ -20,18 +22,7 @@ class App extends Component {
     return (
       <Fragment>
         <HashRouter>
-            <nav class="topnav">
-              <div class="topnavdiv">
-                <ul className="header">
-                  <li><NavLink exact to="/"><Image src={logo} size='medium'/></NavLink></li>
-                  <li><NavLink to="/event">Community Events</NavLink></li>
-                  <li><NavLink to="/podcast">More From HFC</NavLink></li>
-                  <li><NavLink to="/contact">Contact</NavLink></li>
-                  <li><NavLink to="/subscribe">Request an Invite</NavLink></li>
-                </ul>
-              </div>
-            </nav>
-
+            <Topnav/>
             <div className="content">
               <Route exact path="/" component={About}/>
               <Route path="/event" component={Event}/>
@@ -39,6 +30,7 @@ class App extends Component {
               <Route path="/contact" component={Contact}/>
               <Route path="/subscribe" component={Subscribe}/>
             </div>
+            <Footer/>
       </HashRouter>
       </Fragment>
     );

@@ -41,7 +41,7 @@ ul.header li a {
 .content li {
   margin-bottom: 10px;
 }
-.active {
+.active li {
   background-color: orange;
 }
 
@@ -57,10 +57,9 @@ ul.header li a {
   left: 0;
   display: block;
   width: 100vw;
-  height: 10vh;
+  height: auto;
   background: white;
   margin: 0;
-  background-color: gray;
   vertical-align: top;
 }
 
