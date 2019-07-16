@@ -13,7 +13,6 @@ class Subscribe extends React.Component {
 
     render() {
         return (
-          <div class='container'>
                 <form action="https://howlforchange.us19.list-manage.com/subscribe/post" method="POST" noValidate>
                   <input type="hidden" name="u" value="6397bd73322c1f70600e82d2e"/>
                   <input type="hidden" name="id" value="ded48d18b3"/>
@@ -77,7 +76,6 @@ class Subscribe extends React.Component {
                     <textarea name="b_comment" tabIndex="-1" placeholder="Please comment" id="b_comment"></textarea>
                 </div>
               </form>
-            </div>
         )
     }
 }
