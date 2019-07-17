@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import { Route, NavLink, HashRouter } from "react-router-dom";
-import { Image } from 'semantic-ui-react';
+// import { Image } from 'semantic-ui-react';
 
 import About from "./About";
 import Contact from "./Contact";
@@ -23,18 +23,9 @@ class App extends Component {
     return (
       <Fragment>
         <HashRouter>
-        
             <Topnav/>
 
-            <ul className="header">
-              <li><NavLink exact to="/"></NavLink></li>
-              <li><NavLink to="/event">Community Events</NavLink></li>
-              <li><NavLink to="/podcast">More From HFC</NavLink></li>
-              <li><NavLink to="/contact">Contact</NavLink></li>
-              <li><NavLink to="/subscribe">Request an Invite</NavLink></li>
-            </ul>
-
-            <div className="content">
+            <div className="content content-ctn container">
               <Route exact path="/" component={About}/>
               <Route path="/event" component={Event}/>
               <Route path="/podcast" component={Podcast}/>

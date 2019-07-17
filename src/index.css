@@ -1,9 +1,20 @@
+/* @import url('https://fontlibrary.org/face/bebas'); */
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+        src: url('/assets/fonts/bebas/b98870e552991cf3daa1031f9fb5ec74/51b4a619fab5e1a38643657191a85aa5/BebasNeueRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
 body {
   background-color: #ffffff;
   padding: 20px;
   margin: 0;
+  font-family: 'BebasNeueRegular';
+  font-weight: normal;
+  font-style: normal;
 }
-
 
 ul{
   margin-top: auto;
@@ -15,13 +26,12 @@ li {
   display: inline;
   list-style-type: none;
   margin: 0;
-  height: 10vh;
-  line-height: 10vh;
   white-space: nowrap;
 }
 
 a{
   color: black;
+  height: auto;
 }
 
 .content {
@@ -35,36 +45,62 @@ a{
   margin-bottom: 10px;
 }
 
-.container {
-  height: 90vh;
-  width: 100vw
+.container{
+  height: auto;
+  width: 100vw;
+  max-width: 100vw;
+  display: flex;
 }
+
+.content-ctn{
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.headertext{
+  z-index: 1;
+  font-size: 4em;
+  border-top: 8px #EBBE0F;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.regtext{
+  font-size: 3em;
+  padding: 0;
+  margin: 0;
+}
+
+/* ==================================== */
 
 .topnav {
   position: fixed;
   top: 0;
   left: 0;
-  display: block;
+  background-color: #ffffff;
   width: 100vw;
-  height: 75px;
-  background: white;
-  margin: 0;
-  vertical-align: top;
+  z-index: 99999;
+}
+
+.topnav-ctn{
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .topnavlogo{
   display: inline;
-  width: auto;
   padding-left: 10px;
   padding-right: 10px;
   height: 75px;
+  width: auto;
   line-height: 75px;
 }
 
 .topnav-links {
-  padding: 0;
-  margin: 0;
-transform: translateY(-50%)
+  padding-right: 20px;
+  color: black;
 }
 
 .topnav-links li{
@@ -74,36 +110,59 @@ transform: translateY(-50%)
   padding-right: 10px;
 }
 
-.topnavdiv{
-  display: block;
-  height: 75px;
+/* ================================== */
+
+.landing-ctn{
+  font-family: 'BebasNeueRegular';
+  flex-flow: row wrap;
 }
 
-.landing{
-  /* padding-top: 75px; */
+.landing-img{
+  padding-top: 79px;
+  max-width: 100vw;
+  max-height: auto;
+  align-items: start;
 }
 
-.whatwedo{
+.issuesimg{
+  align-self: center
+}
+
+
+/* ================================== */
+
+.whatwedo-ctn{
   color: white;
   background-color: #1E1E1E;
-}
-
-.footer{
-  color: white;
-   background-color: #1E1E1E;
-   height: auto;
+  flex-direction: column;
 }
 
 .globalissuesimg{
   max-height: 100vh;
 }
 
-.textdiv{
-  /* padding-top: 10px; */
+.whatwedo-text-div{
+  top: 15%;
+  position: relative;
 }
 
-.headertext{
-  font-size: 48px;
-  width: auto;
-  border-top: 3px solid #EBBE0F;
+/* ================================== */
+
+.footer-ctn{
+  color: white;
+  background-color: #1E1E1E;
+  height: auto;
+  flex-direction: row;
+}
+
+.legalinfo{
+  padding: 5px;
+  align-self: flex-end;
+}
+
+.sociallinks{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /* align-self: center */
 }
