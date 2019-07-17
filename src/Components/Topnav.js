@@ -13,7 +13,6 @@ class Topnav extends Component {
             <li><NavLink to="/event">Community Events</NavLink></li>
             <li><NavLink to="/podcast">More From HFC</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
-            <li><NavLink to="/subscribe">Request an Invite</NavLink></li>
           </ul>
         </div>
       </nav>
