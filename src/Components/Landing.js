@@ -11,7 +11,7 @@ class Landing extends Component {
     return (
       <section>
         <div className="landing container">
-          <img src={hero} alt='hero' size='large'/>
+          <img width="1502" height="511" src={hero} alt='hero'/>
           <div className="request invite button container">
             <button className="ui black button" onClick={this.handleClick}>Request an Invite</button>
             <h1>JOIN A COMMUNITY OF CREATIVE CHANGEMAKERS WORKING WITH NONPROFITS</h1>
