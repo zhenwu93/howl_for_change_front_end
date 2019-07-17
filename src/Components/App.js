@@ -1,15 +1,13 @@
 import React, { Component, Fragment } from 'react'
 import { Route, NavLink, HashRouter } from "react-router-dom";
-import { Image } from 'semantic-ui-react'
 import About from "./About";
 import Contact from "./Contact";
 import Event from "./Event";
 import Podcast from "./Podcast";
-import SignUp from "./SignUp";
 import Subscribe from "./Subscribe"
-import logo from "../assets/hfclogo.png"
 import Topnav from "./Topnav"
 import Footer from "./Footer"
+
 //TODO
 // import LogIn from "./LogIn";
 //<Route path="/signup" component={SignUp}/>
