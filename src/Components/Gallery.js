@@ -42,6 +42,13 @@ class Gallery extends Component {
             <iframe title="video2" src="https://player.vimeo.com/video/116513060" width="320" height="214" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
           </div>
 
+          <div className="music&graphic">
+            <img src={music} alt="music"></img>
+              <iframe title="swan" border="0" width= "320" height="214" src="https://bandcamp.com/EmbeddedPlayer/album=516918889/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"><a href="http://ariansaleh.bandcamp.com/album/swan-bird-googoosh-remixed">Swan Bird (Googoosh Remixed) by Arian Saleh</a></iframe>
+              <iframe title="soundcloud" width="320" height="214" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303208989&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            <img src={graphic} alt="graphic"></img>
+          </div>
+
           <div className="writing&animation">
             <img src={writing} alt="writing"></img>
 
