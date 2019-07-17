@@ -15,7 +15,7 @@ class WhatWeDo extends Component {
           </div>
 
           <div class='issuesimg'>
-            <img src={issues}/>
+            <img src={issues} alt="issues"/>
           </div>
 
         </div>
