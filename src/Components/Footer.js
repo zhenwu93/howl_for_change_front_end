@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import {NavLink} from "react-router-dom";
 
 import facebook from "../assets/social/facebook.png"
 import howl from "../assets/social/howl.png"
@@ -10,24 +11,39 @@ class Footer extends Component {
     return (
       <section>
 
-        <div className="footer container">
-          Footer Section
+        <div className="footer-ctn container">
 
           <div class='legalinfo'>
-          Privacy Policy | Terms of Service
-          <br>
-          </br>
-          ©Howl For Change 2019
+            <span>
+              Privacy Policy | Terms of Service
+            </span>
+            <br></br>
+            <span>
+              ©Howl For Change 2019
+            </span>
           </div>
 
           <div class='sociallinks'>
             <ul class='links'>
-              <li><img src={howl}/></li>
-              <li><img src={twitter}/></li>
-              <li><img src={instagram}/></li>
-              <li><img src={facebook}/></li>
+              <li>
+                <a href='https://twitter.com/howlforchange'>
+                  <img src={twitter}/>
+                </a>
+              </li>
+              <li>
+                <a href='https://www.instagram.com/howlforchange/'>
+                  <img src={instagram}/>
+                </a>
+              </li>
+              <li>
+                <a href='https://www.facebook.com/howlforchange'>
+                  <img src={facebook}/>
+                </a>
+              </li>
             </ul>
           </div>
+
+
 
         </div>
       </section>
