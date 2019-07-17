@@ -1,0 +1,236 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #ffffff;
+}
+
+.grid-item {
+  background-color: #ffffff;
+  font-size: 11px;
+  text-align: center;
+}
+
+.photologo {
+  position: relative;
+  top: 135px;
+  left: -55px;
+  z-index: 2;
+}
+
+.photo1 {
+    position: relative;
+		top: -69px;
+		z-index: 1;
+}
+
+.videologo
+  {
+    position: relative;
+    top: -110px;
+    left: 50px;
+    z-index: 2;
+  }
+
+  .video2
+  	{
+  		position: relative;
+  		top: 17px;
+  		right: 0px;
+  		z-index: 1;
+  	}
+
+  .video1
+    {
+    	position: relative;
+    	top: 17px;
+    	right: 0px;
+    	z-index: 1;
+    }
+
+    .musiclogo
+    {
+      position: relative;
+      top: 65px;
+      left: -50px;
+      z-index: 2;
+    }
+
+    .song1
+    	{
+        position: relative;
+    		top: -125px;
+    		left: 0px;
+    		z-index: 1;
+    	}
+
+      .song2
+        {
+          position: relative;
+          top: -57px;
+        	left: 0px;
+        	z-index: 1;
+        }
+
+      .graphiclogo
+      {
+        position: relative;
+        top: -130px;
+        left: 0px;
+        z-index: 2;
+      }
+
+      .graphic1
+        {
+          position: relative;
+          top: -57px;
+          right: 0px;
+          z-index: 1;
+        }
+
+      .graphic2
+        {
+          position: relative;
+          top: -50px;
+          right: 0px;
+          z-index: 1;
+        }
+
+        .writinglogo
+        {
+          position: relative;
+          top: 30px;
+          left: -55px;
+          z-index: 2;
+        }
+
+        .writing1
+        {
+          position: relative;
+          top: -170px;
+          left: 5px;
+          z-index: 2;
+        }
+        .writing2
+        {
+          position: relative;
+          top: -100px;
+          left: 5px;
+          z-index: 2;
+        }
+
+        .animationlogo
+        {
+          position: relative;
+          top: -185px;
+          left: 320px;
+          z-index: 2;
+        }
+        .animation1
+          {
+            position: relative;
+            top: -100px;
+            right: 0px;
+            z-index: 1;
+          }
+
+        .animation2
+          {
+            position: relative;
+            top: -83px;
+            right: 0px;
+            z-index: 1;
+          }
+
+        .newmedialogo {
+          position: relative;
+          top: -5px;
+          left: -55px;
+          z-index: 2;
+        }
+
+          .media1
+          	{
+              position: relative;
+          		top: -209px;
+          		left: 0px;
+          		z-index: 1;
+          	}
+
+          .media2
+            {
+              position: relative;
+            	top: -140px;
+            	left: 0px;
+            	z-index: 1;
+            }
+
+            .gamelogo
+            {
+              position: relative;
+              top: -225px;
+              left: 3px;
+              z-index: 2;
+            }
+
+            .game1
+              {
+                position: relative;
+                top: -123px;
+                right: 0px;
+                z-index: 1;
+              }
+
+            .game2
+              {
+                position: relative;
+                top: -140px;
+                right: 0px;
+                z-index: 1;
+              }
+
+              .programlogo {
+                position: relative;
+                top: -55px;
+                left: -55px;
+                z-index: 2;
+              }
+
+                .chariot
+                	{
+                    position: relative;
+                		top: -260px;
+                		left: 0px;
+                		z-index: 1;
+                	}
+
+                .program2
+                  {
+                    position: relative;
+                  	top: -191px;
+                  	left: 0px;
+                  	z-index: 1;
+                  }
+
+                  .morelogo
+                  {
+                    position: relative;
+                    top: -275px;
+                    left: 55px;
+                    z-index: 2;
+                  }
+
+                  .more1
+                    {
+                      position: relative;
+                      top: -191px;
+                      right: 0px;
+                      z-index: 1;
+                    }
+
+                  .more2
+                    {
+                      position: relative;
+                      top: -191px;
+                      right: 0px;
+                      z-index: 1;
+                    }
