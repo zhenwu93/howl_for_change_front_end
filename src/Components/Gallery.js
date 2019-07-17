@@ -46,6 +46,21 @@ class Gallery extends Component {
             <img src={music} alt="music"></img>
               <iframe title="swan" border="0" width= "320" height="214" src="https://bandcamp.com/EmbeddedPlayer/album=516918889/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"><a href="http://ariansaleh.bandcamp.com/album/swan-bird-googoosh-remixed">Swan Bird (Googoosh Remixed) by Arian Saleh</a></iframe>
               <iframe title="soundcloud" width="320" height="214" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303208989&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+              <img
+                width="320"
+                height="214"
+                src="https://images.squarespace-cdn.com/content/v1/5137808ce4b06d40ae8adf8a/1533687176760-KC3IPQDFX93UM0GBYONR/ke17ZwdGBToddI8pDm48kD87M0U7Mr8Yzc4-RMcNsOpZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIiumrcAedN-bQTn2R0qAB6AL-GedccOSmw3wZu30bBawKMshLAGzx4R3EDFOm1kBS/jerusalem_potraits.jpg?format=2500w"
+                alt="graphic1">
+              </img>
+
+              <img
+                width="320"
+                height="214"
+                src="https://images.squarespace-cdn.com/content/v1/5137808ce4b06d40ae8adf8a/1533685790486-RFNJD4UGUMARM3VVV34E/ke17ZwdGBToddI8pDm48kO5kBq5EvnYhvlHvh_s2fYQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc7RIW_1NHz48DMCo4w_aPejh2F2hlNaQzpkS0plhZquSmmKz9-JpnXIHHlDG4RYaL/earthmonth-hero.png?format=2500w"
+                alt="graphic2">
+              </img>
+
             <img src={graphic} alt="graphic"></img>
           </div>
 
@@ -73,6 +88,7 @@ class Gallery extends Component {
             <img src={newmedia} alt="newmedia"></img>
               <iframe title="waiting for peace" width="320" height="214" src="https://www.youtube.com/embed/sRTSJ1K-yn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <iframe title="authentically us" width="320" height="214" src="https://www.youtube.com/embed/0sNMa9M1_nk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe title="origami" width="320" height="214" src="https://player.vimeo.com/video/338142145" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
               <iframe title="1979 revolution" width="320" height="214" src="https://www.youtube.com/embed/pGeFR8AqM7Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <img src={gaming} alt="gaming"></img>
           </div>
