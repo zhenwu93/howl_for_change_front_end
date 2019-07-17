@@ -23,7 +23,9 @@ class App extends Component {
     return (
       <Fragment>
         <HashRouter>
+        
             <Topnav/>
+
             <ul className="header">
               <li><NavLink exact to="/"></NavLink></li>
               <li><NavLink to="/event">Community Events</NavLink></li>
@@ -32,7 +34,6 @@ class App extends Component {
               <li><NavLink to="/subscribe">Request an Invite</NavLink></li>
             </ul>
 
-
             <div className="content">
               <Route exact path="/" component={About}/>
               <Route path="/event" component={Event}/>
@@ -40,6 +41,7 @@ class App extends Component {
               <Route path="/contact" component={Contact}/>
               <Route path="/subscribe" component={Subscribe}/>
             </div>
+
             <Footer/>
         </HashRouter>
       </Fragment>
