@@ -9,7 +9,10 @@ class Footer extends Component {
   render() {
     return (
       <section>
-        <div class="footer container">
+
+        <div className="footer container">
+          Footer Section
+
           <div class='legalinfo'>
           Privacy Policy | Terms of Service
           <br>
@@ -25,6 +28,7 @@ class Footer extends Component {
               <li><img src={facebook}/></li>
             </ul>
           </div>
+
         </div>
       </section>
     )

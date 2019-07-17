@@ -1,15 +1,16 @@
 import React, { Component, Fragment } from 'react'
 import { Route, NavLink, HashRouter } from "react-router-dom";
-import { Image } from 'semantic-ui-react'
+import { Image } from 'semantic-ui-react';
+
 import About from "./About";
 import Contact from "./Contact";
 import Event from "./Event";
 import Podcast from "./Podcast";
-import SignUp from "./SignUp";
 import Subscribe from "./Subscribe"
-import logo from "../assets/hfclogo.png"
 import Topnav from "./Topnav"
 import Footer from "./Footer"
+
+
 //TODO
 // import LogIn from "./LogIn";
 //<Route path="/signup" component={SignUp}/>
@@ -23,6 +24,15 @@ class App extends Component {
       <Fragment>
         <HashRouter>
             <Topnav/>
+            <ul className="header">
+              <li><NavLink exact to="/"></NavLink></li>
+              <li><NavLink to="/event">Community Events</NavLink></li>
+              <li><NavLink to="/podcast">More From HFC</NavLink></li>
+              <li><NavLink to="/contact">Contact</NavLink></li>
+              <li><NavLink to="/subscribe">Request an Invite</NavLink></li>
+            </ul>
+
+
             <div className="content">
               <Route exact path="/" component={About}/>
               <Route path="/event" component={Event}/>
@@ -31,7 +41,7 @@ class App extends Component {
               <Route path="/subscribe" component={Subscribe}/>
             </div>
             <Footer/>
-      </HashRouter>
+        </HashRouter>
       </Fragment>
     );
   }

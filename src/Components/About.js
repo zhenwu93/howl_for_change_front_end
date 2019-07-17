@@ -7,7 +7,7 @@ import OurProcess from "./OurProcess";
 class About extends Component {
   render() {
     return (
-      <div class="wrapperDiv">
+      <div className="wrapperDiv">
         <Landing/>
         <WhatWeDo/>
         <Gallery/>

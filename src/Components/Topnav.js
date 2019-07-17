@@ -6,9 +6,9 @@ import { Image } from 'semantic-ui-react'
 class Topnav extends Component {
   render() {
     return (
-      <nav class="topnav">
-        <div class="topnavdiv">
-          <NavLink exact to="/"><img src={logo} size='medium'/></NavLink>
+      <nav className="topnav">
+        <div className="topnavdiv">
+          <NavLink exact to="/"><img src={logo} alt="logo" size='medium'/></NavLink>
           <ul className="header">
             <li><NavLink to="/event">Community Events</NavLink></li>
             <li><NavLink to="/podcast">More From HFC</NavLink></li>
