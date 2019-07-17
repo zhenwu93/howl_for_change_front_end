@@ -4,7 +4,7 @@ class OurProcess extends Component {
   render() {
     return (
       <section>
-        <div class="ourprocess container">
+        <div className="ourprocess container">
           <h2>OurProcess Section</h2>
           <p>Insert 'Who we are and what we are about text'</p>
         </div>

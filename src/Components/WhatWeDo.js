@@ -4,7 +4,7 @@ class WhatWeDo extends Component {
   render() {
     return (
       <section>
-        <div class="whatwedo container">
+        <div className="whatwedo container">
           <h2>WhatWeDo Section</h2>
         </div>
       </section>
