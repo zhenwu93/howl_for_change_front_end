@@ -10,7 +10,6 @@ import Subscribe from "./Subscribe"
 import Topnav from "./Topnav"
 import Footer from "./Footer"
 
-import logo from "../assets/hfclogo.png"
 
 //TODO
 // import LogIn from "./LogIn";
@@ -26,7 +25,7 @@ class App extends Component {
         <HashRouter>
             <Topnav/>
             <ul className="header">
-              <li><NavLink exact to="/"><Image src={logo} size='medium'/></NavLink></li>
+              <li><NavLink exact to="/"></NavLink></li>
               <li><NavLink to="/event">Community Events</NavLink></li>
               <li><NavLink to="/podcast">More From HFC</NavLink></li>
               <li><NavLink to="/contact">Contact</NavLink></li>

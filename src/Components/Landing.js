@@ -14,9 +14,9 @@ class Landing extends Component {
           <img src={hero} alt='hero' size='large'/>
           <div className="request invite button container">
             <button className="ui black button" onClick={this.handleClick}>Request an Invite</button>
-          <p>JOIN A COMMUNITY OF CREATIVE CHANGEMAKERS WORKING WITH NONPROFITS</p>
-          <p>ON GLOBAL ISSUES THEY ARE PASSIONATE ABOUT WHILE MAKING A LIVING</p>
-          <p>#AWORLDOFWOLVES</p>
+            <h1>JOIN A COMMUNITY OF CREATIVE CHANGEMAKERS WORKING WITH NONPROFITS</h1>
+            <h1>ON GLOBAL ISSUES THEY ARE PASSIONATE ABOUT WHILE MAKING A LIVING</h1>
+            <h1>#AWORLDOFWOLVES</h1>
           </div>
         </div>
       </section>
