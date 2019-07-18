@@ -15,10 +15,10 @@ class Landing extends Component {
 
 
             <img src={hero} alt='hero' className='landing-img'/>
-          
+
 
           <div className="req-invite-ctn container regtext">
-            <ReqInviteButton></ReqInviteButton>
+            <ReqInviteButton/>
           </div>
 
           <div className='landing-text-div'>

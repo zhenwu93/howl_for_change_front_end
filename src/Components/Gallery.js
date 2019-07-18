@@ -20,9 +20,9 @@ class Gallery extends Component {
     return (
       <section>
         <div className="gallery container grid-ctn">
-          <h1>WHO WE ARE</h1>
-          <h2>OUR COMMUNITY IS MADE UP OF STORYTELLERS AND CONTENT CREATOR, BOTH VETERAN AND EMERGING,</h2><br></br>
-          <h2>EACH ONE FUELED BY PASSION AND CREATIVITY.</h2>
+          <p className='headertext'>WHO WE ARE</p>
+          <p className='regtext'>OUR COMMUNITY IS MADE UP OF STORYTELLERS AND CONTENT CREATOR, BOTH VETERAN AND EMERGING,</p><br></br>
+          <p className='regtext'>EACH ONE FUELED BY PASSION AND CREATIVITY.</p>
 
           <div className="grid-container">
 

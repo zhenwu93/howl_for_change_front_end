@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react'
+
 import { Route, HashRouter, Switch } from "react-router-dom";
 // import { Image } from 'semantic-ui-react';
+
 
 import About from "./About";
 import Contact from "./Contact";
