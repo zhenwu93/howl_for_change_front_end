@@ -20,6 +20,7 @@ ul{
   margin-top: auto;
   margin-bottom: auto;
   display: inline-block;
+  padding: 0;
 }
 
 li {
@@ -56,7 +57,6 @@ li {
 .headertext{
   z-index: 1;
   font-size: 4em;
-  border-top: 8px #EBBE0F;
   padding: 0;
   margin-top: 10px;
   margin-bottom: 0;
@@ -66,6 +66,10 @@ li {
   font-size: 3em;
   padding: 0;
   margin: 0;
+}
+
+.contentheader{
+  border-top: 5px solid #EBBE0F;
 }
 
 /* ==================================== */
@@ -123,10 +127,24 @@ li {
   align-items: start;
 }
 
-.issuesimg{
-  align-self: center
+.req-invite-ctn{
+  flex-direction: column;
+  align-items: center;
+  background-color: #1E1E1E;
 }
 
+.req-invite-div{
+  padding: 15px;
+  margin: 10px;
+  background-color: #1E1E1E;
+  border: white solid 3px;
+  display: flex;
+}
+
+.req-invite-btn{
+  background-color: #1E1E1E;
+  color: white;
+}
 
 /* ================================== */
 
@@ -136,8 +154,8 @@ li {
   flex-direction: column;
 }
 
-.globalissuesimg{
-  max-height: 100vh;
+.issuesimg{
+  align-self: center
 }
 
 .whatwedo-text-div{
@@ -153,23 +171,30 @@ li {
 
 /* ================================== */
 
-.req-invite-ctn{
+.ourprocess-ctn{
+  background-color: #1E1E1E;
+  color: white;
+  flex-direction: column;
+}
+
+.processItem-ctn{
   flex-direction: column;
   align-items: center;
-  background-color: #1E1E1E;
-  display: flex;
 }
 
-.req-invite-btn{
-  background-color: #1E1E1E;
-  border: white 3px;
-  color: white;
+.processNum{
+  color: #EBBE0F;
+  align-self: start;
 }
 
-.req-invte-btn a{
-  color: white;
+.processImg{
+  max-width: 200px;
+  max-height: auto;
 }
 
+.process-inv-ctn{
+  background: white;
+}
 
 /* ================================== */
 
