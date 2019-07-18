@@ -148,6 +148,12 @@ a{
 
 /* ================================== */
 
+.grid-ctn{
+  flex-direction: column;
+}
+
+/* ================================== */
+
 .footer-ctn{
   color: white;
   background-color: #1E1E1E;

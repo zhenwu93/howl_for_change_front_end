@@ -4,6 +4,7 @@ import animation from "../assets/content/animation.png"
 import gaming from "../assets/content/gaming.png"
 import graphic from "../assets/content/graphic.png"
 import more from "../assets/content/more.png"
+import moreimg from "../assets/content/moreimg.jpg"
 import music from "../assets/content/music.png"
 import newmedia from "../assets/content/newmedia.png"
 import photo from "../assets/content/photo.png"
@@ -18,7 +19,7 @@ class Gallery extends Component {
   render() {
     return (
       <section>
-        <div className="gallery header container">
+        <div className="gallery container grid-ctn">
           <h1>WHO WE ARE</h1>
           <h2>OUR COMMUNITY IS MADE UP OF STORYTELLERS AND CONTENT CREATOR, BOTH VETERAN AND EMERGING,</h2><br></br>
           <h2>EACH ONE FUELED BY PASSION AND CREATIVITY.</h2>
@@ -169,7 +170,7 @@ class Gallery extends Component {
                 className="more2"
                 width="320"
                 height="214"
-                src="https://represent-com-production.s3.amazonaws.com/uploads/be6c6d19d56b2cbd51be0f4064f0b844.jpg"
+                src={moreimg}
                 alt="more2">
               </img>
 
