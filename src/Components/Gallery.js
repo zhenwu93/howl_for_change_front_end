@@ -49,11 +49,11 @@ class Gallery extends Component {
           </div>
 
             <div className="grid-item">
-              <iframe title="video1" class="video1" src="https://player.vimeo.com/video/345012446" width="320" height="214" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              <iframe title="video1" class="video1" src="https://player.vimeo.com/video/345012446" width="320" height="214" frameBorder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
             </div>
 
             <div className="grid-item">
-              <iframe title="video2" class="video2" align="right" src="https://player.vimeo.com/video/116513060" width="320" height="214" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              <iframe title="video2" class="video2" align="right" src="https://player.vimeo.com/video/116513060" width="320" height="214" frameBorder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
               <img src={video} alt="videologo" class="videologo" align="right"></img>
             </div>
 
@@ -63,7 +63,7 @@ class Gallery extends Component {
           </div>
 
           <div className="grid-item">
-              <iframe title="soundcloud" width="320" class="song2" height="214" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303208989&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+              <iframe title="soundcloud" width="320" class="song2" height="214" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303208989&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
           </div>
 
           <div className="grid-item">
@@ -100,7 +100,7 @@ class Gallery extends Component {
           </div>
 
           <div className="grid-item">
-            <iframe class="animation2" title="tree" align="right" src="https://player.vimeo.com/video/206468217?color=ffedc2&title=0&byline=0&portrait=0" width="320" height="214" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <iframe class="animation2" title="tree" align="right" src="https://player.vimeo.com/video/206468217?color=ffedc2&title=0&byline=0&portrait=0" width="320" height="214" frameBorder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
             <img src={animation} alt="animation" class="animationlogo" align="right"></img>
           </div>
 
@@ -117,19 +117,19 @@ class Gallery extends Component {
 
           <div className="grid-item">
             <img className="newmedialogo" src={newmedia} alt="newmedia"></img>
-              <iframe className="media1" title="waiting for peace" width="320" height="214" src="https://www.youtube.com/embed/sRTSJ1K-yn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe className="media1" title="waiting for peace" width="320" height="214" src="https://www.youtube.com/embed/sRTSJ1K-yn8" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           <div className="grid-item">
-              <iframe className="media2" title="authentically us" width="320" height="214" src="https://www.youtube.com/embed/0sNMa9M1_nk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe className="media2" title="authentically us" width="320" height="214" src="https://www.youtube.com/embed/0sNMa9M1_nk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           <div className="grid-item">
-              <iframe className="game1" title="origami" width="320" height="214" src="https://player.vimeo.com/video/338142145" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              <iframe className="game1" title="origami" width="320" height="214" src="https://player.vimeo.com/video/338142145" frameBorder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
           </div>
 
           <div className="grid-item">
-              <iframe className="game2" title="1979 revolution" width="320" height="214" src="https://www.youtube.com/embed/pGeFR8AqM7Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe className="game2" title="1979 revolution" width="320" height="214" src="https://www.youtube.com/embed/pGeFR8AqM7Q" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <img className="gamelogo" src={gaming} alt="gaming" align="right"></img>
           </div>
 
