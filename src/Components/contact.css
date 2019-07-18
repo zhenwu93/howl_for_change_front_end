@@ -1,0 +1,66 @@
+p {
+  color: white;
+}
+
+.contact-text-div {
+  background-color: #000000;
+  height: 300px;
+}
+
+.contact-header {
+  position: relative;
+  left: 5%;
+  top: 40px;
+  font-size: 30px;
+}
+
+.creatives-header {
+  text-align: center;
+  position: relative;
+  top: 115px;
+  left: 20%;
+  font-size: 28px;
+}
+
+.creatives-text {
+  position: relative;
+  text-align: center;
+  top: 100px;
+  left: 20%;
+}
+.creatives-text-2 {
+  position: relative;
+  top: 100px;
+  left: 20%;
+}
+
+.creatives-div {
+  float: left;
+  text-align: left;
+}
+
+.nonprofits-div {
+  float: right;
+  text-align: right;
+}
+
+.nonprofits-header {
+  text-align: center;
+  position: relative;
+  top: 115px;
+  right: 50%;
+  font-size: 28px;
+}
+
+.nonprofits-text {
+  position: relative;
+  text-align: center;
+  top: 100px;
+  right: 52%;
+}
+
+.nonprofits-text-2 {
+  position: relative;
+  top: 100px;
+  right: 100%;
+}

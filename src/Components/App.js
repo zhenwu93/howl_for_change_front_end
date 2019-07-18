@@ -6,7 +6,6 @@ import About from "./About";
 import Contact from "./Contact";
 import Event from "./Event";
 import Podcast from "./Podcast";
-import Subscribe from "./Subscribe"
 import Topnav from "./Topnav"
 import Footer from "./Footer"
 
@@ -30,7 +29,6 @@ class App extends Component {
                   <Route path="/event" component={Event}/>
                   <Route path="/podcast" component={Podcast}/>
                   <Route path="/contact" component={Contact}/>
-                  <Route path="/subscribe" component={Subscribe}/>
                 </div>
               </Switch>
             <Footer/>
