@@ -11,19 +11,19 @@ class OurProcess extends Component {
     return (
       <section>
         <div className="ourprocess-ctn container">
-          <p className='headertext'>Our Process</p>
+          <p className='headertext whiteText'>Our Process</p>
 
           <div className='processRow container'>
             <div className="processItem-ctn container">
               <p className='headertext processNum'>1.</p>
-              <p className='regtext'>NONPROFITS CREATE A CALL FOR SUBMISSIONS FOR SPECIFIC CREATIVE NEEDS AT A SPECIFIC PRICE.</p>
+              <p className='regtext whiteText'>NONPROFITS CREATE A CALL FOR SUBMISSIONS FOR SPECIFIC CREATIVE NEEDS AT A SPECIFIC PRICE.</p>
               <img className = 'processImg' src={process1} alt='process1'/>
             </div>
 
             <div className="processItem-ctn container">
               <img className = 'processImg' src={process2} alt='process2'/>
               <p className='headertext processNum'>2.</p>
-              <p className='regtext'>COMMUNITY MEMBERS SUBMIT PITCHES TO OPEN PROJECT REQUESTS IN THEIR FIELD OF EXPERTISE.</p>
+              <p className='regtext whiteText'>COMMUNITY MEMBERS SUBMIT PITCHES TO OPEN PROJECT REQUESTS IN THEIR FIELD OF EXPERTISE.</p>
             </div>
           </div>
 
@@ -32,20 +32,20 @@ class OurProcess extends Component {
           <div className='processRow container'>
             <div className="processItem-ctn container">
               <p className='headertext processNum'>3.</p>
-              <p className='regtext'>THE COMMUNITY ENCOURAGE FELLOW CREATIVES BY HOWLING AT THEIR PROPOSALS TO HELP ORGANIZATIONS PICK THE PERFECT WOLF FOR THEIR PROJECT.</p>
+              <p className='regtext whiteText'>THE COMMUNITY ENCOURAGE FELLOW CREATIVES BY HOWLING AT THEIR PROPOSALS TO HELP ORGANIZATIONS PICK THE PERFECT WOLF FOR THEIR PROJECT.</p>
               <img className = 'processImg' src={process3} alt='process3'/>
             </div>
 
             <div className="processItem-ctn container">
               <img className = 'processImg' src={process4} alt='process4'/>
               <p className='headertext processNum'>4.</p>
-              <p className='regtext'>AFTER THE SUBMISSION WINDOW CLOSES NONPROFITS CHOOSE THEIR FAVORITE ALLIES TO THEM CREATE MAGIC AND IMPACT.</p>
+              <p className='regtext whiteText'>AFTER THE SUBMISSION WINDOW CLOSES NONPROFITS CHOOSE THEIR FAVORITE ALLIES TO THEM CREATE MAGIC AND IMPACT.</p>
             </div>
           </div>
         </div>
 
-        <div className='req-invite-ctn process-inv-ctn container'>
-          <p className='regtext'>WORK FOR SOMETING MEANINGFUL | HIRE SOMEONE WHO TRULY CARES</p>
+        <div className='req-invite-ctn process-inv-ctn container regtext'>
+          <p>WORK FOR SOMETHING MEANINGFUL | HIRE SOMEONE WHO TRULY CARES</p>
           <ReqInviteButton/>
         </div>
       </section>
