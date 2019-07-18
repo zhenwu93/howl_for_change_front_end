@@ -1,10 +1,13 @@
+img {
+  object-fit: cover;
+}
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-row-gap: 10px;
+  grid-row-gap: 5px;
   background-color: #ffffff;
-  grid-column-gap: 5px;
+  grid-column-gap: 0px;
 }
 
 .grid-item {
@@ -24,6 +27,11 @@
     position: relative;
 		top: -69px;
 		z-index: 1;
+    width: 80%;
+}
+
+.photo2 {
+  width: 80%;
 }
 
 .videologo
@@ -36,16 +44,19 @@
 
   .video2
   	{
+      width: 90%;
   		position: relative;
-  		top: 17px;
+  		top: 10px;
   		right: 0px;
   		z-index: 1;
   	}
 
   .video1
     {
+      height:100%;
+      width: 90%;
     	position: relative;
-    	top: 17px;
+    	top: -27px;
     	right: 0px;
     	z-index: 1;
     }
@@ -61,6 +72,7 @@
     .song1
     	{
         position: relative;
+        width: 90%;
     		top: -125px;
     		left: 0px;
     		z-index: 1;
@@ -68,6 +80,7 @@
 
       .song2
         {
+          width: 90%;
           position: relative;
           top: -57px;
         	left: 0px;
@@ -84,6 +97,7 @@
 
       .graphic1
         {
+          width: 90%;
           position: relative;
           top: -57px;
           right: 0px;
@@ -92,6 +106,7 @@
 
       .graphic2
         {
+          width: 90%;
           position: relative;
           top: -50px;
           right: 0px;
@@ -106,15 +121,17 @@
           z-index: 2;
         }
 
-        .writing1
-        {
+        .writing1 {
+          width: 90%;
           position: relative;
           top: -170px;
           left: 5px;
           z-index: 2;
         }
+
         .writing2
         {
+          width: 90%;
           position: relative;
           top: -100px;
           left: 5px;
@@ -128,8 +145,10 @@
           left: 330px;
           z-index: 2;
         }
+
         .animation1
           {
+            width: 90%;
             position: relative;
             top: -100px;
             right: 0px;
@@ -138,6 +157,7 @@
 
         .animation2
           {
+            width: 90%;
             position: relative;
             top: -83px;
             right: 0px;
@@ -153,6 +173,7 @@
 
           .media1
           	{
+              width: 90%;
               position: relative;
           		top: -209px;
           		left: 0px;
@@ -161,6 +182,7 @@
 
           .media2
             {
+              width: 90%;
               position: relative;
             	top: -140px;
             	left: 0px;
@@ -177,6 +199,7 @@
 
             .game1
               {
+                width: 90%;
                 position: relative;
                 top: -123px;
                 right: 0px;
@@ -185,6 +208,7 @@
 
             .game2
               {
+                width: 90%;
                 position: relative;
                 top: -140px;
                 right: 0px;
@@ -200,6 +224,7 @@
 
                 .chariot
                 	{
+                    width: 90%;
                     position: relative;
                 		top: -260px;
                 		left: 0px;
@@ -208,6 +233,7 @@
 
                 .program2
                   {
+                    width: 90%;
                     position: relative;
                   	top: -191px;
                   	left: 0px;
@@ -224,6 +250,7 @@
 
                   .more1
                     {
+                      width: 90%;
                       position: relative;
                       top: -191px;
                       right: 0px;
@@ -232,6 +259,7 @@
 
                   .more2
                     {
+                      width: 90%;
                       position: relative;
                       top: -191px;
                       right: 0px;
