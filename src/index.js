@@ -7,7 +7,7 @@ import ReactDom from 'react-dom';
 import App from './Components/App';
 import "./index.css";
 
-import 'semantic-ui-css/semantic.min.css'
+// import 'semantic-ui-css/semantic.min.css'
 
 // import * as reducers from './store/reducers';
 // const store = createStore(combineReducers(reducers), applyMiddleware(thunk));
