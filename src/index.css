@@ -1,13 +1,16 @@
 /* @import url('https://fontlibrary.org/face/bebas'); */
 
 @font-face {
-    font-family: 'BebasNeueRegular';
-        src: url('/assets/fonts/bebas/b98870e552991cf3daa1031f9fb5ec74/51b4a619fab5e1a38643657191a85aa5/BebasNeueRegular.otf') format('opentype');
+    font-family: 'BebasNeueBold';
+    src: url('fonts/bebasneue-bold-webfont.woff') format('woff'),
+         url('fonts/bebasneue-bold-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-      }
+
+}
 
 body {
+  font-family: 'BebasNeueBold';
   background-color: #ffffff;
   padding: 20px;
   margin: 0;
@@ -117,7 +120,6 @@ li {
 /* ================================== */
 
 .landing-ctn{
-  font-family: 'BebasNeueRegular';
   flex-flow: row wrap;
 }
 
