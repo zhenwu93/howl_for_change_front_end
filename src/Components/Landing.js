@@ -22,8 +22,7 @@ class Landing extends Component {
           </div>
 
           <div className='landing-text-div'>
-            <p className='headertext'>JOIN A COMMUNITY OF CREATIVE CHANGEMAKERS WORKING WITH NONPROFITS</p>
-            <p className='headertext'>ON GLOBAL ISSUES THEY ARE PASSIONATE ABOUT WHILE MAKING A LIVING</p>
+            <p className='headertext'>JOIN A COMMUNITY OF CREATIVE CHANGEMAKERS WORKING WITH NONPROFITS ON GLOBAL ISSUES THEY ARE PASSIONATE ABOUT WHILE MAKING A LIVING</p>
             <p className='headertext'>#AWORLDOFWOLVES</p>
           </div>
 
