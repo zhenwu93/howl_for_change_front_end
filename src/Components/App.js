@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import { Route, NavLink, HashRouter } from "react-router-dom";
+import { Route, HashRouter, Switch } from "react-router-dom";
 // import { Image } from 'semantic-ui-react';
 
 import About from "./About";
@@ -24,15 +24,15 @@ class App extends Component {
       <Fragment>
         <HashRouter>
             <Topnav/>
-
-            <div className="content content-ctn container">
-              <Route exact path="/" component={About}/>
-              <Route path="/event" component={Event}/>
-              <Route path="/podcast" component={Podcast}/>
-              <Route path="/contact" component={Contact}/>
-              <Route path="/subscribe" component={Subscribe}/>
-            </div>
-
+              <Switch>
+                <div className="content content-ctn container">
+                  <Route exact path="/" component={About}/>
+                  <Route path="/event" component={Event}/>
+                  <Route path="/podcast" component={Podcast}/>
+                  <Route path="/contact" component={Contact}/>
+                  <Route path="/subscribe" component={Subscribe}/>
+                </div>
+              </Switch>
             <Footer/>
         </HashRouter>
       </Fragment>

@@ -10,7 +10,7 @@ class Topnav extends Component {
         <div class="topnav-ctn container">
 
           <div className="topnavlogodiv">
-            <NavLink exact to="/"><img src={logo} className='topnavlogo'/></NavLink>
+            <NavLink exact to="/"><img src={logo} className='topnavlogo' alt='hfclogo'/></NavLink>
           </div>
 
           <div className="topnav-links">
