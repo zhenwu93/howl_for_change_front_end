@@ -36,58 +36,67 @@ class Contact extends Component {
               </div>
             </div>
 
+          <div className="contact-grid-container">
+
+            <div className="contact-grid-item">
               <div className="creatives-subscribe-form">
                 <form action="https://howlforchange.us19.list-manage.com/subscribe/post" method="POST" noValidate>
                   <input type="hidden" name="u" value="6397bd73322c1f70600e82d2e"/>
                   <input type="hidden" name="id" value="ded48d18b3"/>
 
-                    <label htmlFor='MERGE1'>
-                      First Name
-                      <input
-                        type="text"
-                        name="FNAME"
-                        id="MERGE1"
-                        value={this.state.fNameValue}
-                        onChange={(e)=>{this.setState({fNameValue: e.target.value});}}
-                        />
-                      </label>
+                  <p className='contact-form-text'>Name</p>
 
-                    <label htmlFor='MERGE2'>
-                      Last Name
-                      <input
-                        type="text"
-                        name="LNAME"
-                        id="MERGE2"
-                        value={this.state.lNameValue}
-                        onChange={(e)=>{this.setState({lNameValue: e.target.value});}}
-                      />
-                    </label>
+              <div className="first-name-pair">
+                  <input
+                    type="text"
+                    name="FNAME"
+                    id="MERGE1"
+                    value={this.state.fNameValue}
+                    onChange={(e)=>{this.setState({fNameValue: e.target.value});}}
+                  />
+                  <br />
+                    <label htmlFor='MERGE1'>First Name</label>
+              </div>
 
-                    <label htmlFor='MERGE0'>
-                      Email
-                      <input
-                        type="email"
-                        name="EMAIL"
-                        id="MERGE0"
-                        value={this.state.emailValue}
-                        onChange={ (e)=>{this.setState({emailValue: e.target.value});} }
-                        autoCapitalize="off"
-                        autoCorrect="off"
-                      />
-                    </label>
+                <div className="last-name-pair">
+                  <input
+                    type="text"
+                    name="LNAME"
+                    id="MERGE2"
+                    value={this.state.lNameValue}
+                    onChange={(e)=>{this.setState({lNameValue: e.target.value});}}
+                  />
+                  <br />
+                  <label htmlFor='MERGE2'>Last Name</label>
+                </div>
 
-                    <label htmlFor='MERGE7'>
-                      Message
-                      <input
+                <div className="email-pair">
+                  <label htmlFor='MERGE0'>Email</label><br/>
+                    <input
+                      type="email"
+                      name="EMAIL"
+                      id="MERGE0"
+                      value={this.state.emailValue}
+                      onChange={ (e)=>{this.setState({emailValue: e.target.value});} }
+                      autoCapitalize="off"
+                      autoCorrect="off"
+                    />
+                </div>
+
+                  <div className="message-box">
+                    <label classname="message-label" htmlFor='MERGE7'>Message</label><br/>
+                      <textarea
+                        rows="8"
+                        cols="40"
                         type="text"
                         name="MESSAGE"
                         id="MERGE7"
                         value={this.state.message}
                         onChange={ (e)=>{this.setState({message: e.target.value});} }
                       />
-                    </label>
+                  </div>
 
-                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button"/>
+                  <input type="submit" value="AWOOHOO" name="subscribe" id="mc-embedded-subscribe" className="button"/>
 
                   <div style={{position: 'absolute', left: '-5000px'}} aria-hidden='true' aria-label="Please leave the following three fields empty">
                     <label htmlFor="b_name">Name: </label>
@@ -101,70 +110,76 @@ class Contact extends Component {
                   </div>
                 </form>
               </div>
+            </div>
 
+            <div className="contact-grid-item">
               <div className="nonprofits-subscribe-form">
                 <form action="https://howlforchange.us19.list-manage.com/subscribe/post" method="POST" noValidate>
                   <input type="hidden" name="u" value="6397bd73322c1f70600e82d2e"/>
                   <input type="hidden" name="id" value="ded48d18b3"/>
 
-                  <label htmlFor='MERGE12'>
-                    Organization
+                <div className="organization-pair">
+                  <label htmlFor='MERGE12'>Organization</label><br/>
                     <input
                       type="text"
                       name="organization"
                       id="MERGE12"
                       value={this.state.organization}
                       onChange={(e)=>{this.setState({organization: e.target.value});}}
-                      />
-                  </label>
+                    />
+                </div>
 
-                    <label htmlFor='MERGE1'>
-                      First Name
-                      <input
-                        type="text"
-                        name="FNAME"
-                        id="MERGE1"
-                        value={this.state.fNameValue}
-                        onChange={(e)=>{this.setState({fNameValue: e.target.value});}}
-                        />
-                    </label>
+                <div className="first-name-pair">
+                    <input
+                      type="text"
+                      name="FNAME"
+                      id="MERGE1"
+                      value={this.state.fNameValue}
+                      onChange={(e)=>{this.setState({fNameValue: e.target.value});}}
+                    />
+                    <br />
+                      <label htmlFor='MERGE1'>First Name</label>
+                </div>
 
-                    <label htmlFor='MERGE2'>
-                      Last Name
-                      <input
-                        type="text"
-                        name="LNAME"
-                        id="MERGE2"
-                        value={this.state.lNameValue}
-                        onChange={(e)=>{this.setState({lNameValue: e.target.value});}}
-                      />
-                    </label>
+                <div className="last-name-pair">
+                  <input
+                    type="text"
+                    name="LNAME"
+                    id="MERGE2"
+                    value={this.state.lNameValue}
+                    onChange={(e)=>{this.setState({lNameValue: e.target.value});}}
+                  />
+                  <br />
+                  <label htmlFor='MERGE2'>Last Name</label>
+                </div>
 
-                    <label htmlFor='MERGE0'>
-                      Email
-                      <input
-                        type="email"
-                        name="EMAIL"
-                        id="MERGE0"
-                        value={this.state.emailValue}
-                        onChange={ (e)=>{this.setState({emailValue: e.target.value});} }
-                        autoCapitalize="off"
-                        autoCorrect="off"
-                      />
-                    </label>
+                <div className="email-pair">
+                  <label htmlFor='MERGE0'>Email</label><br/>
+                    <input
+                      type="email"
+                      name="EMAIL"
+                      id="MERGE0"
+                      value={this.state.emailValue}
+                      onChange={ (e)=>{this.setState({emailValue: e.target.value});} }
+                      autoCapitalize="off"
+                      autoCorrect="off"
+                    />
+                </div>
 
-                    <label htmlFor='MERGE7'>
-                      Message
-                      <input
-                        type="text"
-                        name="MESSAGE"
-                        id="MERGE7"
-                        value={this.state.message}
-                        onChange={ (e)=>{this.setState({message: e.target.value});} }
-                      />
-                    </label>
+                <div className="message-box">
+                  <label htmlFor='MERGE7'>Message</label><br/>
+                    <textarea
+                      rows="8"
+                      cols="40"
+                      type="text"
+                      name="MESSAGE"
+                      id="MERGE7"
+                      value={this.state.message}
+                      onChange={ (e)=>{this.setState({message: e.target.value});} }
+                    />
+                </div>
 
-                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button"/>
+                  <input type="submit" value="AWOOHOO" name="subscribe" id="mc-embedded-subscribe" className="button"/>
 
                   <div style={{position: 'absolute', left: '-5000px'}} aria-hidden='true' aria-label="Please leave the following three fields empty">
                     <label htmlFor="b_name">Name: </label>
@@ -178,6 +193,8 @@ class Contact extends Component {
                   </div>
                 </form>
               </div>
+            </div>
+          </div>
 
             </Fragment>
         );
