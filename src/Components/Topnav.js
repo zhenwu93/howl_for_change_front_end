@@ -1,6 +1,11 @@
 import React, {Component} from "react"
 import {NavLink} from "react-router-dom";
 import logo from "../assets/hfclogo.png"
+import Contact from "./Contact";
+import Event from "./Event";
+import Podcast from "./Podcast";
+import Subscribe from "./Subscribe"
+
 // import { Image } from 'semantic-ui-react'
 
 class Topnav extends Component {
