@@ -182,6 +182,51 @@ li {
 
 .grid-ctn{
   flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.grid-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-row{
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.grid-item-div{
+  position: relative;
+  width: 320px;
+  height: 214px;
+  display: flex;
+  align-items: center;
+}
+
+.grid-item{
+  width: 320px;
+  height: 214px;
+  max-width: 320px;
+  max-height: 214px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+.categoryLogo{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.leftLogo{
+  right: 0px;
 }
 
 /* ================================== */
@@ -220,7 +265,7 @@ li {
 }
 
 .legalinfo{
-  margin-top: 20px;
+  margin-top: 25px;
   padding: 5px;
   align-self: flex-end;
 }
