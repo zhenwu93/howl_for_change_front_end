@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 
-import { Route, HashRouter, Switch } from "react-router-dom";
+import { Route, HashRouter, Switch, BrowserRouter } from "react-router-dom";
 // import { Image } from 'semantic-ui-react';
 
 
@@ -25,14 +25,16 @@ class App extends Component {
       <Fragment>
         <HashRouter>
             <Topnav/>
+              <BrowserRouter basename={process.env.PUBLIC_URL}>
               <Switch>
                 <div className="content content-ctn container">
-                  <Route exact path="/" component={About}/>
-                  <Route path="/event" component={Event}/>
-                  <Route path="/podcast" component={Podcast}/>
-                  <Route path="/contact" component={Contact}/>
+                  <Route exact path={process.env.PUBLIC_URL + '/'} component={About}/>
+                  <Route path='/event' component={Event}/>
+                  <Route path='/podcast' component={Podcast}/>
+                  <Route path='/contact' component={Contact}/>
                 </div>
               </Switch>
+              </BrowserRouter>
             <Footer/>
         </HashRouter>
       </Fragment>
