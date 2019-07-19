@@ -1,89 +1,92 @@
 import React, { Component, Fragment } from "react";
-import './contact.css'
+// import './contact.css'
 
 class Contact extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
-        emailValue: '',
-        fNameValue: '',
-        lNameValue: '',
-        organization: '',
-        message: '',
+        crEmailValue: '',
+        crFNameValue: '',
+        crLNameValue: '',
+        crMessage: '',
+        npEmailValue: '',
+        npFNameValue: '',
+        npLNameValue: '',
+        npMessage: '',
+        npOrganization: ''
     };
   }
 
     render() {
         return (
           <Fragment>
-
-            <div className='contact-text-div'>
-              <div className='header-div'>
-                <p className='contact-header'>HOWL AT US</p>
+            <div className='contact-text-ctn container'>
+              <div className='contact-text-header-div'>
+                <p className='headertext whiteText'>HOWL AT US</p>
               </div>
 
-              <div className='creatives-div' align="left">
-                <p className='creatives-header'>CREATIVES</p>
-                <p className="creatives-text">For questions, concerns, suggestions, or general feedback,</p>
-                <p className='creatives-text-2'>contact us here.</p>
-              </div>
+              <div className='form-description-ctn container'>
+                <div className='creatives-div form-description-div container'>
+                  <p className='creatives-header whiteText regtext'>CREATIVES</p>
+                  <p className="creatives-text whiteText">For questions, concerns, suggestions, or general feedback, contact us here.</p>
+                </div>
 
-              <div className='nonprofits-div' align="right">
-                <p className='nonprofits-header'>NONPROFITS</p>
-                <p className="nonprofits-text">For more information about how to Howl For Change can</p>
-                <p className="nonprofits-text-2">work for you, contact us here.</p>
+                <div className='nonprofits-div form-description-div container'>
+                  <p className='nonprofits-header whiteText regtext'>NONPROFITS</p>
+                  <p className="nonprofits-text whiteText">For more information about how to Howl For Change can work for you, contact us here.</p>
+                </div>
               </div>
             </div>
 
-          <div className="contact-grid-container">
+          <div className="contact-forms-ctn container">
 
-            <div className="contact-grid-item">
+            <div className="contact-form-div container">
               <div className="creatives-subscribe-form">
                 <form action="https://howlforchange.us19.list-manage.com/subscribe/post" method="POST" noValidate>
                   <input type="hidden" name="u" value="6397bd73322c1f70600e82d2e"/>
                   <input type="hidden" name="id" value="ded48d18b3"/>
 
-                  <p className='contact-form-text'>Name</p>
+                  <div className='formRow formMargin'>
+                    <div className="first-name-pair">
+                      <label htmlFor='MERGE1'>First Name</label>
+                      <br />
+                      <input
+                        type="text"
+                        name="FNAME"
+                        id="MERGE1"
+                        value={this.state.crFNameValue}
+                        onChange={(e)=>{this.setState({crFNameValue: e.target.value});}}
+                        />
+                    </div>
 
-              <div className="first-name-pair">
-                  <input
-                    type="text"
-                    name="FNAME"
-                    id="MERGE1"
-                    value={this.state.fNameValue}
-                    onChange={(e)=>{this.setState({fNameValue: e.target.value});}}
-                  />
-                  <br />
-                    <label htmlFor='MERGE1'>First Name</label>
-              </div>
+                    <div className="last-name-pair">
+                      <label htmlFor='MERGE2'>Last Name</label>
+                      <br />
+                      <input
+                        type="text"
+                        name="LNAME"
+                        id="MERGE2"
+                        value={this.state.crLNameValue}
+                        onChange={(e)=>{this.setState({crLNameValue: e.target.value});}}
+                        />
+                    </div>
+                  </div>
 
-                <div className="last-name-pair">
-                  <input
-                    type="text"
-                    name="LNAME"
-                    id="MERGE2"
-                    value={this.state.lNameValue}
-                    onChange={(e)=>{this.setState({lNameValue: e.target.value});}}
-                  />
-                  <br />
-                  <label htmlFor='MERGE2'>Last Name</label>
-                </div>
+                  <div className="formMargin email-pair">
+                    <label htmlFor='MERGE0'>Email</label><br/>
+                      <input
+                        type="email"
+                        name="EMAIL"
+                        id="MERGE0"
+                        value={this.state.crEmailValue}
+                        onChange={ (e)=>{this.setState({crEmailValue: e.target.value});} }
+                        autoCapitalize="off"
+                        autoCorrect="off"
+                      />
+                  </div>
 
-                <div className="email-pair">
-                  <label htmlFor='MERGE0'>Email</label><br/>
-                    <input
-                      type="email"
-                      name="EMAIL"
-                      id="MERGE0"
-                      value={this.state.emailValue}
-                      onChange={ (e)=>{this.setState({emailValue: e.target.value});} }
-                      autoCapitalize="off"
-                      autoCorrect="off"
-                    />
-                </div>
-
-                  <div className="message-box">
+                  <div className="formMargin message-box">
                     <label classname="message-label" htmlFor='MERGE7'>Message</label><br/>
                       <textarea
                         rows="8"
@@ -91,8 +94,8 @@ class Contact extends Component {
                         type="text"
                         name="MESSAGE"
                         id="MERGE7"
-                        value={this.state.message}
-                        onChange={ (e)=>{this.setState({message: e.target.value});} }
+                        value={this.state.crMessage}
+                        onChange={ (e)=>{this.setState({crMessage: e.target.value});} }
                       />
                   </div>
 
@@ -112,61 +115,64 @@ class Contact extends Component {
               </div>
             </div>
 
-            <div className="contact-grid-item">
+            <div className="contact-form-div container">
               <div className="nonprofits-subscribe-form">
                 <form action="https://howlforchange.us19.list-manage.com/subscribe/post" method="POST" noValidate>
                   <input type="hidden" name="u" value="6397bd73322c1f70600e82d2e"/>
                   <input type="hidden" name="id" value="ded48d18b3"/>
 
-                <div className="organization-pair">
+                <div className="formMargin organization-pair">
                   <label htmlFor='MERGE12'>Organization</label><br/>
                     <input
                       type="text"
                       name="organization"
                       id="MERGE12"
-                      value={this.state.organization}
-                      onChange={(e)=>{this.setState({organization: e.target.value});}}
+                      value={this.state.npOrganization}
+                      onChange={(e)=>{this.setState({npOrganization: e.target.value});}}
                     />
                 </div>
 
-                <div className="first-name-pair">
+                <div className='formRow formMargin'>
+                  <div className="first-name-pair">
+                    <label htmlFor='MERGE1'>First Name</label>
+                    <br />
                     <input
                       type="text"
                       name="FNAME"
                       id="MERGE1"
-                      value={this.state.fNameValue}
-                      onChange={(e)=>{this.setState({fNameValue: e.target.value});}}
-                    />
+                      value={this.state.npFNameValue}
+                      onChange={(e)=>{this.setState({npFNameValue: e.target.value});}}
+                      />
+                  </div>
+
+                  <div className="last-name-pair">
+                    <label htmlFor='MERGE2'>Last Name</label>
                     <br />
-                      <label htmlFor='MERGE1'>First Name</label>
+                    <input
+                      type="text"
+                      name="LNAME"
+                      id="MERGE2"
+                      value={this.state.npLNameValue}
+                      onChange={(e)=>{this.setState({npLNameValue: e.target.value});}}
+                      />
+                  </div>
                 </div>
 
-                <div className="last-name-pair">
-                  <input
-                    type="text"
-                    name="LNAME"
-                    id="MERGE2"
-                    value={this.state.lNameValue}
-                    onChange={(e)=>{this.setState({lNameValue: e.target.value});}}
-                  />
-                  <br />
-                  <label htmlFor='MERGE2'>Last Name</label>
-                </div>
 
-                <div className="email-pair">
+                <div className="formMargin email-pair">
                   <label htmlFor='MERGE0'>Email</label><br/>
                     <input
                       type="email"
                       name="EMAIL"
                       id="MERGE0"
-                      value={this.state.emailValue}
-                      onChange={ (e)=>{this.setState({emailValue: e.target.value});} }
+                      value={this.state.npEmailValue}
+                      onChange={ (e)=>{this.setState({npEmailValue: e.target.value});} }
                       autoCapitalize="off"
                       autoCorrect="off"
                     />
                 </div>
 
-                <div className="message-box">
+                <div className="formMargin message-box">
                   <label htmlFor='MERGE7'>Message</label><br/>
                     <textarea
                       rows="8"
@@ -174,8 +180,8 @@ class Contact extends Component {
                       type="text"
                       name="MESSAGE"
                       id="MERGE7"
-                      value={this.state.message}
-                      onChange={ (e)=>{this.setState({message: e.target.value});} }
+                      value={this.state.npMessage}
+                      onChange={ (e)=>{this.setState({npMessage: e.target.value});} }
                     />
                 </div>
 

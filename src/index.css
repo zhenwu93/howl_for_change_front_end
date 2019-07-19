@@ -22,6 +22,7 @@ body {
 p{
   color: black;
   margin: 0;
+  flex-shrink: 1;
 }
 
 ul{
@@ -39,8 +40,9 @@ li {
 }
 
 .content {
-  margin-top: 79px;
+  padding-top: 79px;
   background-color: #FFF;
+  min-height: calc(100vh - 79px);
 }
 .content h2 {
   padding: 0;
@@ -253,6 +255,75 @@ li {
 
 .process-inv-ctn{
   background: white;
+}
+
+/* ================================== */
+
+.contact-text-ctn{
+  background-color: #1E1E1E;
+  flex-direction: column;
+}
+
+.contact-text-header-div{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.form-description-ctn{
+  flex-direction: row;
+}
+
+.form-description-div{
+  flex-direction: column;
+  align-items: center;
+  flex-basis: content;
+}
+
+.creatives-div{
+  margin: 20px;
+}
+
+.nonprofits-div{
+  margin: 20px;
+}
+
+.contact-forms-ctn{
+  flex-direction: row;
+}
+
+.contact-form-div{
+  margin:20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formRow{
+  display: flex;
+  flex-direction: row;
+}
+
+.formMargin{
+  margin-bottom: 10px;
+}
+
+.first-name-pair{
+  margin-right:5px;
+}
+
+.button{
+  background-color: white;
+  border: 1px solid #1E1E1E;
+  font-size: 3em;
+  font-family: 'BebasNeueBold';
+  align-self: center;
+}
+
+input[type=text],[type=email] {
+  width: 100%;
+}
+
+.centered-submit{
+  align-self: center;
 }
 
 /* ================================== */
