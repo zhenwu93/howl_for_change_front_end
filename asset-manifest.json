@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ab40bee4.chunk.css",
+    "main.js": "/static/js/main.27d9a6ad.chunk.js",
+    "main.js.map": "/static/js/main.27d9a6ad.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.427b9c47.chunk.js": "/static/js/2.427b9c47.chunk.js",
+    "static/js/2.427b9c47.chunk.js.map": "/static/js/2.427b9c47.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dc8bd894ec1ef19f0dca145edbf47c1f.js": "/precache-manifest.dc8bd894ec1ef19f0dca145edbf47c1f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ab40bee4.chunk.css.map": "/static/css/main.ab40bee4.chunk.css.map",
+    "static/media/index.css": "/static/media/bebasneue-bold-webfont.4a5e7fae.ttf",
+    "static/media/chariot.png": "/static/media/chariot.2b3ed12a.png",
+    "static/media/hero.jpg": "/static/media/hero.dc5d2de9.jpg",
+    "static/media/issues.png": "/static/media/issues.f4511e9f.png",
+    "static/media/moreimg.jpg": "/static/media/moreimg.c28c7e1d.jpg",
+    "static/media/process1.png": "/static/media/process1.6a8dac9a.png",
+    "static/media/process2.png": "/static/media/process2.97ec262e.png",
+    "static/media/process3.png": "/static/media/process3.aa1886ba.png"
+  }
+}
