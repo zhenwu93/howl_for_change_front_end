@@ -15,10 +15,6 @@ class Footer extends Component {
 
           <div class='legalinfo'>
             <span>
-              Privacy Policy | Terms of Service
-            </span>
-            <br></br>
-            <span>
               ©Howl For Change 2019
             </span>
           </div>
