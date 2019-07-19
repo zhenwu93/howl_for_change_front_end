@@ -29,9 +29,9 @@ class App extends Component {
               <Switch>
                 <div className="content content-ctn container">
                   <Route exact path={process.env.PUBLIC_URL + '/'} component={About}/>
-                  <Route path="/event" component={Event}/>
-                  <Route path="/podcast" component={Podcast}/>
-                  <Route path="/contact" component={Contact}/>
+                  <Route path='/event' component={Event}/>
+                  <Route path='/podcast' component={Podcast}/>
+                  <Route path='/contact' component={Contact}/>
                 </div>
               </Switch>
               </BrowserRouter>
