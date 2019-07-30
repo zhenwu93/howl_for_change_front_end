@@ -1,0 +1,21 @@
+.eventlogo {
+  width: 100%;
+  height: auto;
+}
+
+.empower-logo-container {
+  display: flex;
+  background-color: black;
+}
+
+.empower-header h1 {
+  color: #ffffff;
+}
+
+.empower-logo-container p {
+  color: #ffffff;
+}
+
+.empowerlogo {
+  justify-content: flex-end;
+}
