@@ -34,7 +34,8 @@ import event29 from "../assets/events/HFCEvents/event29.JPG"
 import event30 from "../assets/events/HFCEvents/event30.jpg"
 import event31 from "../assets/events/HFCEvents/event31.jpg"
 import event32 from "../assets/events/HFCEvents/event32.jpg"
-
+import eventvideo from "../assets/events/events.mp4"
+import yellow from "../assets/yellow.png"
 
 
 import './event.css'
@@ -95,14 +96,16 @@ class Event extends Component {
         <p>XOXO</p>
       </div>
 
-      <div className="last-event container">
-        <p className="last-event-header"> OUR LAST EVENT </p>
-        <p> We had an incredible turnout for Howl for Change's "Empowering communities" event
-        with Madame Gandhi that took palce at Neue House in LA. We had an incredible turnout!</p><br></br>
+      <div className="last-event-container">
+        <div className="last-event-paragraphs-container">
+          <p className="last-event-header"> OUR LAST EVENT </p>
+          <p> We had an incredible turnout for Howl for Change's "Empowering communities" event
+          with Madame Gandhi that took palce at Neue House in LA. We had an incredible turnout!</p><br></br>
 
-        <p>It was such a special and intimate evening of storytelling, empowerment, community, and performances.</p><br></br>
-        <p>Thank you to everyone who attended and contributed to the event! We hope you were inspired by our conversation with
-         with Madame Gandhi, special thanks to Kiran for sharing her story with us.</p><br></br>
+          <p>It was such a special and intimate evening of storytelling, empowerment, community, and performances.</p><br></br>
+          <p>Thank you to everyone who attended and contributed to the event! We hope you were inspired by our conversation with
+             with Madame Gandhi, special thanks to Kiran for sharing her story with us.</p><br></br>
+        </div>
 
          <div className="grid-container container">
 
@@ -138,9 +141,7 @@ class Event extends Component {
                  alt="event4">
                </img>
              </div>
-           </div>
 
-           <div className='grid-row container'>
              <div className="grid-item-div">
                <img
                  className="event5 grid-item"
@@ -206,9 +207,7 @@ class Event extends Component {
                   alt="event12">
                </img>
              </div>
-           </div>
 
-           <div className='grid-row container'>
              <div className="grid-item-div">
                 <img
                   className="event13 grid-item"
@@ -373,9 +372,22 @@ class Event extends Component {
                </img>
               </div>
              </div>
-              <p className="credentials">*photos courtesy of John Bernstein, Elko Weaver, and NeueHouse.</p>
+              <p className="credentials" align="right">*photos courtesy of John Bernstein, Elko Weaver, and NeueHouse.</p>
             </div>
-           </div>
+          </div>
+
+          <div className="event-video-container">
+             <img src={yellow} alt="yellow line" className="bottom-yellow-line"></img>
+             <p align="center">LISTEN TO OR WATCH THE 4TH HFC EPISODE NOW</p>
+
+             <div className="hfc-sound-container">
+               <iframe title="soundcloud" className="grid-item song2" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303208989&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+             </div>
+
+             <div className="hfc-video-container">
+              <iframe src="https://www.youtube.com/embed/uX0fowPSQsY" title="HFCep4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             </div>
+          </div>
 
       </Fragment>
     );
