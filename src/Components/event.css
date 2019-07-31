@@ -1,0 +1,92 @@
+.eventlogo {
+  width: 100%;
+  height: auto;
+}
+
+.empower-logo-container {
+  display: flex;
+  background-color: black;
+}
+
+.empower-header h1 {
+  color: #ffffff;
+}
+
+.empower-logo-container p {
+  color: #ffffff;
+}
+
+.empowerlogo {
+  justify-content: flex-end;
+}
+/*------------------------------*/
+.last-event-container {
+  background-color: black;
+}
+
+.last-event-paragraphs-container p{
+  color: #ffffff;
+  text-align: right;
+}
+
+.gallery-text-div{
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.grid-ctn{
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.rightAlignText{
+  text-align: right;
+}
+
+.grid-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-row{
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.grid-item-div{
+  position: relative;
+  width: 320px;
+  height: 214px;
+  display: flex;
+  align-items: center;
+}
+
+.grid-item{
+  width: 320px;
+  height: 214px;
+  max-width: 320px;
+  max-height: 214px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 5px;
+}
+/*------------------------------*/
+.bottom-yellow-line{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+p.ep5 {
+  border: 2px;
+}

@@ -20,7 +20,7 @@ class Gallery extends Component {
     return (
       <section>
         <div className="gallery container grid-ctn">
-          <div className='gallery-text-div '>
+          <div className='gallery-text-div'>
             <p className='headertext'>WHO WE ARE</p>
             <p className='regtext rightAlignText'>OUR COMMUNITY IS MADE UP OF STORYTELLERS AND CONTENT CREATOR, BOTH VETERAN AND EMERGING, EACH ONE FUELED BY PASSION AND CREATIVITY.</p>
           </div>
@@ -172,10 +172,6 @@ class Gallery extends Component {
                 <img src={more} alt="more" className="leftLogo categoryLogo morelogo"></img>
               </div>
             </div>
-
-
-
-
 
           </div>
         </div>

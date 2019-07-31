@@ -4,10 +4,6 @@ import hero from "../assets/hero/hero.jpg"
 
 class Landing extends Component {
 
-  handleClick = (e) => {
-
-  }
-
   render() {
     return (
       <section>
