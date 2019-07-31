@@ -75,9 +75,15 @@ class Event extends Component {
       </div>
 
       <div className="next-event-container" align="right">
+        <img src={yellow} alt="yellowline"></img>
         <h1>OUR NEXT EVENT</h1>
         <h2>EMPOWERING COMMUNITIES</h2>
         <h2>WITH ARLAN HAMILTON FROM BACKSTAGE CAPITAL</h2>
+
+        <div className="event-video-container">
+          <iframe src={eventvideo} title="eventvid" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen align="left"></iframe>
+          <ReqInviteButton/>
+        </div>
 
         <div className="req-invite-ctn container regtext" align="right">
           <ReqInviteButton/>
