@@ -1,0 +1,60 @@
+.podcast-youtube-container {
+    background-color: black;
+}
+
+.podcast-youtube-container p{
+    color: #ffffff;
+}
+
+.podcast-grid-item-div{
+  position: relative;
+  width: 320px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.podcast-grid-item{
+  width: 152px;
+  height: 36px;
+  max-width: 152px;
+  max-height: 36px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+.list-group {
+  display: list-item;
+  display: inline;
+}
+
+.little-giant-wolf-container {
+  background-color: black;
+}
+
+.little-giant-wolf-container p {
+  color: #ffffff;
+}
+
+li {
+  color: #ffffff;
+}
+
+.our-process {
+  background: black;
+}
+
+.our-process p {
+  color: #ffffff;
+}
+
+.full-process-image-container {
+  padding-top: 56.25%;
+}
+
+.fullprocess {
+  width: 100%;
+  height: auto;
+}
