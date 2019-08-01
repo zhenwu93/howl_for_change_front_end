@@ -1,5 +1,6 @@
 import React, {Component} from "react"
 import issues from '../assets/issues/issues.png'
+import yellow from '../assets/yellow.png'
 
 class WhatWeDo extends Component {
   render() {
@@ -7,6 +8,7 @@ class WhatWeDo extends Component {
       <section>
         <div class="whatwedo-ctn container">
           <div class='whatwedo-text-div'>
+            <img src={yellow} alt="yellowline" className="wwd-yellowline1"/>
             <p class='headertext'>
               WHAT WE DO
             </p>

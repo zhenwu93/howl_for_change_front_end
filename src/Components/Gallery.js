@@ -12,7 +12,7 @@ import programming from "../assets/content/programming.png"
 import video from "../assets/content/video.png"
 import writing from "../assets/content/writing.png"
 import chariot from "../assets/content/chariot.png"
-
+import yellow from "../assets/yellow.png"
 // import "./gallery.css"
 
 class Gallery extends Component {
@@ -21,6 +21,7 @@ class Gallery extends Component {
       <section>
         <div className="gallery container grid-ctn">
           <div className='gallery-text-div'>
+            <img src={yellow} alt="yellowline" className="wwr-yellowline1"/>
             <p className='headertext'>WHO WE ARE</p>
             <p className='regtext rightAlignText'>OUR COMMUNITY IS MADE UP OF STORYTELLERS AND CONTENT CREATOR, BOTH VETERAN AND EMERGING, EACH ONE FUELED BY PASSION AND CREATIVITY.</p>
           </div>

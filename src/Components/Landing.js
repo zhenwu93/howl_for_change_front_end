@@ -19,7 +19,7 @@ class Landing extends Component {
 
           <div className='landing-text-div'>
             <p className='landing-text headertext'>JOIN A COMMUNITY OF CREATIVE CHANGEMAKERS WORKING WITH NONPROFITS ON GLOBAL ISSUES THEY ARE PASSIONATE ABOUT WHILE MAKING A LIVING</p>
-            <p className='landing-hashtag headertext'>#AWORLDOFWOLVES</p>
+            <p className='regtext'>WORK FOR SOMETHING MEANINGFUL | HIRE SOMEONE WHO TRULY CARES</p>
           </div>
 
 
