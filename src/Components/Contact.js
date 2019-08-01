@@ -30,7 +30,7 @@ class Contact extends Component {
             </div>
 
             <div className="contact-form-div container">
-              <img className="storytellers-image" src={Storytellers} height="400px" width="100px"/>
+              <img className="storytellers-image" src={Storytellers} height="400px" width="100px" alt="storyteller"/>
               <div className="creatives-subscribe-form">
                   <p className="creatives-text">For questions, concerns, suggestions, or general feedback, contact us here.</p>
                 <form action="https://howlforchange.us19.list-manage.com/subscribe/post" method="POST" noValidate>
@@ -191,7 +191,7 @@ class Contact extends Component {
 
                 </form>
               </div>
-              <img className="storytellers-image" src={Nonprofits} height="500px" width="100px"/>
+              <img className="storytellers-image" src={Nonprofits} height="500px" width="100px" alt="non-profit"/>
             </div>
 
             </Fragment>

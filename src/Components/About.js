@@ -11,7 +11,6 @@ class About extends Component {
         <Landing/>
         <WhatWeDo/>
         <Gallery/>
-        <OurProcess/>
       </div>
     );
   }
