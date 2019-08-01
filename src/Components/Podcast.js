@@ -16,10 +16,13 @@ import youtube from "../assets/more/podcast/youtube.png"
 import hfcapp from "../assets/more/ar/HFCapp.png"
 import app from "../assets/more/ar/app.png"
 import android from "../assets/more/ar/android.png"
+import fullprocess from "../assets/more/fullprocess.png"
+import ReqInviteButton from "./ReqInviteButton"
 
 import './podcast.css'
 
 class Podcast extends Component {
+
   render() {
     return (
       <Fragment>
@@ -197,33 +200,42 @@ class Podcast extends Component {
 
         <div className="focus-lists-container">
         <p>AREAS OF FOCUS</p>
+
           <div className="area-list1">
-            <ul>
-              <li>Creative Campaign Strategy & Lead</li>
-              <li>Photography</li>
-              <li>Video</li>
-              <li>Broadcast</li>
-              <li>Podcasting</li>
-              <li>Music Scoring</li>
-              <li>XR - 360, VR, AR, MR</li>
-              <li>Location Based Experiences</li>
-              </ul>
-          </div>
-          <div className="area-list2">
-            <ul>
-              <li>Pop-up & Interactive Installation Design</li>
-              <li>AI for Experimental Design</li>
-              <li>Holograms</li>
-              <li>Game & UX Development</li>
-              <li>Computer Animation & VFX</li>
-              <li>Web Content Development</li>
-              <li>Immersive Theater Creative & Development</li>
-              <li>Transmedia & Experimental Experiences</li>
+            <ul className="list-group">
+              <li className="list-group-item list-group-item-primary">Creative Campaign Strategy & Lead</li>
+              <li className="list-group-item list-group-item-primary">Photography</li>
+              <li className="list-group-item list-group-item-primary">Video</li>
+              <li className="list-group-item list-group-item-primary">Broadcast</li>
+              <li className="list-group-item list-group-item-primary">Podcasting</li>
+              <li className="list-group-item list-group-item-primary">Music Scoring</li>
+              <li className="list-group-item list-group-item-primary">XR - 360, VR, AR, MR</li>
+              <li className="list-group-item list-group-item-primary">Location Based Services</li>
             </ul>
           </div>
 
+          <div className="area-list2">
+            <ul className="list-group">
+              <li className="list-group-item list-group-item-primary">Pop-up & Interactive Installation Design</li>
+              <li className="list-group-item list-group-item-primary">AI for Experimental Design</li>
+              <li className="list-group-item list-group-item-primary">Holograms</li>
+              <li className="list-group-item list-group-item-primary">Game & UX Development</li>
+              <li className="list-group-item list-group-item-primary">Computer Animation & VFX</li>
+              <li className="list-group-item list-group-item-primary">Web Content Development</li>
+              <li className="list-group-item list-group-item-primary">Immersive Theater Creative & Development</li>
+              <li className="list-group-item list-group-item-primary">Transmedia & Experimental Experiences</li>
+            </ul>
+          </div>
         </div>
+      </div>
 
+      <div className="our-process">
+        <p>Our Process</p>
+          <img src={fullprocess} alt="fullprocess" className="fullprocess"></img>
+      </div>
+
+      <div className="howl-at-us-button-container">
+        <ReqInviteButton />
       </div>
       </Fragment>
     );

@@ -45,7 +45,7 @@ class Event extends Component {
     return (
       <Fragment>
       <div className="event-logo-container" >
-        <img src={eventlogo} alt='eventlogo' className='eventlogo'  />
+        <img src={eventlogo} alt='eventlogo' className='eventlogo'/>
       </div>
 
       <div className="empower-logo-container">

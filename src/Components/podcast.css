@@ -24,3 +24,37 @@
   transform: translateX(-50%);
   margin: 0;
 }
+
+.list-group {
+  display: list-item;
+  display: inline;
+}
+
+.little-giant-wolf-container {
+  background-color: black;
+}
+
+.little-giant-wolf-container p {
+  color: #ffffff;
+}
+
+li {
+  color: #ffffff;
+}
+
+.our-process {
+  background: black;
+}
+
+.our-process p {
+  color: #ffffff;
+}
+
+.full-process-image-container {
+  padding-top: 56.25%;
+}
+
+.fullprocess {
+  width: 100%;
+  height: auto;
+}
