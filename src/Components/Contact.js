@@ -1,5 +1,7 @@
 import React, { Component, Fragment } from "react";
 // import './contact.css'
+import Nonprofits from '../assets/contact/Nonprofits.png'
+import Storytellers from '../assets/contact/Storytellers.png'
 
 class Contact extends Component {
 
@@ -25,24 +27,12 @@ class Contact extends Component {
               <div className='contact-text-header-div'>
                 <p className='headertext whiteText'>HOWL AT US</p>
               </div>
-
-              <div className='form-description-ctn container'>
-                <div className='creatives-div form-description-div container'>
-                  <p className='creatives-header whiteText regtext'>CREATIVES</p>
-                  <p className="creatives-text whiteText">For questions, concerns, suggestions, or general feedback, contact us here.</p>
-                </div>
-
-                <div className='nonprofits-div form-description-div container'>
-                  <p className='nonprofits-header whiteText regtext'>NONPROFITS</p>
-                  <p className="nonprofits-text whiteText">For more information about how to Howl For Change can work for you, contact us here.</p>
-                </div>
-              </div>
             </div>
 
-          <div className="contact-forms-ctn container">
-
             <div className="contact-form-div container">
+              <img className="storytellers-image" src={Storytellers} height="400px" width="100px"/>
               <div className="creatives-subscribe-form">
+                  <p className="creatives-text">For questions, concerns, suggestions, or general feedback, contact us here.</p>
                 <form action="https://howlforchange.us19.list-manage.com/subscribe/post" method="POST" noValidate>
                   <input type="hidden" name="u" value="6397bd73322c1f70600e82d2e"/>
                   <input type="hidden" name="id" value="ded48d18b3"/>
@@ -117,6 +107,7 @@ class Contact extends Component {
 
             <div className="contact-form-div container">
               <div className="nonprofits-subscribe-form">
+                  <p className="nonprofits-text">For more information about how to Howl For Change can work for you, contact us here.</p>
                 <form action="https://howlforchange.us19.list-manage.com/subscribe/post" method="POST" noValidate>
                   <input type="hidden" name="u" value="6397bd73322c1f70600e82d2e"/>
                   <input type="hidden" name="id" value="ded48d18b3"/>
@@ -197,10 +188,11 @@ class Contact extends Component {
                     <label htmlFor="b_comment">Comment: </label>
                     <textarea name="b_comment" tabIndex="-1" placeholder="Please comment" id="b_comment"></textarea>
                   </div>
+
                 </form>
               </div>
+              <img className="storytellers-image" src={Nonprofits} height="500px" width="100px"/>
             </div>
-          </div>
 
             </Fragment>
         );
