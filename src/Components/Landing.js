@@ -1,6 +1,7 @@
 import React, {Component} from "react"
 import ReqInviteButton from './ReqInviteButton'
 import hero from "../assets/hero/hero.jpg"
+import tagline from "../assets/issues/tagline.png"
 
 class Landing extends Component {
 
@@ -13,8 +14,8 @@ class Landing extends Component {
             <img src={hero} alt='hero' className='landing-img'/>
 
 
-          <div className="req-invite-ctn container regtext">
-            <ReqInviteButton/>
+          <div className="tag-line container">
+            <img src={tagline} alt="tag" className="tag-ling-img" align="center"/>
           </div>
 
           <div className='landing-text-div'>
