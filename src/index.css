@@ -65,9 +65,19 @@ li {
 
 .tag-line {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 75%;
+}
+
+.landing-text {
+  font-size: 44px;
+}
+
+.hashtag-img {
+  display: block;
+  margin-left: auto;
+  margin-right: 0%;
+  width: 25%;
 }
 
 .headertext{
