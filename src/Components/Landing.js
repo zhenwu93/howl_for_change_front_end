@@ -1,6 +1,8 @@
 import React, {Component} from "react"
 import ReqInviteButton from './ReqInviteButton'
 import hero from "../assets/hero/hero.jpg"
+import tagline from "../assets/issues/tagline.png"
+import hashtag from '../assets/issues/hashtag.png'
 
 class Landing extends Component {
 
@@ -13,13 +15,13 @@ class Landing extends Component {
             <img src={hero} alt='hero' className='landing-img'/>
 
 
-          <div className="req-invite-ctn container regtext">
-            <ReqInviteButton/>
+          <div className="tag-line container">
+            <img src={tagline} alt="tag" className="tag-line-img"/>
           </div>
 
           <div className='landing-text-div'>
-            <p className='landing-text headertext'>JOIN A COMMUNITY OF CREATIVE CHANGEMAKERS WORKING WITH NONPROFITS ON GLOBAL ISSUES THEY ARE PASSIONATE ABOUT WHILE MAKING A LIVING</p>
-            <p className='regtext'>WORK FOR SOMETHING MEANINGFUL | HIRE SOMEONE WHO TRULY CARES</p>
+            <p className='landing-text'>JOIN A COMMUNITY OF CREATIVE CHANGE MAKERS AND NONPROFITS WORKING AND HOWLING TOGETHER TO GIVE VOICE TO GLOBAL ISSUES.</p>
+            <img align='right' src={hashtag} alt="hashtag" className="hashtag-img"/>
           </div>
 
 
