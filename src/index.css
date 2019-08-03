@@ -72,8 +72,16 @@ li {
   text-align: center;
 }
 
+.processText{
+  z-index: 1;
+  font-size: 4em;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
 .regtext{
-  font-size: 3em;
+  font-size: 4em;
   padding: 0;
   margin: 0;
 }
@@ -259,13 +267,26 @@ li {
 /* ================================== */
 
 .ourprocess-ctn{
-  background-color: #1E1E1E;
-  flex-direction: column;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
 }
 
 .processItem-ctn{
-  flex-direction: column;
-  align-items: center;
+  margin:50px;
+  flex-direction:row;
+  align-items:center;
+}
+
+.processNumImg{
+  padding: 15px;
+}
+
+.processRow{
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+
 }
 
 .processNum{
