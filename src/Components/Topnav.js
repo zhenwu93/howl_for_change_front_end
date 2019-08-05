@@ -1,8 +1,7 @@
 import React, {Component} from "react"
 import {NavLink} from "react-router-dom";
 import logo from "../assets/hfclogo.png"
-
-// import { Image } from 'semantic-ui-react'
+import ReqInviteButton from "./ReqInviteButton.js"
 
 class Topnav extends Component {
   render() {
