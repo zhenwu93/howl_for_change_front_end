@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import ReqInviteButton from './ReqInviteButton.js'
 
 import animation from "../assets/content/animation.png"
 import gaming from "../assets/content/gaming.png"
@@ -13,6 +14,7 @@ import video from "../assets/content/video.png"
 import writing from "../assets/content/writing.png"
 import chariot from "../assets/content/chariot.png"
 import yellow from "../assets/yellow.png"
+import tagline from "../assets/issues/tagline.png"
 // import "./gallery.css"
 
 class Gallery extends Component {
@@ -22,8 +24,8 @@ class Gallery extends Component {
         <div className="gallery container grid-ctn">
           <div className='gallery-text-div'>
             <img src={yellow} alt="yellowline" className="wwr-yellowline1"/>
-            <p className='headertext'> WHO WE ARE </p>
-            <p className='regtext rightAlignText'>OUR COMMUNITY IS MADE UP OF STORYTELLERS AND CONTENT CREATOR, BOTH VETERAN AND EMERGING, EACH ONE FUELED BY PASSION AND CREATIVITY.</p>
+            <p className='gallery-header'> WHO WE ARE </p>
+            <p className='gallery-paragraph rightAlignText'>OUR COMMUNITY IS MADE UP OF STORYTELLERS AND CONTENT CREATOR, BOTH VETERAN AND EMERGING, EACH ONE FUELED BY PASSION AND CREATIVITY.</p>
           </div>
 
           <div className="grid-container container">
@@ -173,8 +175,13 @@ class Gallery extends Component {
                 <img src={more} alt="more" className="leftLogo categoryLogo morelogo"></img>
               </div>
             </div>
-
           </div>
+
+            <div className="tag-line container">
+              <img src={tagline} alt="tag" className="tag-line-img"/>
+            </div>
+            
+            <ReqInviteButton/>
         </div>
       </section>
     )

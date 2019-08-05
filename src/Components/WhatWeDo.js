@@ -9,10 +9,14 @@ class WhatWeDo extends Component {
       <section>
         <div class="whatwedo-ctn container">
           <div class='whatwedo-text-div'>
-            <img src={inspired} alt="inspired" />
-            <p className='regtext'>
-              THE UN SUSTAINABLE DEVELOPMENT GOALS ARE THE BLUEPRINT TO ACHIEVE A BETTER AND
+            <img src={inspired} alt="inspired" className="inspired"/>
+            <br/>
+            <p>
+              THE UN SUSTAINABLE DEVELOPMENT GOALS ARE THE BLUEPRINT TO ACHIEVE A BETTER AND</p>
+            <p>
               MORE SUSTAINABLE FUTURE FOR ALL BY 2030. THEY ADDRESS THE GLOBAL CHALLENGES WE FACE,
+            </p>
+            <p>
               TO PROMOTE PROSPERITY WHILE PROTECTING THE ENVIRONMENT
             </p>
           </div>
