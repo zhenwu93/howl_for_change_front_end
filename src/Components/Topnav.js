@@ -15,7 +15,7 @@ class Topnav extends Component {
 
           <div className="topnav-links">
             <ul>
-              <li><NavLink to="/process">Our Process</NavLink></li>
+              <li><NavLink to="/process">How It Works</NavLink></li>
               <li><NavLink to="/event">Community Events</NavLink></li>
               <li><NavLink to="/podcast">More From HFC</NavLink></li>
               <li><NavLink to="/contact">Contact</NavLink></li>

@@ -9,20 +9,24 @@ import one from "../assets/process/1.png"
 import two from "../assets/process/2.png"
 import three from "../assets/process/3.png"
 import four from "../assets/process/4.png"
-
+import yellow from "../assets/yellow.png"
 
 class OurProcess extends Component {
   render() {
     return (
       <section>
-      <p className='processText'>Our Process</p>
-        <div className="ourprocess-ctn container">
 
+      <div className="process-header-ctn">
+        <img src={yellow} alt="yellowline" className="op-yellow-line"/>
+        <p className='processText'>Our Process</p>
+      </div>
+
+        <div className="ourprocess-ctn container">
           <div className='processRow container'>
             <div className="processItem-ctn container">
               <img className = 'processImg' src={process1} alt='process1'/>
               <img className = 'processNumImg' src={one} alt='one'/>
-              <p className='regtext '>NONPROFITS CREATE A CALL FOR SUBMISSIONS FOR SPECIFIC CREATIVE NEEDS AT A SPECIFIC PRICE.</p>
+              <p>NONPROFITS CREATE A CALL FOR <br></br> SUBMISSIONS FOR SPECIFIC CREATIVE <br></br> NEEDS AT A SPECIFIC PRICE.</p>
               <br></br>
             </div>
           </div>
@@ -31,7 +35,7 @@ class OurProcess extends Component {
             <div className="processItem-ctn container">
               <img className = 'processImg' src={process2} alt='process2'/>
               <img className = 'processNumImg' src={two} alt='two'/>
-              <p className='regtext '>COMMUNITY MEMBERS SUBMIT PITCHES TO OPEN PROJECT REQUESTS IN THEIR FIELD OF EXPERTISE.</p>
+              <p>COMMUNITY MEMBERS SUBMIT PITCHES <br></br> TO OPEN PROJECT REQUESTS IN THEIR FIELD <br></br> OF EXPERTISE.</p>
             </div>
           </div>
 
@@ -41,7 +45,7 @@ class OurProcess extends Component {
             <div className="processItem-ctn container">
             <img className = 'processImg' src={process3} alt='process3'/>
               <img className = 'processNumImg' src={three} alt='three'/>
-              <p className='regtext '>THE COMMUNITY ENCOURAGE FELLOW CREATIVES BY HOWLING AT THEIR PROPOSALS TO HELP ORGANIZATIONS PICK THE PERFECT WOLF FOR THEIR PROJECT.</p>
+              <p>THE COMMUNITY ENCOURAGE FELLOW <br></br> CREATIVES BY HOWLING AT THEIR PROPOSALS <br></br> TO HELP ORGANIZATIONS PICK THE PERFECT <br></br> WOLF FOR THEIR PROJECT.</p>
             </div>
           </div>
 
@@ -49,14 +53,9 @@ class OurProcess extends Component {
             <div className="processItem-ctn container">
               <img className = 'processImg' src={process4} alt='process4'/>
               <img className = 'processNumImg' src={four} alt='four'/>
-              <p className='regtext '>AFTER THE SUBMISSION WINDOW CLOSES NONPROFITS CHOOSE THEIR FAVORITE ALLIES TO THEM CREATE MAGIC AND IMPACT.</p>
+              <p>AFTER THE SUBMISSION WINDOW CLOSES <br></br> NONPROFITS CHOOSE THEIR FAVORITE ALLIES <br></br> TO THEM CREATE MAGIC AND IMPACT.</p>
             </div>
           </div>
-        </div>
-
-        <div className='req-invite-ctn process-inv-ctn container regtext'>
-          <p>WORK FOR SOMETHING MEANINGFUL | HIRE SOMEONE WHO TRULY CARES</p>
-          <ReqInviteButton/>
         </div>
       </section>
     )

@@ -120,6 +120,8 @@ li {
 
 .topnav {
   position: fixed;
+  border-bottom: 	#DCDCDC solid;
+  border-width: 1px;
   top: 0;
   left: 0;
   background-color: #ffffff;
@@ -316,6 +318,13 @@ li {
 
 /* ================================== */
 
+.op-yellow-line {
+  padding-top: 3%;
+  display: block;
+  margin-right: auto;
+  width: 20%;
+}
+
 .ourprocess-ctn{
   flex-direction:column;
   align-items:center;
@@ -323,11 +332,12 @@ li {
 }
 
 .processItem-ctn{
-  margin:50px;
   flex-direction:row;
   align-items:center;
 }
-
+.processItem-ctn p {
+  font-size: 28px;
+}
 .processNumImg{
   padding: 15px;
 }
