@@ -18,6 +18,7 @@ import app from "../assets/more/ar/app.png"
 import android from "../assets/more/ar/android.png"
 import fullprocess from "../assets/more/fullprocess.png"
 import ReqInviteButton from "./ReqInviteButton"
+import podcastIcon from '../assets/podcast/podcast.jpg'
 
 import './podcast.css'
 
@@ -29,10 +30,15 @@ class Podcast extends Component {
       <div className="podcast-youtube-container">
         <img src={yellow} alt="yellow1"></img>
 
-        <p>HFC PODCAST &</p>
-        <p>YOUTUBE SERIES</p><br></br>
-        <p>INSPIRING CONVERSATIONS WITH INDIVIDUALS FROM ALL WALKS OF LIFE
+        <div>
+        <p>HFC PODCAST & </p>
+        <p>YOUTUBE SERIES </p>
+        <br></br>
+        <p> INSPIRING CONVERSATIONS WITH INDIVIDUALS FROM ALL WALKS OF LIFE
         ABOUT HOW THEY HARNESS THE POWER OF STORYTELLING FOR POSITIVE IMPACT.</p>
+
+        <img className="podcastIcon-img" src={podcastIcon} alt="podcastIcon"></img>
+        </div>
 
         <div className="hfc-sound-container">
           <iframe title="soundcloud" className="grid-item song2" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303208989&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>

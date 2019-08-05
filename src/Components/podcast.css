@@ -1,11 +1,3 @@
-.podcast-youtube-container {
-    background-color: black;
-}
-
-.podcast-youtube-container p{
-    color: #ffffff;
-}
-
 .podcast-grid-item-div{
   position: relative;
   width: 320px;
@@ -30,23 +22,7 @@
   display: inline;
 }
 
-.little-giant-wolf-container {
-  background-color: black;
-}
-
-.little-giant-wolf-container p {
-  color: #ffffff;
-}
-
 li {
-  color: #ffffff;
-}
-
-.our-process {
-  background: black;
-}
-
-.our-process p {
   color: #ffffff;
 }
 
@@ -57,4 +33,11 @@ li {
 .fullprocess {
   width: 100%;
   height: auto;
+}
+
+.podcastIcon-img{
+  height: 200px;
+  width: 200px;
+  right: 100%;
+  float: right;
 }
