@@ -22,9 +22,8 @@ class OurProcess extends Component {
             <div className="processItem-ctn container">
               <img className = 'processImg' src={process1} alt='process1'/>
               <img className = 'processNumImg' src={one} alt='one'/>
-              <p className='regtext '>NONPROFITS CREATE A CALL FOR SUBMISSIONS FOR SPECIFIC CREATIVE NEEDS AT A SPECIFIC PRICE.</p>
-              <br></br>
             </div>
+            <p className='regtext '>NONPROFITS CREATE A CALL FOR SUBMISSIONS FOR SPECIFIC CREATIVE NEEDS AT A SPECIFIC PRICE.</p>
           </div>
 
           <div className='processRow container'>
