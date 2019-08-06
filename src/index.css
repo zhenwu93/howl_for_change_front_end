@@ -130,7 +130,7 @@ li {
 }
 
 .topnav-ctn {
-  border-bottom: 	#DCDCDC solid;
+  border-bottom: #dcdcdc solid;
   border-width: 1px;
   flex-direction: row;
   justify-content: space-between;
@@ -320,6 +320,10 @@ li {
 }
 
 /* ================================== */
+
+#processHeader {
+  margin-top: 35px;
+}
 
 .ourprocess-ctn {
   flex-direction: column;
