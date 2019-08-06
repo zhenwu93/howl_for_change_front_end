@@ -34,8 +34,8 @@ class Podcast extends Component {
         <p>HFC PODCAST & </p>
         <p>YOUTUBE SERIES </p>
         <br></br>
-        <p> INSPIRING CONVERSATIONS WITH INDIVIDUALS FROM ALL WALKS OF LIFE
-        ABOUT HOW THEY HARNESS THE POWER OF STORYTELLING FOR POSITIVE IMPACT.</p>
+        <h1> INSPIRING CONVERSATIONS WITH INDIVIDUALS FROM ALL WALKS OF LIFE
+        ABOUT HOW THEY HARNESS THE POWER OF STORYTELLING FOR POSITIVE IMPACT.</h1>
 
         <img className="podcastIcon-img" src={podcastIcon} alt="podcastIcon"></img>
         </div>
