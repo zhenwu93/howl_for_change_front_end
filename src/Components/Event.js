@@ -80,8 +80,11 @@ class Event extends Component {
               </p>
             </div>
 
-            <div className='empower-footnote'>
-              <p>*our partner NeueHouse generously hosts our events in both their NYC and LA loctaions</p>
+            <div className="empower-footnote">
+              <p>
+                *our partner NeueHouse generously hosts our events in both their
+                NYC and LA loctaions
+              </p>
             </div>
           </div>
 
@@ -105,39 +108,39 @@ class Event extends Component {
             />
             <ReqInviteButton />
           </div>
-        <div className='next-event-text'>
+          <div className="next-event-text">
             <h1>OUR NEXT EVENT</h1>
             <h2>EMPOWERING COMMUNITIES</h2>
-            <h2>WITH ARLAN HAMILTON FROM BACKSTAGE CAPITAL</h2>
+            <h2>WITH AMMAR BELAL FROM ONE432</h2>
             <div className="req-invite-ctn container regtext" align="right">
               <ReqInviteButton />
             </div>
-        </div>
-          
-
-          
-
-          
-
-          {/* <p className="ep5">
-            For episode 5, we host trailblazing entrepreneur Arlan Hamilton to
-            explore the power of story to catalyze change and shift narratives
-            in Silicon Valley with her venture capital firm Backstage Capital,
-            helping minimize funding disparities in tech.
-          </p>
-
-          <p>
-            The conversatioan is followed by the HFC Story Hour featuring
-            entrepreneurs sharing perilous, triumphal, cautionary, funny,
-            inspiring sotires from their startup journeys.
-          </p>
-          <br />
-
-          <p>DJ James Lomax on the decks to bookend the night.</p>
-          <br />
-          <p>The event is free. We can't wait to see you in LA soon</p>
-          <br />
-          <p>XOXO</p> */}
+            <div className="event-details" align="left">
+              <p>
+                Join us next Thursday 08/08 in NYC at 6:30pm at the NeueHouse
+                for Episode 6, where we host multicultural social impact fashion
+                designer Ammar Belal to explore the power of the fashion and
+                storytelling on the global identity.
+              </p>
+              <br />
+              <p>
+                Belal's vision is to find harmony amidst fashion, critical
+                awareness, and Social Entrepreneurship, which manifests in his
+                company ONE432, a socially conscious design system with a focus
+                on transparency.
+              </p>
+              <br />
+              <p>
+                The evening will feature a conversation between Belal and our
+                host Alicia Coleman, an immersive fashion performance and a DJ,
+                spinning (and howling) into the night.
+              </p>
+              <br />
+              <p>The event is free. We can't wait to see you in NYC soon.</p>
+              <br />
+              <p>xoxo</p>
+            </div>
+          </div>
         </div>
 
         <div className="last-event-container">
