@@ -1,14 +1,6 @@
-.podcast-youtube-container {
-    background-color: black;
-}
-
-.podcast-youtube-container p{
-    color: #ffffff;
-}
-
 .podcast-grid-item-div{
   position: relative;
-  width: 320px;
+  width: 12vw;
   height: 100px;
   display: flex;
   align-items: center;
@@ -30,23 +22,15 @@
   display: inline;
 }
 
-.little-giant-wolf-container {
-  background-color: black;
+p{
+  font-size: 40px;
 }
 
-.little-giant-wolf-container p {
-  color: #ffffff;
+h1{
+  font-size: 22px;
 }
 
 li {
-  color: #ffffff;
-}
-
-.our-process {
-  background: black;
-}
-
-.our-process p {
   color: #ffffff;
 }
 
@@ -57,4 +41,35 @@ li {
 .fullprocess {
   width: 100%;
   height: auto;
+}
+
+.podcastIcon-img{
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 50px;
+  right: 200px;
+}
+
+.podcast-youtube-container{
+  padding-left: 1em;
+}
+
+.podcast-container{
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.grid-item-song2{
+  position: absolute;
+  left: 400px;
+}
+
+.grid-item-video1{
+  position: relative;
+  left: 100px;
+}
+
+.subscribe-div p{
+  text-align: center;
 }
