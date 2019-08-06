@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import ReqInviteButton from "./ReqInviteButton";
 import process1 from "../assets/process/process1.png";
 import process2 from "../assets/process/process2.png";
 import process3 from "../assets/process/process3.png";

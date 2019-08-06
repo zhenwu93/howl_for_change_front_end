@@ -1,4 +1,6 @@
 import React, { Component, Fragment } from 'react'
+import ReqInviteButton from "./ReqInviteButton"
+
 import yellow from "../assets/yellow.png"
 import stitcher from "../assets/more/podcast/stitcher.png"
 import apple from "../assets/more/podcast/apple.png"
@@ -17,8 +19,9 @@ import hfcapp from "../assets/more/ar/HFCapp.png"
 import app from "../assets/more/ar/app.png"
 import android from "../assets/more/ar/android.png"
 import fullprocess from "../assets/more/fullprocess.png"
-import ReqInviteButton from "./ReqInviteButton"
 import podcastIcon from '../assets/podcast/podcast.jpg'
+import radiocom from '../assets/more/podcast/radiocom.png'
+import pawson from "../assets/more/pawson.png"
 
 import './podcast.css'
 
@@ -161,6 +164,14 @@ class Podcast extends Component {
               <div className="podcast-grid-item-div">
                  <img
                    className="podcast-grid-item"
+                   src={radiocom}
+                   alt="radiocom">
+                </img>
+              </div>
+
+              <div className="podcast-grid-item-div">
+                 <img
+                   className="podcast-grid-item"
                    src={radiopublic}
                    alt="radiopublic">
                  </img>
@@ -203,40 +214,14 @@ class Podcast extends Component {
 
         <div className="little-giant-wolf-container">
           <img src={yellow} alt="yellow3"></img>
-          <p>LITTLE GIANT WOLF</p>
-          <p>OUR CONTENT STUDIO OFFERS NONPROFITS CREATIVE STRATEGY AND
-             PRODUCTION SERVICES FOR HOLISTIC MULTI-FACETED CAMPAIGNS,
+          <p>PAWS ON APPROACH</p>
+          <p className="paws-on-paragraph">OUR AGENCY & CONTENT STUDIO OFFERS NONPROFITS A HANDS-ON & <br/>
+             HOLISTIC APPROACH FOR THEIR CREATIVE CAMPAIGN AND SERVICE NEEDS,<br/>
              STAFFED WITH MEMBERS FROM OUR COMMUNITY.
           </p>
 
-          <div className="focus-lists-container">
-          <p>AREAS OF FOCUS</p>
-
-            <div className="area-list1">
-              <ul className="list-group">
-                <li className="list-group-item list-group-item-primary">Creative Campaign Strategy & Lead</li>
-                <li className="list-group-item list-group-item-primary">Photography</li>
-                <li className="list-group-item list-group-item-primary">Video</li>
-                <li className="list-group-item list-group-item-primary">Broadcast</li>
-                <li className="list-group-item list-group-item-primary">Podcasting</li>
-                <li className="list-group-item list-group-item-primary">Music Scoring</li>
-                <li className="list-group-item list-group-item-primary">XR - 360, VR, AR, MR</li>
-                <li className="list-group-item list-group-item-primary">Location Based Services</li>
-              </ul>
-            </div>
-
-            <div className="area-list2">
-              <ul className="list-group">
-                <li className="list-group-item list-group-item-primary">Pop-up & Interactive Installation Design</li>
-                <li className="list-group-item list-group-item-primary">AI for Experimental Design</li>
-                <li className="list-group-item list-group-item-primary">Holograms</li>
-                <li className="list-group-item list-group-item-primary">Game & UX Development</li>
-                <li className="list-group-item list-group-item-primary">Computer Animation & VFX</li>
-                <li className="list-group-item list-group-item-primary">Web Content Development</li>
-                <li className="list-group-item list-group-item-primary">Immersive Theater Creative & Development</li>
-                <li className="list-group-item list-group-item-primary">Transmedia & Experimental Experiences</li>
-              </ul>
-            </div>
+          <div className="paws-on container">
+            <img src={pawson} alt="paws" className="paws-on-img"/>
           </div>
         </div>
 
