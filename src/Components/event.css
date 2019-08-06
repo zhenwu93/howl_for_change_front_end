@@ -41,11 +41,8 @@
   font-size: 1.4em;
 }
 
-.empower-footnote {
-  margin-top: 7px;
-  font-family: Helvetica, sans-serif;
-  font-weight: 100;
-  font-size: 1em;
+.empower-paragraph2 p {
+   font-size: 1.4em;
 }
 
 .empower-quote {
@@ -61,6 +58,17 @@
 }
 
 .empower-logo-container p {
+}
+
+.empower-footnote p {
+   font-size: 1em;
+}
+
+.empower-footnote {
+  margin-top: 7px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 1em;
 }
 
 .hfceventicon {
