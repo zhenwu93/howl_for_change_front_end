@@ -1,6 +1,6 @@
 .podcast-grid-item-div{
   position: relative;
-  width: 320px;
+  width: 12vw;
   height: 100px;
   display: flex;
   align-items: center;
@@ -26,6 +26,10 @@ p{
   font-size: 40px;
 }
 
+h1{
+  font-size: 22px;
+}
+
 li {
   color: #ffffff;
 }
@@ -40,15 +44,32 @@ li {
 }
 
 .podcastIcon-img{
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   position: absolute;
   top: 50px;
-  right: 100px;
+  right: 200px;
 }
 
 .podcast-youtube-container{
+  padding-left: 1em;
+}
+
+.podcast-container{
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.grid-item-song2{
+  position: absolute;
+  left: 400px;
+}
+
+.grid-item-video1{
   position: relative;
-  top: 20px;
-  left: 50px;
+  left: 100px;
+}
+
+.subscribe-div p{
+  text-align: center;
 }
