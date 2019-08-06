@@ -144,27 +144,35 @@ class Event extends Component {
         </div>
 
         <div className="last-event-container">
-          <div className="last-event-paragraphs-container">
-            <p className="last-event-header"> OUR LAST EVENT </p>
-            <p>
-              {" "}
-              We had an incredible turnout for Howl for Change's "Empowering
-              communities" event with Madame Gandhi that took palce at Neue
-              House in LA. We had an incredible turnout!
-            </p>
-            <br />
+          <div className="last-event-text">
+            <div className="last-event-header">
+              <h1>Our last event</h1>
+              <h2>EMPOWERING COMMUNITIES</h2>
+              <h2>With arlan hamilton</h2>
+            </div>
+            <div className="last-event-paragraphs-container">
+              <p>
+                We had an incredible turnout for last Empowering Communities NYC
+                event with trailblazing entrepreneur Arlan Hamilton to explore
+                the power of store to catalyze change and shift narratives in
+                Silicon Valley with her venture capital firm Backstage Capital,
+                helping minimize funding disparities in tech.
+              </p>
+              <br />
 
-            <p>
-              It was such a special and intimate evening of storytelling,
-              empowerment, community, and performances.
-            </p>
-            <br />
-            <p>
-              Thank you to everyone who attended and contributed to the event!
-              We hope you were inspired by our conversation with with Madame
-              Gandhi, special thanks to Kiran for sharing her story with us.
-            </p>
-            <br />
+              <p>
+                It was such a special and intimate evening of storytelling,
+                empowerment, community and stories shared by the amazing
+                entrepreneurs during our Story Hour.
+              </p>
+              <br />
+              <p>
+                Thank you to everyone who attended and contributed to the event!
+                We hope you were inspired by our conversation with Arlan
+                Hamilton! Thank you Arlan for sharing your story with us.
+              </p>
+              <br />
+            </div>
           </div>
 
           <div className="grid-container container">

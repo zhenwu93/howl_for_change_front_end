@@ -19,7 +19,6 @@
 }
 
 .empower-header h1 {
-  padding-top: 5px;
   font-size: 2.7em;
   border-top: 5px #e4b70e solid;
   width: 409px;
@@ -90,7 +89,6 @@
   font-family: "BebasNeueBold";
   font-size: 2.7em;
   border-top: 5px #e4b70e solid;
-  padding-top: 5px;
   max-width: 190px;
 }
 
@@ -102,14 +100,48 @@
 .next-event-text p {
   font-family: Helvetica, sans-serif;
   font-weight: 100;
-  font-size: 1.4em
+  font-size: 1.4em;
+}
+
+.last-event-header {
+  text-transform: capitalize;
+}
+
+.last-event-header h1 {
+  font-family: "BebasNeueBold";
+  font-size: 2.7em;
+  border-top: 5px #e4b70e solid;
+  max-width: 186px;
+}
+
+.last-event-header h2 {
+  font-family: "BebasNeueBold";
+  font-size: 2em;
 }
 
 .last-event-container {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.last-event-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.last-event-paragraphs-container {
+  max-width: 70%;
+  margin-top: 12px;
 }
 
 .last-event-paragraphs-container p {
-  text-align: right;
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 1.4em;
 }
 
 .gallery-text-div {
