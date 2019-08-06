@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-// import './contact.css'
+import "./contact.css";
 import Nonprofits from "../assets/contact/Nonprofits.png";
 import Storytellers from "../assets/contact/Storytellers.png";
 
@@ -24,11 +24,11 @@ class Contact extends Component {
       <Fragment>
         <div className="contact-text-ctn container">
           <div className="contact-text-header-div">
-            <p className="headertext whiteText">HOWL AT US</p>
+            <h1>HOWL AT US</h1>
           </div>
         </div>
 
-        <div className="contact-form-div container">
+        <div className="contact-form-div container story-teller-ctn">
           <img
             className="storytellers-image"
             src={Storytellers}
@@ -42,6 +42,7 @@ class Contact extends Component {
               us here.
             </p>
             <form
+              className="story-teller-form"
               action="https://howlforchange.us19.list-manage.com/subscribe/post"
               method="POST"
               noValidate
@@ -54,6 +55,7 @@ class Contact extends Component {
                   <label htmlFor="MERGE1">First Name</label>
                   <br />
                   <input
+                    className="first-name-input"
                     type="text"
                     name="FNAME"
                     id="MERGE1"
@@ -68,6 +70,7 @@ class Contact extends Component {
                   <label htmlFor="MERGE2">Last Name</label>
                   <br />
                   <input
+                    className="last-name-input"
                     type="text"
                     name="LNAME"
                     id="MERGE2"
@@ -83,6 +86,7 @@ class Contact extends Component {
                 <label htmlFor="MERGE0">Email</label>
                 <br />
                 <input
+                  className="email-input"
                   type="email"
                   name="EMAIL"
                   id="MERGE0"
@@ -101,6 +105,7 @@ class Contact extends Component {
                 </label>
                 <br />
                 <textarea
+                  className="message-input"
                   rows="8"
                   cols="40"
                   type="text"
@@ -160,10 +165,6 @@ class Contact extends Component {
 
         <div className="contact-form-div container">
           <div className="nonprofits-subscribe-form">
-            <p className="nonprofits-text">
-              For more information about how to Howl For Change can work for
-              you, contact us here.
-            </p>
             <form
               action="https://howlforchange.us19.list-manage.com/subscribe/post"
               method="POST"
@@ -171,19 +172,25 @@ class Contact extends Component {
             >
               <input type="hidden" name="u" value="6397bd73322c1f70600e82d2e" />
               <input type="hidden" name="id" value="ded48d18b3" />
-
-              <div className="formMargin organization-pair">
-                <label htmlFor="MERGE12">Organization</label>
-                <br />
-                <input
-                  type="text"
-                  name="organization"
-                  id="MERGE12"
-                  value={this.state.npOrganization}
-                  onChange={e => {
-                    this.setState({ npOrganization: e.target.value });
-                  }}
-                />
+              <div className="org-text-input">
+                <p className="nonprofits-text">
+                  For more information about how to Howl For Change can work for
+                  you, contact us here.
+                </p>
+                <div className="formMargin organization-pair">
+                  <label htmlFor="MERGE12">Organization</label>
+                  <br />
+                  <input
+                    className="organization-input"
+                    type="text"
+                    name="organization"
+                    id="MERGE12"
+                    value={this.state.npOrganization}
+                    onChange={e => {
+                      this.setState({ npOrganization: e.target.value });
+                    }}
+                  />
+                </div>
               </div>
 
               <div className="formRow formMargin">
@@ -191,6 +198,7 @@ class Contact extends Component {
                   <label htmlFor="MERGE1">First Name</label>
                   <br />
                   <input
+                    className="first-name-input"
                     type="text"
                     name="FNAME"
                     id="MERGE1"
@@ -205,6 +213,7 @@ class Contact extends Component {
                   <label htmlFor="MERGE2">Last Name</label>
                   <br />
                   <input
+                    className="last-name-input"
                     type="text"
                     name="LNAME"
                     id="MERGE2"
@@ -220,6 +229,7 @@ class Contact extends Component {
                 <label htmlFor="MERGE0">Email</label>
                 <br />
                 <input
+                  className="email-input"
                   type="email"
                   name="EMAIL"
                   id="MERGE0"

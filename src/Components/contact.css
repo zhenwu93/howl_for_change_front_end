@@ -1,4 +1,4 @@
-p {
+/* p {
   color: white;
 }
 
@@ -9,9 +9,91 @@ label {
   clear: left;
   width: 100%;
   padding-bottom: 1em;
+} */
+
+.story-teller-form {
+  margin-top: 25px;
 }
 
-.first-name-pair {
+.story-teller-ctn {
+  padding-right: 42px;
+}
+
+.story-teller-form label,
+.nonprofits-subscribe-form label {
+  font-family: Helvetica, sans-serif;
+}
+
+.creatives-subscribe-form {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.creatives-text {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.1em;
+  font-weight: 100;
+  width: 415px;
+}
+
+input[type="text"].first-name-input,
+input[type="text"].last-name-input,
+input[type="text"].organization-input {
+  width: 340px;
+  height: 30px;
+  border: 1px gray solid;
+  padding: 10px;
+}
+
+input[type="email"].email-input {
+  height: 30px;
+  border: 1px gray solid;
+  padding: 10px;
+}
+
+input[type="text"].first-name-input:focus,
+input[type="text"].last-name-input:focus,
+input[type="email"].email-input:focus,
+input[type="text"].organization-input:focus {
+  outline: none;
+  background-color: #ebbe0f;
+}
+
+#MERGE7 {
+  min-width: 705px;
+  max-width: 705px;
+  resize: none;
+  padding: 10px;
+}
+
+#MERGE7:focus {
+  outline: none;
+}
+
+.button:hover {
+  background-color: #ebbe0f;
+}
+
+.org-text-input {
+  max-width: 705px;
+  display: flex;
+  justify-content: space-between;
+}
+
+p.nonprofits-text {
+  max-width: 340px;
+  font-size: 1.1em;
+  font-weight: 100;
+  font-family: Helvetica, sans-serif;
+}
+
+.formRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .first-name-pair {
   position: relative;
   left: 10%;
   float: left;
@@ -122,4 +204,4 @@ label {
   background-color: #ffffff;
   font-size: 16px;
   text-align: center;
-}
+} */

@@ -14,7 +14,7 @@ class OurProcess extends Component {
   render() {
     return (
       <section>
-        <p className="processText">Our Process</p>
+        <p id='processHeader' className="processText">Our Process</p>
         <div className="ourprocess-ctn container">
           <div className="processRow container">
             <div className="processItem-ctn container">
