@@ -1,4 +1,4 @@
-p {
+/* p {
   color: white;
 }
 
@@ -9,9 +9,65 @@ label {
   clear: left;
   width: 100%;
   padding-bottom: 1em;
+} */
+
+.story-teller-form {
+  margin-top: 25px;
 }
 
-.first-name-pair {
+.story-teller-form label {
+  font-family: Helvetica, sans-serif;
+}
+
+.creatives-subscribe-form {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.creatives-text {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.1em;
+  width: 415px;
+}
+
+input[type="text"].first-name-input,
+input[type="text"].last-name-input {
+  width: 350px;
+  height: 30px;
+  border: 1px gray solid;
+  padding: 10px;
+}
+
+input[type="email"].email-input {
+  height: 30px;
+  border: 1px gray solid;
+  padding: 10px;
+}
+
+input[type="text"].first-name-input:focus,
+input[type="text"].last-name-input:focus,
+input[type="email"].email-input:focus {
+  outline: none;
+  background-color: #ebbe0f;
+}
+
+#MERGE7 {
+  min-width: 100%;
+  max-width: 705px;
+  resize: none;
+  padding: 10px;
+}
+
+#MERGE7:focus {
+  outline: none;
+}
+
+.button:hover {
+  background-color: #ebbe0f;
+}
+
+/* .first-name-pair {
   position: relative;
   left: 10%;
   float: left;
@@ -122,4 +178,4 @@ label {
   background-color: #ffffff;
   font-size: 16px;
   text-align: center;
-}
+} */

@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-// import './contact.css'
+import "./contact.css";
 import Nonprofits from "../assets/contact/Nonprofits.png";
 import Storytellers from "../assets/contact/Storytellers.png";
 
@@ -24,7 +24,7 @@ class Contact extends Component {
       <Fragment>
         <div className="contact-text-ctn container">
           <div className="contact-text-header-div">
-            <p className="headertext whiteText">HOWL AT US</p>
+            <h1>HOWL AT US</h1>
           </div>
         </div>
 
@@ -42,6 +42,7 @@ class Contact extends Component {
               us here.
             </p>
             <form
+              className="story-teller-form"
               action="https://howlforchange.us19.list-manage.com/subscribe/post"
               method="POST"
               noValidate
@@ -54,6 +55,7 @@ class Contact extends Component {
                   <label htmlFor="MERGE1">First Name</label>
                   <br />
                   <input
+                    className="first-name-input"
                     type="text"
                     name="FNAME"
                     id="MERGE1"
@@ -68,6 +70,7 @@ class Contact extends Component {
                   <label htmlFor="MERGE2">Last Name</label>
                   <br />
                   <input
+                    className="last-name-input"
                     type="text"
                     name="LNAME"
                     id="MERGE2"
@@ -83,6 +86,7 @@ class Contact extends Component {
                 <label htmlFor="MERGE0">Email</label>
                 <br />
                 <input
+                  className="email-input"
                   type="email"
                   name="EMAIL"
                   id="MERGE0"
@@ -101,6 +105,7 @@ class Contact extends Component {
                 </label>
                 <br />
                 <textarea
+                  className='message-input'
                   rows="8"
                   cols="40"
                   type="text"

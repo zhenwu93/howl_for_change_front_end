@@ -367,13 +367,19 @@ li {
 /* ================================== */
 
 .contact-text-ctn {
-  background-color: #1e1e1e;
   flex-direction: column;
-  text-align: center;
+  justify-content: flex-start;
+}
+
+.contact-text-ctn h1 {
+  font-family: "BebasNeueBold";
+  font-size: 2.8em;
+  border-top: 5px solid #ebbe0f;
+  width: 140px;
 }
 
 .contact-text-header-div {
-  margin-left: 40px;
+  margin-left: 100px;
   margin-top: 40px;
 }
 
@@ -435,6 +441,8 @@ input[type="text"],
 
 .storytellers-image {
   padding: 15px;
+  height: 535px;
+  width: 115px;
 }
 /* ================================== */
 
