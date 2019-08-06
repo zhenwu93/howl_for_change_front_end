@@ -94,11 +94,6 @@ class Event extends Component {
         </div>
 
         <div className="next-event-container" align="right">
-          <img src={yellow} alt="yellowline" />
-          <h1>OUR NEXT EVENT</h1>
-          <h2>EMPOWERING COMMUNITIES</h2>
-          <h2>WITH ARLAN HAMILTON FROM BACKSTAGE CAPITAL</h2>
-
           <div className="event-video-container">
             <iframe
               src={eventvideo}
@@ -110,12 +105,21 @@ class Event extends Component {
             />
             <ReqInviteButton />
           </div>
+        <div className='next-event-text'>
+            <h1>OUR NEXT EVENT</h1>
+            <h2>EMPOWERING COMMUNITIES</h2>
+            <h2>WITH ARLAN HAMILTON FROM BACKSTAGE CAPITAL</h2>
+            <div className="req-invite-ctn container regtext" align="right">
+              <ReqInviteButton />
+            </div>
+        </div>
+          
 
-          <div className="req-invite-ctn container regtext" align="right">
-            <ReqInviteButton />
-          </div>
+          
 
-          <p className="ep5">
+          
+
+          {/* <p className="ep5">
             For episode 5, we host trailblazing entrepreneur Arlan Hamilton to
             explore the power of story to catalyze change and shift narratives
             in Silicon Valley with her venture capital firm Backstage Capital,
@@ -133,7 +137,7 @@ class Event extends Component {
           <br />
           <p>The event is free. We can't wait to see you in LA soon</p>
           <br />
-          <p>XOXO</p>
+          <p>XOXO</p> */}
         </div>
 
         <div className="last-event-container">
