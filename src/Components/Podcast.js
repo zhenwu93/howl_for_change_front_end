@@ -256,11 +256,11 @@ class Podcast extends Component {
 
             <div className="app-store-icon">
               <a href="https://itunes.apple.com/us/app/howl-for-change/id1434457242?mt=8">
-                <img src={app} alt="app" />
+                <img src={app} alt="app" className="app-icon-img"/>
               </a>
 
               <a href="https://tinyurl.com/ycffnssz">
-                <img src={android} alt="android" />
+                <img src={android} alt="android" className="android-icon-img"/>
               </a>
             </div>
           </div>
