@@ -98,23 +98,29 @@ class Event extends Component {
 
         <div className="next-event-container" align="right">
           <div className="event-video-container">
-            <iframe
+            <video
               src={eventvideo}
               title="eventvid"
               frameborder="0"
               allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
               align="left"
+              className="event-video"
             />
-            <ReqInviteButton />
+            <div className="under-event-video-req-invite-ctn">
+              <ReqInviteButton />
+            </div>
           </div>
+
           <div className="next-event-text">
             <h1>OUR NEXT EVENT</h1>
             <h2>EMPOWERING COMMUNITIES</h2>
             <h2>WITH AMMAR BELAL FROM ONE432</h2>
-            <div className="req-invite-ctn container regtext" align="right">
+
+            <div className="req-invite-ctn" align="right">
               <ReqInviteButton />
             </div>
+
             <div className="event-details" align="left">
               <p>
                 Join us next Thursday 08/08 in NYC at 6:30pm at the NeueHouse

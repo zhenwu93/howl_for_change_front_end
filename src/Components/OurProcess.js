@@ -44,7 +44,7 @@ class OurProcess extends Component {
               <img className="processImg" src={process3} alt="process3" />
               <img className="processNumImg" src={three} alt="three" />
               <p className="regtext ">
-                THE COMMUNITY ENCOURAGE FELLOW CREATIVES BY HOWLING AT THEIR
+                THE COMMUNITY ENCOURAGES FELLOW CREATIVES BY HOWLING AT THEIR
                 PROPOSALS TO HELP ORGANIZATIONS PICK THE PERFECT WOLF FOR THEIR
                 PROJECT.
               </p>

@@ -20,7 +20,7 @@ class Landing extends Component {
           </div>
 
           <div className='landing-text-div'>
-            <p className='landing-text'>JOIN A COMMUNITY OF CREATIVE CHANGE MAKERS AND NONPROFITS WORKING AND HOWLING TOGETHER TO GIVE VOICE TO GLOBAL ISSUES.</p>
+            <p className='landing-text'>JOIN A COMMUNITY OF CREATIVE CHANGEMAKERS AND NONPROFITS WORKING AND HOWLING TOGETHER TO GIVE VOICE TO GLOBAL ISSUES.</p>
             <img align='right' src={hashtag} alt="hashtag" className="hashtag-img"/>
           </div>
 
