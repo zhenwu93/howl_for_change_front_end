@@ -189,3 +189,26 @@ h1.find-ar {
   position: relative;
   top: -50px;
 }
+
+.paws-header {
+  font-family: "BebasNeueBold";
+  font-size: 3em;
+  border-top: 5px #e4b70e solid;
+  width: 254px;
+}
+
+.little-giant-wolf-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paws-on-img {
+  width: 300px;
+  height: 180px;
+}
+
+.paws-on-paragraph {
+  font-size: 2.2em;
+  width: 82%;
+  margin-top: 10px;
+}

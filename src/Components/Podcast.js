@@ -222,26 +222,24 @@ class Podcast extends Component {
               Join us to create a world of wolves and Howl with us for change.
             </h1>
 
-            <h1 className='find-ar'>Find the AR app in your App Store:</h1>
-            <div className='app-store-icon'>
+            <h1 className="find-ar">Find the AR app in your App Store:</h1>
+            <div className="app-store-icon">
               <img src={app} alt="app" />
               <img src={android} alt="android" />
             </div>
           </div>
 
           <div className="little-giant-wolf-container">
-            <img src={yellow} alt="yellow3" />
-            <p>PAWS ON APPROACH</p>
-            <p className="paws-on-paragraph">
-              OUR AGENCY & CONTENT STUDIO OFFERS NONPROFITS A HANDS-ON & <br />
-              HOLISTIC APPROACH FOR THEIR CREATIVE CAMPAIGN AND SERVICE NEEDS,
-              <br />
-              STAFFED WITH MEMBERS FROM OUR COMMUNITY.
-            </p>
-
-            <div className="paws-on container">
-              <img src={pawson} alt="paws" className="paws-on-img" />
+            <div className="wolf-text">
+              <p className="paws-header">PAWS ON APPROACH</p>
+              <p className="paws-on-paragraph">
+                OUR AGENCY & CONTENT STUDIO OFFERS NONPROFITS A HANDS-ON &{" "}
+                HOLISTIC APPROACH FOR THEIR CREATIVE CAMPAIGN AND SERVICE NEEDS,
+                STAFFED WITH MEMBERS FROM OUR COMMUNITY.
+              </p>
             </div>
+
+            <img src={pawson} alt="paws" className="paws-on-img" />
           </div>
 
           <div className="our-process">
