@@ -17,20 +17,39 @@ class Footer extends Component {
 
           <div className="sociallinks">
             <ul className="links">
+            <li>
+              <a href="http://littlegiantwolf.com">
+                <img src={howl} alt="howl"/>
+              </a>
+            </li>
               <li>
                 <a href="https://twitter.com/howlforchange">
-                  <img src={twitter} />
+                  <img src={twitter} alt="twitter"/>
                 </a>
               </li>
               <li>
                 <a href="https://www.instagram.com/howlforchange/">
-                  <img src={instagram} />
+                  <img src={instagram} alt="ig"/>
                 </a>
               </li>
               <li>
                 <a href="https://www.facebook.com/howlforchange">
-                  <img src={facebook} />
+                  <img src={facebook} alt="fb"/>
                 </a>
+              </li>
+            </ul>
+          </div>
+
+        <div className="footer-nav-ctn container">
+            <ul>
+              <li>
+                <NavLink to="/event">Community Events</NavLink>
+              </li>
+              <li>
+                <NavLink to="/podcast">More From HFC</NavLink>
+              </li>
+              <li>
+                <NavLink to="/contact">Contact</NavLink>
               </li>
             </ul>
           </div>

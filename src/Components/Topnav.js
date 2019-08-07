@@ -28,6 +28,9 @@ class Topnav extends Component {
               <li>
                 <NavLink to="/contact">Contact</NavLink>
               </li>
+              <li rightAlignText>
+                <ReqInviteButton/>
+              </li>
             </ul>
           </div>
         </div>
