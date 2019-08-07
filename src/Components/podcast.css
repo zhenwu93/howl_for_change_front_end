@@ -15,6 +15,7 @@
   margin-top: 40px;
   margin-bottom: 60px;
   justify-content: flex-start;
+  padding-left: 30px;
 }
 
 .subscribe-div p {
@@ -37,7 +38,7 @@
 }
 
 .podcast-grid-item {
-  width: 152px;
+  width: 135px;
   height: 36px;
   max-width: 152px;
   max-height: 36px;
@@ -91,6 +92,11 @@ li {
   padding-right: 70px;
 }
 
+.grid-padding {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 #grid-row1 {
   box-sizing: border-box;
   width: 100%;
@@ -113,4 +119,73 @@ li {
 
 .subscribe-div p {
   text-align: center;
+}
+
+.hfc-app-container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.phone-app {
+  width: 450px;
+  height: 300px;
+  position: relative;
+  top: 34px;
+}
+
+.app-header {
+  font-family: "BebasNeueBold";
+  font-size: 3em;
+  border-top: 5px #e4b70e solid;
+  width: 145px;
+}
+
+.hfc-app-paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 50%;
+}
+
+.hfc-app-paragraph p {
+  font-size: 2.15em;
+}
+
+#app-paragraph {
+  margin-top: 20px;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.3em;
+  font-weight: 100;
+}
+
+.your-turn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.your-turn p {
+  text-align: center;
+}
+.your-turn h1 {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+h1.find-ar {
+  margin-top: 25px;
+}
+
+.app-store-icon {
+  display: flex;
+  position: relative;
+  top: -50px;
 }

@@ -85,7 +85,7 @@ class Podcast extends Component {
               </p>
             </div>
 
-            <div className="grid-container">
+            <div className="grid-container grid-padding">
               <div className="grid-row container" id="grid-row1">
                 <div className="podcast-grid-item-div">
                   <img
@@ -197,16 +197,15 @@ class Podcast extends Component {
           </div>
 
           <div className="hfc-app-container">
-            <img src={yellow} alt="yellow2" />
-
+            <img src={hfcapp} alt="applogo" className="phone-app" />
             <div className="hfc-app-paragraph">
-              <p>HFC AR APP</p>
+              <h1 className="app-header">HFC AR APP</h1>
               <p>
                 THE HOWL FOR CHANGE AR APP OFFERS AN OPPORTUNITY TO MEANINGFULLY
                 CONTRIBUTE TO CHANGING SOCIAL BIAS AND FALSE NARRATIVES.
               </p>
 
-              <p>
+              <p id="app-paragraph">
                 The app allows you to shield your identity in mystery until you
                 are ready to reveal it by covering your face and augmenting your
                 voice, offering a useful and fun tool for users to share their
@@ -214,20 +213,20 @@ class Podcast extends Component {
                 of bias.
               </p>
             </div>
+          </div>
 
-            <div className="hfc-app-container">
-              <img src={hfcapp} alt="applogo" />
-            </div>
-
+          <div className="your-turn">
             <p>NOW IT IS YOUR TURN!</p>
-            <p>
-              Celebrate what makes us different to unite us as equal. Join us to
-              create a world of wolves and Howl with us for change.
-            </p>
+            <h1>Celebrate what makes us different to unite us as equal.</h1>
+            <h1>
+              Join us to create a world of wolves and Howl with us for change.
+            </h1>
 
-            <p>Find the AR app in your App Store:</p>
-            <img src={app} alt="app" />
-            <img src={android} alt="android" />
+            <h1 className='find-ar'>Find the AR app in your App Store:</h1>
+            <div className='app-store-icon'>
+              <img src={app} alt="app" />
+              <img src={android} alt="android" />
+            </div>
           </div>
 
           <div className="little-giant-wolf-container">
