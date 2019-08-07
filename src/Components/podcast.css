@@ -1,4 +1,34 @@
-.podcast-grid-item-div{
+.podcast-youtube h1 {
+  font-family: "BebasNeueBold";
+  font-size: 3em;
+  border-top: 5px #e4b70e solid;
+  width: 210px;
+}
+
+.podcast-youtube h2 {
+  font-family: "BebasNeueBold";
+  font-size: 2em;
+}
+
+.hfc-media-container {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  justify-content: flex-start;
+}
+
+.subscribe-div p {
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+#how-to {
+  font-family: "BebasNeueBold";
+  font-size: 2.4em;
+}
+
+.podcast-grid-item-div {
   position: relative;
   width: 12vw;
   height: 100px;
@@ -6,7 +36,7 @@
   align-items: center;
 }
 
-.podcast-grid-item{
+.podcast-grid-item {
   width: 152px;
   height: 36px;
   max-width: 152px;
@@ -22,11 +52,11 @@
   display: inline;
 }
 
-p{
+p {
   font-size: 40px;
 }
 
-h1{
+h1 {
   font-size: 22px;
 }
 
@@ -43,33 +73,44 @@ li {
   height: auto;
 }
 
-.podcastIcon-img{
-  height: 250px;
-  width: 250px;
+.podcastIcon-img {
+  width: 230px;
+  height: 230px;
   position: absolute;
-  top: 50px;
-  right: 200px;
+  top: 170px;
+  right: 110px;
 }
 
-.podcast-youtube-container{
+.podcast-youtube-container {
   padding-left: 1em;
 }
 
-.podcast-container{
-  padding-left: 5em;
-  padding-right: 5em;
+.podcast-container {
+  padding-top: 35px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
-.grid-item-song2{
-  position: absolute;
-  left: 400px;
+#grid-row1 {
+  box-sizing: border-box;
+  width: 100%;
 }
 
-.grid-item-video1{
+#grid-row2 {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: -40px;
+}
+
+.grid-item-song2 {
+  margin-right: 50px;
+}
+
+/* .grid-item-video1 {
   position: relative;
   left: 100px;
-}
+} */
 
-.subscribe-div p{
+.subscribe-div p {
   text-align: center;
 }
