@@ -11,8 +11,13 @@ class Footer extends Component {
     return (
       <section>
         <div className="footer-ctn container">
+
           <div className="legalinfo">
-            <span>©Howl For Change 2019</span>
+            <ul>
+              <li>Privary Policy | Terms of Service </li>
+                <br></br>
+              <li>©Howl For Change 2019</li>
+            </ul>
           </div>
 
           <div className="sociallinks">

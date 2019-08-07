@@ -461,14 +461,14 @@ input[type="text"],
 .footer-ctn {
   color: white;
   background-color: #1e1e1e;
-  height: auto;
+  height: 100px;
   flex-direction: row;
 }
 
 .legalinfo {
-  margin-top: 40px;
-  padding: 5px;
-  align-self: flex-end;
+  margin-top: 25px;
+  padding: 10px;
+  align-items: center;
 }
 
 .sociallinks {
@@ -483,7 +483,7 @@ input[type="text"],
   justify-content: flex-end;
 }
 
-.footer-nav-ctn li{
+.footer-nav-ctn a{
   text-decoration: none;
   padding-left: 10px;
   padding-right: 10px;
