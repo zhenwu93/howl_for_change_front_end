@@ -107,8 +107,8 @@ class Event extends Component {
               align="left"
               className="event-video"
             />
-            <div className="under-event-video-req-invite-ctn">
-              <ReqInviteButton />
+            <div className="rsvp-button-ctn">
+              <a href="http://rsvp.neuehouse.com/howlforchangebelal"><button type="button" className="rsvp-button1 button">RSVP HERE</button></a>
             </div>
           </div>
 
@@ -117,8 +117,8 @@ class Event extends Component {
             <h2>EMPOWERING COMMUNITIES</h2>
             <h2>WITH AMMAR BELAL FROM ONE432</h2>
 
-            <div className="next-event-req-invite-ctn" align="right">
-              <ReqInviteButton />
+            <div className="rsvp-button2-ctn">
+            <a href="http://rsvp.neuehouse.com/howlforchangebelal"><button type="button" className="rsvp-button2 button">RSVP HERE</button></a>
             </div>
 
             <div className="event-details" align="left">

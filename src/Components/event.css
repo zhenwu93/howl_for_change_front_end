@@ -130,6 +130,16 @@
   font-size: 1.4em;
 }
 
+.rsvp-button1{
+  position:relative;
+  right: 39%;
+}
+
+.rsvp-button2-ctn{
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+}
+
 .last-event-header {
   text-transform: capitalize;
 }
