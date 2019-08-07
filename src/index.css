@@ -308,6 +308,14 @@ li {
   margin: 0;
 }
 
+.medium-post1 {
+  font-size: 1em;
+}
+
+.medium-post2 {
+  font-size: 1em;
+}
+
 .categoryLogo {
   position: absolute;
   top: 50%;

@@ -156,7 +156,7 @@ class Gallery extends Component {
                       Won't Save Species
                     </a>
                   </h4>
-                  <p>
+                  <p className="medium-post1">
                     Sending a mixed message for the future of red wolves , the
                     U.S. Fish and Wildlife Service announced Monday it will
                     confine red wolf recovery to just federal lands in Dare
@@ -174,7 +174,7 @@ class Gallery extends Component {
                       Economics And Activism: Getting More Girls Into STEM
                     </a>
                   </h4>
-                  <p>
+                  <p className="medium-post2">
                     The mission of the YWCA of the City of New York ("YWCA") can
                     be summed up in 5 words: eliminating racism and empowering
                     women. Fueled by that mission, the YWCA offers STEAAM
