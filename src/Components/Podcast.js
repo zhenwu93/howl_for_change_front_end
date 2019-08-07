@@ -278,7 +278,7 @@ class Podcast extends Component {
             <div className="paws-on-img-container">
               <img src={pawson} alt="paws" className="paws-on-img" />
               <div className="howl-at-us-button-container">
-                <ReqInviteButton />
+                <a href="https://www.littlegiantwolf.com/contact"><button type="button" className="howl-at-us-btn button">HOWL AT US</button></a>
               </div>
             </div>
           </div>
