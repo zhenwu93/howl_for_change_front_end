@@ -9,13 +9,13 @@ class Landing extends Component {
   render() {
     return (
       <section>
-        <div className="landing-ctn container">
+        <div className="landing-ctn main-container">
 
 
             <img src={hero} alt='hero' className='landing-img'/>
 
 
-          <div className="tag-line container">
+          <div className="tag-line main-container">
             <img src={tagline} alt="tag" className="tag-line-img"/>
           </div>
 

@@ -86,7 +86,7 @@ class Podcast extends Component {
             </div>
 
             <div className="grid-container grid-padding">
-              <div className="grid-row container" id="grid-row1">
+              <div className="grid-row-container" id="grid-row1">
                 <div className="podcast-grid-item-div">
                   <img
                     className="podcast-grid-item"
@@ -136,7 +136,7 @@ class Podcast extends Component {
                 </div>
               </div>
 
-              <div className="grid-row container" id="grid-row2">
+              <div className="grid-row-container" id="grid-row2">
                 <div className="podcast-grid-item-div">
                   <img
                     className="podcast-grid-item"

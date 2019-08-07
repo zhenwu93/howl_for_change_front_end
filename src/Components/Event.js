@@ -181,8 +181,8 @@ class Event extends Component {
             </div>
           </div>
 
-          <div className="grid-container container">
-            <div className="grid-row container">
+          <div className="grid-container main-container">
+            <div className="grid-row main-container">
               <div className="grid-item-div">
                 <img className="grid-item" src={event1} alt="event1" />
               </div>
@@ -216,7 +216,7 @@ class Event extends Component {
               </div>
             </div>
 
-            <div className="grid-row container">
+            <div className="grid-row main-container">
               <div className="grid-item-div">
                 <img className="event9 grid-item" src={event9} alt="event9" />
               </div>
@@ -278,7 +278,7 @@ class Event extends Component {
               </div>
             </div>
 
-            <div className="grid-row container">
+            <div className="grid-row main-container">
               <div className="grid-item-div">
                 <img
                   className="event17 grid-item"
@@ -344,7 +344,7 @@ class Event extends Component {
               </div>
             </div>
 
-            <div className="grid-row container">
+            <div className="grid-row main-container">
               <div className="grid-item-div">
                 <img
                   className="event25 grid-item"
