@@ -87,93 +87,122 @@ class Podcast extends Component {
             <div className="grid-container grid-padding">
               <div className="grid-row container" id="grid-row1">
                 <div className="podcast-grid-item-div">
-                  <img
-                    className="podcast-grid-item"
-                    src={stitcher}
-                    alt="stitcher"
-                  />
+                  <a href="https://www.stitcher.com/podcast/howl-for-change/the-howl-for-change-podcast">
+                    <img
+                      className="podcast-grid-item"
+                      src={stitcher}
+                      alt="stitcher"
+                      href="https://www.stitcher.com/podcast/howl-for-change/the-howl-for-change-podcast"
+                    />
+                  </a>
                 </div>
 
                 <div className="podcast-grid-item-div">
-                  <img className="podcast-grid-item" src={apple} alt="apple" />
+                  <a href="https://itunes.apple.com/us/podcast/howl-for-change/id1454822383?mt=2">
+                    <img
+                      className="podcast-grid-item"
+                      src={apple}
+                      alt="apple"
+                    />
+                  </a>
                 </div>
 
                 <div className="podcast-grid-item-div">
-                  <img
-                    className="podcast-grid-item"
-                    src={google}
-                    alt="google"
-                  />
+                  <a href="https://play.google.com/music/listen?u=0#/ps/I64oehcz5cnwnui7pw2smqxq4xe">
+                    <img
+                      className="podcast-grid-item"
+                      src={google}
+                      alt="google"
+                    />
+                  </a>
                 </div>
 
                 <div className="podcast-grid-item-div">
-                  <img
-                    className="podcast-grid-item"
-                    src={overcast}
-                    alt="overcast"
-                  />
+                  <a href="https://overcast.fm/itunes1454822383/howl-for-change">
+                    <img
+                      className="podcast-grid-item"
+                      src={overcast}
+                      alt="overcast"
+                    />
+                  </a>
                 </div>
 
                 <div className="podcast-grid-item-div">
-                  <img
-                    className="podcast-grid-item"
-                    src={pocketcast}
-                    alt="pocketcast"
-                  />
+                  <a href="https://pca.st/oN8e">
+                    <img
+                      className="podcast-grid-item"
+                      src={pocketcast}
+                      alt="pocketcast"
+                    />
+                  </a>
                 </div>
 
                 <div className="podcast-grid-item-div">
-                  <img
-                    className="podcast-grid-item"
-                    src={breaker}
-                    alt="breaker"
-                  />
+                  <a href="https://www.breaker.audio/howl-for-change">
+                    <img
+                      className="podcast-grid-item"
+                      src={breaker}
+                      alt="breaker"
+                    />
+                  </a>
                 </div>
 
                 <div className="podcast-grid-item-div">
-                  <img className="podcast-grid-item" src={rss} alt="rss" />
+                  <a href="http://feeds.soundcloud.com/users/soundcloud:users:586585557/sounds.rss">
+                    <img className="podcast-grid-item" src={rss} alt="rss" />
+                  </a>
                 </div>
               </div>
 
               <div className="grid-row container" id="grid-row2">
                 <div className="podcast-grid-item-div">
-                  <img
-                    className="podcast-grid-item"
-                    src={youtube}
-                    alt="youtube"
-                  />
+                  <a href="https://www.youtube.com/channel/UCqX4qeEsEYTHURnCZa2TrGg">
+                    <img
+                      className="podcast-grid-item"
+                      src={youtube}
+                      alt="youtube"
+                    />
+                  </a>
                 </div>
 
                 <div className="podcast-grid-item-div">
-                  <img
-                    className="podcast-grid-item"
-                    src={spotify}
-                    alt="spotify"
-                  />
+                  <a href="https://open.spotify.com/show/4KQxc2FCDG0rW6GOtojxYM?si=AoicWhY9Q9OeABQWlrUjkQ">
+                    <img
+                      className="podcast-grid-item"
+                      src={spotify}
+                      alt="spotify"
+                    />
+                  </a>
                 </div>
 
                 <div className="podcast-grid-item-div">
-                  <img
-                    className="podcast-grid-item"
-                    src={soundcloud}
-                    alt="soundcloud"
-                  />
+                  <a href="http://soundcloud.com/howl-for-change">
+                    <img
+                      className="podcast-grid-item"
+                      src={soundcloud}
+                      alt="soundcloud"
+                    />
+                  </a>
                 </div>
 
                 <div className="podcast-grid-item-div">
-                  <img
-                    className="podcast-grid-item"
-                    src={castbox}
-                    alt="castbox"
-                  />
+                  <a href="https://castbox.fm/channel/Howl-For-Change-id2041403?country=us">
+                    <img
+                      className="podcast-grid-item"
+                      src={castbox}
+                      alt="castbox"
+                    />
+                  </a>
                 </div>
 
                 <div className="podcast-grid-item-div">
-                  <img
-                    className="podcast-grid-item"
-                    src={tunein}
-                    alt="tunein"
-                  />
+                  <a href="http://tun.in/pjmEZ">
+                    <img
+                      className="podcast-grid-item"
+                      src={tunein}
+                      alt="tunein"
+                    />
+                  </a>
                 </div>
 
                 <div className="podcast-grid-item-div">
@@ -185,11 +214,13 @@ class Podcast extends Component {
                 </div>
 
                 <div className="podcast-grid-item-div">
-                  <img
-                    className="podcast-grid-item"
-                    src={radiopublic}
-                    alt="radiopublic"
-                  />
+                  <a href="https://radiopublic.com/howl-for-change-G7q1Ja">
+                    <img
+                      className="podcast-grid-item"
+                      src={radiopublic}
+                      alt="radiopublic"
+                    />
+                  </a>
                 </div>
               </div>
             </div>
@@ -222,14 +253,14 @@ class Podcast extends Component {
             </h1>
 
             <h1 className="find-ar">Find the AR app in your App Store:</h1>
-            
+
             <div className="app-store-icon">
               <a href="https://itunes.apple.com/us/app/howl-for-change/id1434457242?mt=8">
-              <img src={app} alt="app" />
+                <img src={app} alt="app" />
               </a>
 
               <a href="https://tinyurl.com/ycffnssz">
-                <img src={android} alt="android"/>
+                <img src={android} alt="android" />
               </a>
             </div>
           </div>
