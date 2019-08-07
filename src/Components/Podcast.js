@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from "react";
 import ReqInviteButton from "./ReqInviteButton";
 
-import yellow from "../assets/yellow.png";
 import stitcher from "../assets/more/podcast/stitcher.png";
 import apple from "../assets/more/podcast/apple.png";
 import breaker from "../assets/more/podcast/breaker.png";
@@ -223,9 +222,15 @@ class Podcast extends Component {
             </h1>
 
             <h1 className="find-ar">Find the AR app in your App Store:</h1>
+            
             <div className="app-store-icon">
+              <a href="https://itunes.apple.com/us/app/howl-for-change/id1434457242?mt=8">
               <img src={app} alt="app" />
-              <img src={android} alt="android" />
+              </a>
+
+              <a href="https://tinyurl.com/ycffnssz">
+                <img src={android} alt="android"/>
+              </a>
             </div>
           </div>
 
@@ -246,8 +251,6 @@ class Podcast extends Component {
               </div>
             </div>
           </div>
-
-
 
           <div className="our-process">
             <p className="our-process-header">Our Process:</p>
