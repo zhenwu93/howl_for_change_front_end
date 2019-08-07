@@ -465,3 +465,18 @@ input[type="text"],
   transform: translateX(-50%);
   /* align-self: center */
 }
+
+.footer-nav-ctn{
+  position: flex;
+  justify-content: flex-end;
+}
+
+.footer-nav-ctn li{
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1em;
+  font-style: Helvetica, sans-serif;
+  color: #ffffff;
+  margin: 1em;
+}

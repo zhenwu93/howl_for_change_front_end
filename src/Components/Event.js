@@ -2,7 +2,7 @@ import React, { Component, Fragment } from "react";
 import ReqInviteButton from "./ReqInviteButton";
 import hfceventicon from "../assets/events/HFCeventicon.png";
 import eventlogo from "../assets/events/events.jpg";
-import empowerlogo from "../assets/events/empower.jpg";
+
 import event1 from "../assets/events/HFCEvents/event1.jpg";
 import event2 from "../assets/events/HFCEvents/event2.jpg";
 import event3 from "../assets/events/HFCEvents/event3.jpg";
@@ -117,7 +117,7 @@ class Event extends Component {
             <h2>EMPOWERING COMMUNITIES</h2>
             <h2>WITH AMMAR BELAL FROM ONE432</h2>
 
-            <div className="req-invite-ctn" align="right">
+            <div className="next-event-req-invite-ctn" align="right">
               <ReqInviteButton />
             </div>
 
