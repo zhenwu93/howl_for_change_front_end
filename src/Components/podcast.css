@@ -1,4 +1,35 @@
-.podcast-grid-item-div{
+.podcast-youtube h1 {
+  font-family: "BebasNeueBold";
+  font-size: 3em;
+  border-top: 5px #e4b70e solid;
+  width: 210px;
+}
+
+.podcast-youtube h2 {
+  font-family: "BebasNeueBold";
+  font-size: 2em;
+}
+
+.hfc-media-container {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  justify-content: flex-start;
+  padding-left: 30px;
+}
+
+.subscribe-div p {
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+#how-to {
+  font-family: "BebasNeueBold";
+  font-size: 2.4em;
+}
+
+.podcast-grid-item-div {
   position: relative;
   width: 12vw;
   height: 100px;
@@ -6,8 +37,8 @@
   align-items: center;
 }
 
-.podcast-grid-item{
-  width: 152px;
+.podcast-grid-item {
+  width: 135px;
   height: 36px;
   max-width: 152px;
   max-height: 36px;
@@ -22,11 +53,11 @@
   display: inline;
 }
 
-p{
+p {
   font-size: 40px;
 }
 
-h1{
+h1 {
   font-size: 22px;
 }
 
@@ -43,33 +74,141 @@ li {
   height: auto;
 }
 
-.podcastIcon-img{
-  height: 250px;
-  width: 250px;
+.podcastIcon-img {
+  width: 230px;
+  height: 230px;
   position: absolute;
-  top: 50px;
-  right: 200px;
+  top: 170px;
+  right: 110px;
 }
 
-.podcast-youtube-container{
+.podcast-youtube-container {
   padding-left: 1em;
 }
 
-.podcast-container{
-  padding-left: 5em;
-  padding-right: 5em;
+.podcast-container {
+  padding-top: 35px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
-.grid-item-song2{
-  position: absolute;
-  left: 400px;
+.grid-padding {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-.grid-item-video1{
+#grid-row1 {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#grid-row2 {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: -40px;
+}
+
+.grid-item-song2 {
+  margin-right: 50px;
+}
+
+/* .grid-item-video1 {
   position: relative;
   left: 100px;
+} */
+
+.subscribe-div p {
+  text-align: center;
 }
 
-.subscribe-div p{
+.hfc-app-container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.phone-app {
+  width: 450px;
+  height: 300px;
+  position: relative;
+  top: 34px;
+}
+
+.app-header {
+  font-family: "BebasNeueBold";
+  font-size: 3em;
+  border-top: 5px #e4b70e solid;
+  width: 145px;
+}
+
+.hfc-app-paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 50%;
+}
+
+.hfc-app-paragraph p {
+  font-size: 2.15em;
+}
+
+#app-paragraph {
+  margin-top: 20px;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.3em;
+  font-weight: 100;
+}
+
+.your-turn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.your-turn p {
   text-align: center;
+}
+.your-turn h1 {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+h1.find-ar {
+  margin-top: 25px;
+}
+
+.app-store-icon {
+  display: flex;
+  position: relative;
+  top: -50px;
+}
+
+.paws-header {
+  font-family: "BebasNeueBold";
+  font-size: 3em;
+  border-top: 5px #e4b70e solid;
+  width: 254px;
+}
+
+.little-giant-wolf-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paws-on-img {
+  width: 300px;
+  height: 180px;
+}
+
+.paws-on-paragraph {
+  font-size: 2.2em;
+  width: 82%;
+  margin-top: 10px;
 }
