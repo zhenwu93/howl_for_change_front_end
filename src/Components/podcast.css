@@ -207,6 +207,13 @@ h1.find-ar {
   height: 180px;
 }
 
+.our-process-header{
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 1.3em;
+  margin: 0;
+}
+
 .paws-on-paragraph {
   font-size: 2.2em;
   width: 82%;

@@ -19,7 +19,7 @@ import hfcapp from "../assets/more/ar/HFCapp.png";
 import app from "../assets/more/ar/app.png";
 import android from "../assets/more/ar/android.png";
 import fullprocess from "../assets/more/fullprocess.png";
-import podcastIcon from "../assets/podcast/hfcpodcasticon.png";
+import podcastIcon from "../assets/more/podcast/hfcpodcasticon.png";
 import radiocom from "../assets/more/podcast/radiocom.png";
 import pawson from "../assets/more/pawson.png";
 
@@ -58,7 +58,7 @@ class Podcast extends Component {
                   scrolling="no"
                   frameBorder="no"
                   allow="autoplay"
-                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303208989&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/620223069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
                 />
               </div>
 
@@ -239,16 +239,19 @@ class Podcast extends Component {
               </p>
             </div>
 
-            <img src={pawson} alt="paws" className="paws-on-img" />
+            <div className="paws-on-img-container">
+              <img src={pawson} alt="paws" className="paws-on-img" />
+              <div className="howl-at-us-button-container">
+                <ReqInviteButton />
+              </div>
+            </div>
           </div>
+
+
 
           <div className="our-process">
-            <p>Our Process</p>
+            <p className="our-process-header">Our Process:</p>
             <img src={fullprocess} alt="fullprocess" className="fullprocess" />
-          </div>
-
-          <div className="howl-at-us-button-container">
-            <ReqInviteButton />
           </div>
         </div>
       </Fragment>
