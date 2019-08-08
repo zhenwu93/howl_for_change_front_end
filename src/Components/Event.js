@@ -183,7 +183,7 @@ class Event extends Component {
           <div className="grid-container">
             <div className="grid-row container">
               <div className="grid-item-div">
-                <img className="event-grid-item" src={event1} alt="event1" />
+                <img className="grid-item" src={event1} alt="event1" />
               </div>
 
               <div className="grid-item-div">
