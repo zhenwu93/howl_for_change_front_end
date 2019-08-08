@@ -26,7 +26,7 @@ import event29 from "../assets/events/HFCEvents/event29.JPG";
 import event30 from "../assets/events/HFCEvents/event30.jpg";
 import event31 from "../assets/events/HFCEvents/event31.jpg";
 import event32 from "../assets/events/HFCEvents/event32.jpg";
-import eventvideo from "../assets/events/events.mp4";
+import eventvideo from "../assets/events/events.MOV";
 
 import yellow from "../assets/yellow.png";
 import stitcher from "../assets/more/podcast/stitcher.png";
@@ -44,6 +44,10 @@ import tunein from "../assets/more/podcast/tunein.png";
 import youtube from "../assets/more/podcast/youtube.png";
 import radiocom from "../assets/more/podcast/radiocom.png";
 
+import empowering from "../assets/events/empowering.png";
+import nextevent from "../assets/events/nextevent.png";
+import lastevent from "../assets/events/lastevent.png";
+import lastepisode from "../assets/events/lastepisode.png";
 
 import "./event.css";
 
@@ -58,7 +62,7 @@ class Event extends Component {
         <div className="empower-logo-container">
           <div className="empower-mission">
             <div className="empower-header">
-              <h1>EMPOWERING COMMUNITIES EVENTS</h1>
+              <img src={empowering} alt="empowering" className="empowering-header"/>
             </div>
 
             <div className="empower-paragraph1">
@@ -120,7 +124,7 @@ class Event extends Component {
           </div>
 
           <div className="next-event-text">
-            <h1>OUR NEXT EVENT</h1>
+            <img src={nextevent} alt="nextevent" className="next-event-header" />
             <h2>EMPOWERING COMMUNITIES</h2>
             <h2>WITH AMMAR BELAL FROM ONE432</h2>
 
@@ -159,7 +163,7 @@ class Event extends Component {
         <div className="last-event-container">
           <div className="last-event-text">
             <div className="last-event-header">
-              <h1>Our last event</h1>
+              <img src={lastevent} alt="lastevent" className="last-event-header"/>
               <h2>EMPOWERING COMMUNITIES</h2>
               <h2>With arlan hamilton</h2>
             </div>
@@ -390,8 +394,8 @@ class Event extends Component {
         </div>
 
         <div className="event-video-container">
-          <img src={yellow} alt="yellow line" className="bottom-yellow-line" />
-          <p className="listen-or-watch-p">LISTEN TO OR WATCH THE 4TH HFC EPISODE NOW</p>
+        
+          <img src={lastepisode} alt="lastepisode" className="lastepisode"/>
 
           <div className="hfc-sound-and-video-ctn">
             <div className="hfc-sound-ctn">
