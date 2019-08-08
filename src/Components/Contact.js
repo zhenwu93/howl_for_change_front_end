@@ -10,11 +10,11 @@ class Contact extends Component {
       crEmailValue: "",
       crFNameValue: "",
       crLNameValue: "",
-      crMessage: "",
+      crPhone: "",
       npEmailValue: "",
       npFNameValue: "",
       npLNameValue: "",
-      npMessage: "",
+      npPhone: "",
       npOrganization: ""
     };
   }
@@ -99,21 +99,19 @@ class Contact extends Component {
                 />
               </div>
 
-              <div className="formMargin message-box">
-                <label className="message-label" htmlFor="MERGE7">
-                  Message
+              <div className="formMargin phone-box">
+                <label className="phone-label" htmlFor="MERGE4">
+                  Phone
                 </label>
                 <br />
-                <textarea
-                  className="message-input"
-                  rows="8"
-                  cols="40"
+                <input
+                  className="phone-input"
                   type="text"
-                  name="MESSAGE"
-                  id="MERGE7"
-                  value={this.state.crMessage}
+                  name="PHONE"
+                  id="MERGE4"
+                  value={this.state.crPhone}
                   onChange={e => {
-                    this.setState({ crMessage: e.target.value });
+                    this.setState({ crPhone: e.target.value });
                   }}
                 />
               </div>
@@ -242,18 +240,17 @@ class Contact extends Component {
                 />
               </div>
 
-              <div className="formMargin message-box">
-                <label htmlFor="MERGE7">Message</label>
+              <div className="formMargin phone-box">
+                <label htmlFor="MERGE4">Phone</label>
                 <br />
-                <textarea
-                  rows="8"
-                  cols="40"
+                <input
+                  className="phone-input"
                   type="text"
-                  name="MESSAGE"
-                  id="MERGE7"
-                  value={this.state.npMessage}
+                  name="PHONE"
+                  id="MERGE4"
+                  value={this.state.npPhone}
                   onChange={e => {
-                    this.setState({ npMessage: e.target.value });
+                    this.setState({ npPhone: e.target.value });
                   }}
                 />
               </div>
