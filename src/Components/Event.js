@@ -2,6 +2,14 @@ import React, { Component, Fragment } from "react";
 import hfceventicon from "../assets/events/HFCeventicon.png";
 import eventlogo from "../assets/events/events.jpg";
 
+import event1 from "../assets/events/HFCEvents/event1.jpg";
+import event2 from "../assets/events/HFCEvents/event2.jpg";
+import event3 from "../assets/events/HFCEvents/event3.jpg";
+import event4 from "../assets/events/HFCEvents/event4.jpg";
+import event5 from "../assets/events/HFCEvents/event5.jpg";
+import event6 from "../assets/events/HFCEvents/event6.jpg";
+import event7 from "../assets/events/HFCEvents/event7.jpg";
+import event8 from "../assets/events/HFCEvents/event8.jpg";
 import event9 from "../assets/events/HFCEvents/event9.jpg";
 import event10 from "../assets/events/HFCEvents/event10.jpg";
 import event11 from "../assets/events/HFCEvents/event11.jpg";
@@ -17,15 +25,8 @@ import event20 from "../assets/events/HFCEvents/event20.jpg";
 import event21 from "../assets/events/HFCEvents/event21.jpg";
 import event22 from "../assets/events/HFCEvents/event22.jpg";
 import event23 from "../assets/events/HFCEvents/event23.jpg";
-import event24 from "../assets/events/HFCEvents/event24.JPG";
-import event25 from "../assets/events/HFCEvents/event25.JPG";
-import event26 from "../assets/events/HFCEvents/event26.JPG";
-import event27 from "../assets/events/HFCEvents/event27.JPG";
-import event28 from "../assets/events/HFCEvents/event28.JPG";
-import event29 from "../assets/events/HFCEvents/event29.JPG";
-import event30 from "../assets/events/HFCEvents/event30.jpg";
-import event31 from "../assets/events/HFCEvents/event31.jpg";
-import event32 from "../assets/events/HFCEvents/event32.jpg";
+import event24 from "../assets/events/HFCEvents/event24.jpg";
+
 import eventvideo from "../assets/events/events.MOV";
 
 import stitcher from "../assets/more/podcast/stitcher.png";
@@ -199,7 +200,73 @@ class Event extends Component {
 
             <div className="event-grid-row-container">
               <div className="event-grid-item-div">
-                <img className="event-grid-item" src={event9} alt="event9" />
+                <img className="event-grid-item" src={event1} alt="event1" />
+              </div>
+
+              <div className="event-grid-item-div">
+                <img
+                  className="event-grid-item"
+                  src={event2}
+                  alt="event2"
+                />
+              </div>
+
+              <div className="event-grid-item-div">
+                <img
+                  className="event-grid-item"
+                  src={event3}
+                  alt="event3"
+                />
+              </div>
+
+              <div className="event-grid-item-div">
+                <img
+                  className="event-grid-item"
+                  src={event4}
+                  alt="event4"
+                />
+              </div>
+
+              <div className="event-grid-item-div">
+                <img
+                  className="event-grid-item"
+                  src={event5}
+                  alt="event5"
+                />
+              </div>
+
+              <div className="event-grid-item-div">
+                <img
+                  className="event-grid-item"
+                  src={event6}
+                  alt="event6"
+                />
+              </div>
+
+              <div className="event-grid-item-div">
+                <img
+                  className="event-grid-item"
+                  src={event7}
+                  alt="event7"
+                />
+              </div>
+
+              <div className="event-grid-item-div">
+                <img
+                  className="event-grid-item"
+                  src={event8}
+                  alt="event8"
+                />
+              </div>
+            </div>
+
+            <div className="event-grid-row-container">
+              <div className="event-grid-item-div">
+                <img
+                  className="event-grid-item"
+                  src={event9}
+                  alt="event9"
+                />
               </div>
 
               <div className="event-grid-item-div">
@@ -321,72 +388,6 @@ class Event extends Component {
                   className="event-grid-item"
                   src={event24}
                   alt="event24"
-                />
-              </div>
-            </div>
-
-            <div className="event-grid-row-container">
-              <div className="event-grid-item-div">
-                <img
-                  className="event-grid-item"
-                  src={event25}
-                  alt="event25"
-                />
-              </div>
-
-              <div className="event-grid-item-div">
-                <img
-                  className="event-grid-item"
-                  src={event26}
-                  alt="event26"
-                />
-              </div>
-
-              <div className="event-grid-item-div">
-                <img
-                  className="event-grid-item"
-                  src={event27}
-                  alt="event27"
-                />
-              </div>
-
-              <div className="event-grid-item-div">
-                <img
-                  className="event-grid-item"
-                  src={event28}
-                  alt="event28"
-                />
-              </div>
-
-              <div className="event-grid-item-div">
-                <img
-                  className="event-grid-item"
-                  src={event29}
-                  alt="event29"
-                />
-              </div>
-
-              <div className="event-grid-item-div">
-                <img
-                  className="event-grid-item"
-                  src={event30}
-                  alt="event30"
-                />
-              </div>
-
-              <div className="event-grid-item-div">
-                <img
-                  className="event-grid-item"
-                  src={event31}
-                  alt="event31"
-                />
-              </div>
-
-              <div className="event-grid-item-div">
-                <img
-                  className="event-grid-item"
-                  src={event32}
-                  alt="event32"
                 />
               </div>
             </div>
