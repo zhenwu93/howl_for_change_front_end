@@ -35,37 +35,43 @@ class Gallery extends Component {
           </div>
 
             <div className="columns is-vcentered is-multiline">
-                {/* photo category */}
+                {/* photo category category needs to be fixed*/}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item-top">
-                      <img
+                  <div className="gallery-item-fix">
+                    <div className="main-image-one">
+                      {/* <img
                         src={photo}
                         alt="logo"
                         className="categoryLogo"
-                      />
+                      /> */}
+                    </div>
 
+                  {/* <figure className="image is-4by3">
                       <img
-                        // className="grid-item"
+                        className=""
                         src="https://static1.squarespace.com/static/517773bde4b08b3c09a05827/5c0343dcaa4a996bc0212ba5/5c034447352f531f773a0a03/1543717964348/segou-025-IMG_9257.jpg?format=1500w"
                         alt="photo1"
                       />
+                  </figure> */}
                   </div>
                 </div>
                 
-                {/* photo 2 */}
+                {/* photo 2  done*/}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item">
-                    <img
-                      // className="photo2 grid-item"
-                      src="https://static1.squarespace.com/static/5137808ce4b06d40ae8adf8a/5b6a037e03ce6485a8d7ce56/5b6a395e70a6ad2f21c04939/1533688287946/egyptian+soldiers+arab+spring.jpg?format=750w"
-                      alt="photo2"
-                    />
+                  <div className="gallery-item-fix">
+                    <div className="main-image-two">
+                      {/* <img
+                        // className="photo2 grid-item"
+                        src="https://static1.squarespace.com/static/5137808ce4b06d40ae8adf8a/5b6a037e03ce6485a8d7ce56/5b6a395e70a6ad2f21c04939/1533688287946/egyptian+soldiers+arab+spring.jpg?format=750w"
+                        alt="photo2"
+                      /> */}
+                    </div>
                   </div>
                 </div>
 
-                {/* video1 */}
+                {/* video1 done*/}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item">
+                  <div className="gallery-frame-fix">
                     <iframe
                       title="video1"
                       // className="grid-item video1"
@@ -73,13 +79,16 @@ class Gallery extends Component {
                       frameBorder="0"
                       allow="autoplay; fullscreen"
                       allowFullScreen
+                      top="0"
+                      left="0"
+                      height="500"
                     />
                   </div>
                 </div>
                 
-                {/* video2 */}
+                {/* video2 category not done*/}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item">
+                  <div className="gallery-frame-fix">
                     <iframe
                       title="video2"
                       // className="grid-item video2"
@@ -90,39 +99,41 @@ class Gallery extends Component {
                       allowFullScreen
                     />
 
-                    <img
+                    {/* <img
                       src={video}
                       alt="videologo"
                       // className="leftLogo categoryLogo videologo"
                       align="right"
-                    />
+                    /> */}
                   </div>
                 </div>
                 
-                {/* music */}
+                {/* music category not done*/}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item">
-                    <img
+                  <div className="gallery-frame-fix">
+                    {/* <img
                       src={music}
                       alt="music"
                       className="categoryLogo musiclogo"
-                    />
-                    <iframe
-                      title="swan"
-                      // className="grid-item song1"
-                      border="0"
-                      src="https://bandcamp.com/EmbeddedPlayer/album=516918889/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-                    >
-                      <a href="http://ariansaleh.bandcamp.com/album/swan-bird-googoosh-remixed">
-                        Swan Bird (Googoosh Remixed) by Arian Saleh
-                      </a>
-                    </iframe>
+                    /> */}
+                    <figure className="iframe-container">
+                      <iframe
+                        title="swan"
+                        // className="grid-item song1"
+                        border="0"
+                        src="https://bandcamp.com/EmbeddedPlayer/album=516918889/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+                      >
+                        <a href="http://ariansaleh.bandcamp.com/album/swan-bird-googoosh-remixed">
+                          Swan Bird (Googoosh Remixed) by Arian Saleh
+                        </a>
+                      </iframe>
+                    </figure>
                   </div>
                 </div>
 
-                {/* soundcloud */}
+                {/* soundcloud done*/}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item">
+                  <div className="gallery-frame-fix">
                     <iframe
                       title="soundcloud"
                       // className="grid-item song2"
@@ -134,47 +145,51 @@ class Gallery extends Component {
                   </div>
                 </div>
 
-                {/* graphic1 */}
+                {/* graphic1 done*/}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item">
-                    <img
-                      // className="grid-item graphic1"
-                      src="https://images.squarespace-cdn.com/content/v1/5137808ce4b06d40ae8adf8a/1533687176760-KC3IPQDFX93UM0GBYONR/ke17ZwdGBToddI8pDm48kD87M0U7Mr8Yzc4-RMcNsOpZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIiumrcAedN-bQTn2R0qAB6AL-GedccOSmw3wZu30bBawKMshLAGzx4R3EDFOm1kBS/jerusalem_potraits.jpg?format=2500w"
-                      alt="graphic1"
-                    />
+                  <div className="gallery-item-fix">
+                    <div className="main-image-three">
+                      {/* <img
+                        // className="grid-item graphic1"
+                        src="https://images.squarespace-cdn.com/content/v1/5137808ce4b06d40ae8adf8a/1533687176760-KC3IPQDFX93UM0GBYONR/ke17ZwdGBToddI8pDm48kD87M0U7Mr8Yzc4-RMcNsOpZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIiumrcAedN-bQTn2R0qAB6AL-GedccOSmw3wZu30bBawKMshLAGzx4R3EDFOm1kBS/jerusalem_potraits.jpg?format=2500w"
+                        alt="graphic1"
+                      /> */}
+                    </div>
                   </div>
                 </div>
                 
-                {/* graphic2 */}
+                {/* graphic2 category not done*/}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item">
-                    <img
+                  <div className="gallery-item-fix">
+                    <div className="main-image-four">
+                    </div>
+                    {/* <img
                       align="right"
                       // className="grid-item graphic2"
                       src="https://images.squarespace-cdn.com/content/v1/5137808ce4b06d40ae8adf8a/1533685790486-RFNJD4UGUMARM3VVV34E/ke17ZwdGBToddI8pDm48kO5kBq5EvnYhvlHvh_s2fYQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc7RIW_1NHz48DMCo4w_aPejh2F2hlNaQzpkS0plhZquSmmKz9-JpnXIHHlDG4RYaL/earthmonth-hero.png?format=2500w"
                       alt="graphic2"
-                    />
+                    /> */}
 
-                    <img
+                    {/* <img
                       src={graphic}
                       alt="graphic"
                       className="leftLogo graphiclogo"
                       align="right"
-                    />
+                    /> */}
                   </div>
                 </div>
 
                 {/* writing1 */}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item">
-                    <img
+                  <div className="gallery-writing-fix">
+                    {/* <img
                       className="categoryLogo writinglogo"
                       src={writing}
                       alt="writing"
-                    />
+                    /> */}
 
                     <blockquote 
-                    // className="grid-item writing1"
+                    className="gallery-blog"
                     >
                       <h4>
                         <a href="https://medium.com/@jeremytneely/with-only-45-red-wolves-left-in-the-wild-confinement-plan-wont-save-species-b5b5b3b9c353">
@@ -196,9 +211,9 @@ class Gallery extends Component {
 
                 {/* writing2 */}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item">
+                  <div className="gallery-writing-fix">
                     <blockquote 
-                    // className="grid-item writing2"
+                    className="gallery-blog"
                     >
                       <h4>
                         <a href="https://medium.com/@jkhoey/economics-and-activism-getting-more-girls-into-stem-2b98c041ba66">
@@ -218,9 +233,9 @@ class Gallery extends Component {
                   </div>
                 </div>
 
-                {/* vimeo */}
+                {/* vimeo done*/}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item">
+                  <div className="gallery-frame-fix">
                     <iframe
                       // className="grid-item animation2"
                       title="tree"
@@ -233,32 +248,33 @@ class Gallery extends Component {
                   </div>
                 </div>
 
-                {/* animation */}
+                {/* animation category not done*/}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item">
-                    <img
+                  <div className="gallery-item-fix">
+                    <div className="main-image-five"></div>
+                    {/* <img
                       src={animation}
                       alt="animation"
                       className="categoryLogo animationlogo"
                       align="right"
-                    />
-                    <img
+                    /> */}
+                    {/* <img
                       // className="grid-item animation1"
                       align="right"
                       src="https://images.squarespace-cdn.com/content/v1/56c890e745bf2194d5449a55/1535821402678-3HR37WTYGTYKIY4FFDZP/ke17ZwdGBToddI8pDm48kBZw6jF4_OvU-ddo_vwqGhp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ub61YCrK70I7JIpWiI8ho4Yi1WvVNQtDE81xuRbL1MFKm0sD-Bab7E9MY8W31A7zMQ/BM+Title+Card+FONT+v1.jpeg?format=1000w"
                       alt="animation1"
-                    />
+                    /> */}
                   </div>
                 </div>
 
-                {/* waiting for peace */}
+                {/* waiting for peace category not done*/}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item">
-                    <img
+                  <div className="gallery-frame-fix">
+                    {/* <img
                       className="categoryLogo newmedialogo"
                       src={newmedia}
                       alt="newmedia"
-                    />
+                    /> */}
                     <iframe
                       // className="grid-item media1"
                       title="waiting for peace"
@@ -270,9 +286,9 @@ class Gallery extends Component {
                   </div>
                 </div>
 
-                {/* authentically us */}
+                {/* authentically us done*/}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item">
+                  <div className="gallery-frame-fix">
                     <iframe
                       // className="grid-item media2"
                       title="authentically us"
@@ -284,9 +300,9 @@ class Gallery extends Component {
                   </div>
                 </div>
 
-                {/* origami */}
+                {/* origami done*/}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item">
+                  <div className="gallery-frame-fix">
                     <iframe
                       // className="grid-item game1"
                       title="origami"
@@ -298,9 +314,9 @@ class Gallery extends Component {
                   </div>
                 </div>
 
-                {/* 1979 revolution */}
+                {/* 1979 revolution category not done*/}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item">
+                  <div className="gallery-frame-fix">
                     <iframe
                       // className="grid-item game2"
                       title="1979 revolution"
@@ -309,58 +325,65 @@ class Gallery extends Component {
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
                     />
-                    <img
+                    {/* <img
                       className="leftLogo "
                       src={gaming}
                       alt="gaming"
                       align="right"
-                    />
+                    /> */}
                   </div>
                 </div>
 
-                {/* chariot */}
+                {/* chariot categor not done*/}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item">
-                    <img
+                  <div className="gallery-item-fix">
+                    <div className="main-image-chariot">
+
+                    </div>
+                    {/* <img
                       className="categoryLogo programlogo"
                       src={programming}
                       alt="programming"
-                    />
+                    /> 
 
-                    <img
+                  <img
                       // className="grid-item chariot"
                       src={chariot}
                       alt="chariot"
-                    />
+                    /> */}
                   </div>
                 </div>
 
-                {/* program1 */}
+                {/* program1 done*/}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item">
-                    <img
+                  <div className="gallery-item-fix">
+                    <div className="main-image-seven">
+                    </div>
+                    {/* <img
                       // className="grid-item program2"
                       src="https://content.fortune.com/wp-content/uploads/2018/10/ar52fmia-hanak.jpg"
                       alt="program1"
-                    />
+                    /> */}
                   </div>
                 </div>
 
-                {/* more1 */}
+                {/* more1 done*/}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item">
-                    <img
+                  <div className="gallery-item-fix">
+                    <div className="main-image-eight"></div>
+                    {/* <img
                       // className="grid-item more1"
                       src="https://www.sadahespiiproctor.com/uploads/9/1/6/7/9167447/img-1364_orig.jpg"
                       alt="more1"
-                    />
+                    /> */}
                   </div>
                 </div>
 
-                {/* more2 */}
+                {/* more2 category not done*/}
                 <div className="column is-one-quarter">
-                  <div className="gallery-item">
-                    <img 
+                  <div className="gallery-item-fix">
+                    <div className="main-image-nine"></div>
+                    {/* <img 
                     // className="grid-item more2"
                     src={moreimg} alt="more2" />
 
@@ -368,7 +391,7 @@ class Gallery extends Component {
                       src={more}
                       alt="more"
                       className="leftLogo morelogo"
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>

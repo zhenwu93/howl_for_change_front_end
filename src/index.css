@@ -310,8 +310,8 @@ li {
 
 .categoryLogo {
   position: relative;
-  top: 33vh;
-  left: 0px;
+  top: -10vh;
+  left: -20px;
   transform: translateY(-50%);
   z-index: 10;
 }
