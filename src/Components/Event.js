@@ -107,7 +107,11 @@ class Event extends Component {
               className="event-video"
             />
             <div className="rsvp-button-ctn">
-              <a href="http://rsvp.neuehouse.com/howlforchangebelal"><button type="button" className="rsvp-button1 button">RSVP HERE</button></a>
+              <a href="http://rsvp.neuehouse.com/howlforchangebelal">
+                <button type="button" className="rsvp-button1 button">
+                  RSVP HERE
+                </button>
+              </a>
             </div>
           </div>
 
@@ -117,7 +121,11 @@ class Event extends Component {
             <h2>WITH AMMAR BELAL FROM ONE432</h2>
 
             <div className="rsvp-button2-ctn">
-            <a href="http://rsvp.neuehouse.com/howlforchangebelal"><button type="button" className="rsvp-button2 button">RSVP HERE</button></a>
+              <a href="http://rsvp.neuehouse.com/howlforchangebelal">
+                <button type="button" className="rsvp-button2 button">
+                  RSVP HERE
+                </button>
+              </a>
             </div>
 
             <div className="event-details" align="left">
@@ -180,97 +188,97 @@ class Event extends Component {
             </div>
           </div>
 
-          <div className="grid-container">
+          <div className="event-grid-container">
             <div className="grid-row container">
-              <div className="grid-item-div">
-                <img className="grid-item" src={event1} alt="event1" />
+              <div className="event-grid-item-div">
+                <img className="event-grid-item" src={event1} alt="event1" />
               </div>
 
-              <div className="grid-item-div">
-                <img className="event2 grid-item" src={event2} alt="event2" />
+              <div className="event-grid-item-div">
+                <img className="event2 event-grid-item" src={event2} alt="event2" />
               </div>
 
-              <div className="grid-item-div">
-                <img className="event3 grid-item" src={event3} alt="event3" />
+              <div className="event-grid-item-div">
+                <img className="event3 event-grid-item" src={event3} alt="event3" />
               </div>
 
-              <div className="grid-item-div">
-                <img className="event4 grid-item" src={event4} alt="event4" />
+              <div className="event-grid-item-div">
+                <img className="event4 event-grid-item" src={event4} alt="event4" />
               </div>
 
-              <div className="grid-item-div">
-                <img className="event5 grid-item" src={event5} alt="event5" />
+              <div className="event-grid-item-div">
+                <img className="event5 event-grid-item" src={event5} alt="event5" />
               </div>
 
-              <div className="grid-item-div">
-                <img className="event6 grid-item" src={event6} alt="event6" />
+              <div className="event-grid-item-div">
+                <img className="event6 event-grid-item" src={event6} alt="event6" />
               </div>
 
-              <div className="grid-item-div">
-                <img className="event7 grid-item" src={event7} alt="event7" />
+              <div className="event-grid-item-div">
+                <img className="event7 event-grid-item" src={event7} alt="event7" />
               </div>
 
-              <div className="grid-item-div">
-                <img className="event8 grid-item" src={event8} alt="event8" />
+              <div className="event-grid-item-div">
+                <img className="event8 event-grid-item" src={event8} alt="event8" />
               </div>
             </div>
 
             <div className="grid-row container">
-              <div className="grid-item-div">
-                <img className="event9 grid-item" src={event9} alt="event9" />
+              <div className="event-grid-item-div">
+                <img className="event9 event-grid-item" src={event9} alt="event9" />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event10 grid-item"
+                  className="event10 event-grid-item"
                   src={event10}
                   alt="event10"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event11 grid-item"
+                  className="event11 event-grid-item"
                   src={event11}
                   alt="event11"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event12 grid-item"
+                  className="event12 event-grid-item"
                   src={event12}
                   alt="event12"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event13 grid-item"
+                  className="event13 event-grid-item"
                   src={event13}
                   alt="event13"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event14 grid-item"
+                  className="event14 event-grid-item"
                   src={event14}
                   alt="event14"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event15 grid-item"
+                  className="event15 event-grid-item"
                   src={event15}
                   alt="event15"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event16 grid-item"
+                  className="event16 event-grid-item"
                   src={event16}
                   alt="event16"
                 />
@@ -278,65 +286,65 @@ class Event extends Component {
             </div>
 
             <div className="grid-row container">
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event17 grid-item"
+                  className="event17 event-grid-item"
                   src={event17}
                   alt="event17"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event18 grid-item"
+                  className="event18 event-grid-item"
                   src={event18}
                   alt="event18"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event19 grid-item"
+                  className="event19 event-grid-item"
                   src={event19}
                   alt="event19"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event20 grid-item"
+                  className="event20 event-grid-item"
                   src={event20}
                   alt="event20"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event21 grid-item"
+                  className="event21 event-grid-item"
                   src={event21}
                   alt="event21"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event22 grid-item"
+                  className="event22 event-grid-item"
                   src={event22}
                   alt="event22"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event23 grid-item"
+                  className="event23 event-grid-item"
                   src={event23}
                   alt="event23"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event24 grid-item"
+                  className="event24 event-grid-item"
                   src={event24}
                   alt="event24"
                 />
@@ -344,65 +352,65 @@ class Event extends Component {
             </div>
 
             <div className="grid-row container">
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event25 grid-item"
+                  className="event25 event-grid-item"
                   src={event25}
                   alt="event25"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event26 grid-item"
+                  className="event26 event-grid-item"
                   src={event26}
                   alt="event26"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event27 grid-item"
+                  className="event27 event-grid-item"
                   src={event27}
                   alt="event27"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event28 grid-item"
+                  className="event28 event-grid-item"
                   src={event28}
                   alt="event28"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event29 grid-item"
+                  className="event29 event-grid-item"
                   src={event29}
                   alt="event29"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event30 grid-item"
+                  className="event30 event-grid-item"
                   src={event30}
                   alt="event30"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event31 grid-item"
+                  className="event31 event-grid-item"
                   src={event31}
                   alt="event31"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event32 grid-item"
+                  className="event32 event-grid-item"
                   src={event32}
                   alt="event32"
                 />
@@ -416,32 +424,34 @@ class Event extends Component {
 
         <div className="event-video-container">
           <img src={yellow} alt="yellow line" className="bottom-yellow-line" />
-          <p className="listen-or-watch-p">LISTEN TO OR WATCH THE 4TH HFC EPISODE NOW</p>
+          <p className="listen-or-watch-p">
+            LISTEN TO OR WATCH THE 4TH HFC EPISODE NOW
+          </p>
 
           <div className="hfc-sound-and-video-ctn">
-          <div className="hfc-sound-ctn">
-            <iframe
-              title="soundcloud"
-              className="grid-item-song2"
-              scrolling="no"
-              frameBorder="no"
-              allow="autoplay"
-              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/620223069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-              width="205px"
-              height="206px"
-            />
-          </div>
+            <div className="hfc-sound-ctn">
+              <iframe
+                title="soundcloud"
+                className="grid-item-song2"
+                scrolling="no"
+                frameBorder="no"
+                allow="autoplay"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/620223069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                width="205px"
+                height="206px"
+              />
+            </div>
 
-          <div className="hfc-video-ctn">
-            <iframe
-              src="https://www.youtube.com/embed/uX0fowPSQsY"
-              title="HFCep4"
-              frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              height="206px"
-            />
-          </div>
+            <div className="hfc-video-ctn">
+              <iframe
+                src="https://www.youtube.com/embed/uX0fowPSQsY"
+                title="HFCep4"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                height="206px"
+              />
+            </div>
           </div>
         </div>
       </Fragment>
