@@ -180,238 +180,205 @@ class Event extends Component {
             </div>
           </div>
 
-          <div className="grid-container">
-            <div className="grid-row container">
-              <div className="grid-item-div">
-                <img className="grid-item" src={event1} alt="event1" />
+          <div className="event-grid-container">
+
+            <div className="event-grid-row-container">
+              <div className="event-grid-item-div">
+                <img className="event-grid-item" src={event9} alt="event9" />
               </div>
 
-              <div className="grid-item-div">
-                <img className="event2 grid-item" src={event2} alt="event2" />
-              </div>
-
-              <div className="grid-item-div">
-                <img className="event3 grid-item" src={event3} alt="event3" />
-              </div>
-
-              <div className="grid-item-div">
-                <img className="event4 grid-item" src={event4} alt="event4" />
-              </div>
-
-              <div className="grid-item-div">
-                <img className="event5 grid-item" src={event5} alt="event5" />
-              </div>
-
-              <div className="grid-item-div">
-                <img className="event6 grid-item" src={event6} alt="event6" />
-              </div>
-
-              <div className="grid-item-div">
-                <img className="event7 grid-item" src={event7} alt="event7" />
-              </div>
-
-              <div className="grid-item-div">
-                <img className="event8 grid-item" src={event8} alt="event8" />
-              </div>
-            </div>
-
-            <div className="grid-row container">
-              <div className="grid-item-div">
-                <img className="event9 grid-item" src={event9} alt="event9" />
-              </div>
-
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event10 grid-item"
+                  className="event-grid-item"
                   src={event10}
                   alt="event10"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event11 grid-item"
+                  className="event-grid-item"
                   src={event11}
                   alt="event11"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event12 grid-item"
+                  className="event-grid-item"
                   src={event12}
                   alt="event12"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event13 grid-item"
+                  className="event-grid-item"
                   src={event13}
                   alt="event13"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event14 grid-item"
+                  className="event-grid-item"
                   src={event14}
                   alt="event14"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event15 grid-item"
+                  className="event-grid-item"
                   src={event15}
                   alt="event15"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event16 grid-item"
+                  className="event-grid-item"
                   src={event16}
                   alt="event16"
                 />
               </div>
             </div>
 
-            <div className="grid-row container">
-              <div className="grid-item-div">
+            <div className="event-grid-row-container">
+              <div className="event-grid-item-div">
                 <img
-                  className="event17 grid-item"
+                  className="event-grid-item"
                   src={event17}
                   alt="event17"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event18 grid-item"
+                  className="event-grid-item"
                   src={event18}
                   alt="event18"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event19 grid-item"
+                  className="event-grid-item"
                   src={event19}
                   alt="event19"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event20 grid-item"
+                  className="event-grid-item"
                   src={event20}
                   alt="event20"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event21 grid-item"
+                  className="event-grid-item"
                   src={event21}
                   alt="event21"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event22 grid-item"
+                  className="event-grid-item"
                   src={event22}
                   alt="event22"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event23 grid-item"
+                  className="event-grid-item"
                   src={event23}
                   alt="event23"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event24 grid-item"
+                  className="event-grid-item"
                   src={event24}
                   alt="event24"
                 />
               </div>
             </div>
 
-            <div className="grid-row container">
-              <div className="grid-item-div">
+            <div className="event-grid-row-container">
+              <div className="event-grid-item-div">
                 <img
-                  className="event25 grid-item"
+                  className="event-grid-item"
                   src={event25}
                   alt="event25"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event26 grid-item"
+                  className="event-grid-item"
                   src={event26}
                   alt="event26"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event27 grid-item"
+                  className="event-grid-item"
                   src={event27}
                   alt="event27"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event28 grid-item"
+                  className="event-grid-item"
                   src={event28}
                   alt="event28"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event29 grid-item"
+                  className="event-grid-item"
                   src={event29}
                   alt="event29"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event30 grid-item"
+                  className="event-grid-item"
                   src={event30}
                   alt="event30"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event31 grid-item"
+                  className="event-grid-item"
                   src={event31}
                   alt="event31"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event32 grid-item"
+                  className="event-grid-item"
                   src={event32}
                   alt="event32"
                 />
               </div>
             </div>
-            <p className="credentials" align="right">
-              *photos courtesy of John Bernstein, Elko Weaver, and NeueHouse.
-            </p>
           </div>
+          <p className="credentials" align="right">
+            *photos courtesy of John Bernstein, Elko Weaver, and NeueHouse.
+          </p>
         </div>
 
         <div className="event-video-container">

@@ -189,20 +189,20 @@ li {
 }
 
 .req-invite-div {
-  padding: 15px;
+  padding: 13px;
   display: block;
   margin: 0 auto;
   background-color: #ffffff;
   border: black solid;
-  border-width: 1px;
+  border-width: 2px;
   text-align: center;
   padding-bottom: 15px;
   width: 300px;
-  height: 51px;
+  height: 50px;
 }
 
 .req-invite-btn {
-  font-size: 45px;
+  font-size: 2.9em;
   background-color: #ffffff;
   color: black;
   width: 331px;
@@ -296,15 +296,15 @@ li {
 
 .grid-item-div {
   position: relative;
-  width: 320px;
-  height: 214px;
+  width: 24vw;
+  height: 24vh;
   display: flex;
   align-items: center;
 }
 
 .grid-item {
-  width: 320px;
-  height: 214px;
+  width: 24vw;
+  height: 24vh;
   max-width: 320px;
   max-height: 214px;
   position: absolute;

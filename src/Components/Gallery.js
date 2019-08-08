@@ -58,7 +58,7 @@ class Gallery extends Component {
               <div className="grid-item-div">
                 <iframe
                   title="video1"
-                  className="grid-item video1"
+                  className="video1 grid-item "
                   src="https://player.vimeo.com/video/345012446"
                   frameBorder="0"
                   allow="autoplay; fullscreen"
@@ -69,7 +69,7 @@ class Gallery extends Component {
               <div className="grid-item-div">
                 <iframe
                   title="video2"
-                  className="grid-item video2"
+                  className="video2 grid-item "
                   align="right"
                   src="https://player.vimeo.com/video/116513060"
                   frameBorder="0"
@@ -95,7 +95,7 @@ class Gallery extends Component {
                 />
                 <iframe
                   title="swan"
-                  className="grid-item song1"
+                  className="song1 grid-item "
                   border="0"
                   src="https://bandcamp.com/EmbeddedPlayer/album=516918889/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
                 >
