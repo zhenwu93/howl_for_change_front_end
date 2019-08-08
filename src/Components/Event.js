@@ -89,6 +89,7 @@ class Event extends Component {
                 actively utilize storytelling and media to shape the cultural
                 narrative and create social change.
               </p>
+              <br/>
             </div>
 
             <div className="empower-footnote">
@@ -163,11 +164,9 @@ class Event extends Component {
         <div className="last-event-container">
           <div className="last-event-text">
             <div className="last-event-header">
-
-              <div className="last-event-img-container">
-                <img src={lastevent} alt="lastevent" className="last-event-header"/>
-              </div>
-
+            <div className="last-event-img-container">
+              <img src={lastevent} alt="lastevent" className="last-event-header-img"/>
+            </div>
               <h2>EMPOWERING COMMUNITIES</h2>
               <h2>With arlan hamilton</h2>
             </div>

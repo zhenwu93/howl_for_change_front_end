@@ -116,6 +116,7 @@
 .next-event-header {
   width: 13vw;
   height: auto;
+  padding-bottom: 1vh;
 }
 
 .next-event-text {
@@ -142,7 +143,7 @@
 
 .rsvp-button1{
   position:relative;
-  right: 39%;
+  right: 35%;
 }
 
 .rsvp-button2-ctn{
@@ -153,16 +154,10 @@
 /* .last-event-header {
   text-transform: capitalize;
 } */
-.last-event-header{
+.last-event-header-img {
+  width: 13vw;
   height: auto;
-  padding-bottom: 20px;
-}
-
-.last-event-header h1 {
-  font-family: "BebasNeueBold";
-  font-size: 2.7em;
-  border-top: 5px #e4b70e solid;
-  max-width: 186px;
+  padding-bottom: 1vh;
 }
 
 .last-event-header h2 {
