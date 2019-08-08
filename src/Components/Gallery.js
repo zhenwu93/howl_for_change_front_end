@@ -16,6 +16,7 @@ import chariot from "../assets/content/chariot.png";
 import yellow from "../assets/yellow.png";
 import tagline from "../assets/issues/tagline.png";
 import whoweare from "../assets/who we are.png";
+import Modal from 'react-modal';
 // import "./gallery.css"
 
 class Gallery extends Component {
@@ -28,6 +29,7 @@ class Gallery extends Component {
     this.setState({
       isOpen: !this.state.isOpen
     })
+    console.log('clicked');
   }
 
   render() {
@@ -35,7 +37,9 @@ class Gallery extends Component {
       <section>
         <div className="gallery container grid-ctn">
           <div className="gallery-text-div">
-            <img src={whoweare} alt="whoweare" className="whoweare" />
+            <Modal>
+              <img src={whoweare} alt="whoweare" className="whoweare" />
+            </Modal>
             <p className="gallery-paragraph rightAlignText">
               OUR COMMUNITY IS MADE UP OF STORYTELLERS AND CONTENT CREATOR, BOTH
               VETERAN AND EMERGING, EACH ONE FUELED BY PASSION AND CREATIVITY.
