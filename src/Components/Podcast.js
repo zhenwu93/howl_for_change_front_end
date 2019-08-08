@@ -20,6 +20,9 @@ import fullprocess from "../assets/more/fullprocess.png";
 import podcastIcon from "../assets/more/podcast/hfcpodcasticon.png";
 import radiocom from "../assets/more/podcast/radiocom.png";
 import pawson from "../assets/more/pawson.png";
+import pawsonapproach from '../assets/HFC paws on.png'
+import arapp from '../assets/HFC ar app.png'
+import podcastyoutube from '../assets/HFC podcast youtube.png'
 
 import "./podcast.css";
 
@@ -30,7 +33,7 @@ class Podcast extends Component {
         <div className="podcast-container">
           <div className="podcast-youtube-container">
             <div className="podcast-youtube">
-              <h1 className="podcast-header">HFC PODCAST & YOUTUBE SERIES</h1>
+              <img src={podcastyoutube} alt="podcastyoutube" className="podcastyoutube"></img>
               <h2>
                 INSPIRING CONVERSATIONS WITH INDIVIDUALS FROM ALL WALKS OF LIFE{" "}
               </h2>
@@ -228,7 +231,7 @@ class Podcast extends Component {
           <div className="hfc-app-container">
             <img src={hfcapp} alt="applogo" className="phone-app" />
             <div className="hfc-app-paragraph">
-              <h1 className="app-header">HFC AR APP</h1>
+              <img src={arapp} alt="arapp" className="arapp"></img>
               <p>
                 THE HOWL FOR CHANGE AR APP OFFERS AN OPPORTUNITY TO MEANINGFULLY
                 CONTRIBUTE TO CHANGING SOCIAL BIAS AND FALSE NARRATIVES.
@@ -266,7 +269,7 @@ class Podcast extends Component {
 
           <div className="little-giant-wolf-container">
             <div className="wolf-text">
-              <p className="paws-header">PAWS ON APPROACH</p>
+              <img src={pawsonapproach} alt="pawsonapproach" className="pawsonapproach"></img>
               <p className="paws-on-paragraph">
                 OUR AGENCY & CONTENT STUDIO OFFERS NONPROFITS A HANDS-ON &{" "}
                 HOLISTIC APPROACH FOR THEIR CREATIVE CAMPAIGN AND SERVICE NEEDS,
