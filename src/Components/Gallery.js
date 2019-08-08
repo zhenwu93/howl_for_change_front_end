@@ -15,16 +15,27 @@ import writing from "../assets/content/writing.png";
 import chariot from "../assets/content/chariot.png";
 import yellow from "../assets/yellow.png";
 import tagline from "../assets/issues/tagline.png";
+import whoweare from "../assets/who we are.png";
 // import "./gallery.css"
 
 class Gallery extends Component {
+
+  state = {
+    isOpen: false
+  }
+
+  handleShowDialog = () => {
+    this.setState({
+      isOpen: !this.state.isOpen
+    })
+  }
+
   render() {
     return (
       <section>
         <div className="gallery container grid-ctn">
           <div className="gallery-text-div">
-            <img src={yellow} alt="yellowline" className="wwr-yellowline1" />
-            <p className="gallery-header"> WHO WE ARE </p>
+            <img src={whoweare} alt="whoweare" className="whoweare" />
             <p className="gallery-paragraph rightAlignText">
               OUR COMMUNITY IS MADE UP OF STORYTELLERS AND CONTENT CREATOR, BOTH
               VETERAN AND EMERGING, EACH ONE FUELED BY PASSION AND CREATIVITY.
@@ -44,6 +55,7 @@ class Gallery extends Component {
                   className="grid-item"
                   src="https://static1.squarespace.com/static/517773bde4b08b3c09a05827/5c0343dcaa4a996bc0212ba5/5c034447352f531f773a0a03/1543717964348/segou-025-IMG_9257.jpg?format=1500w"
                   alt="photo1"
+                  onClick={this.handleShowDialog}
                 />
               </div>
 
