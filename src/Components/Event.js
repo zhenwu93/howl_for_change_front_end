@@ -156,7 +156,11 @@ class Event extends Component {
               <br />
               <p>The event is free. We can't wait to see you in NYC soon.</p>
               <br />
-              <p>xoxo</p>
+              <div className="emoji-div">
+                <p>xoxo</p>
+                <i className="em em-wolf"></i>
+                <i className="em em-sparkling_heart"></i>
+              </div>
             </div>
           </div>
         </div>

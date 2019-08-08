@@ -287,3 +287,8 @@
   transform: translateX(-50%);
   margin: 0;
 }
+
+.emoji-div {
+  display: flex;
+  justify-content: flex-start;
+}
