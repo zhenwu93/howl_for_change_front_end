@@ -24,7 +24,7 @@ class Topnav extends Component {
               <li>
                 <NavLink to="/podcast">More From HFC</NavLink>
               </li>
-                <ReqInviteButton/>
+              <ReqInviteButton/>
           </div>
         </div>
       </nav>
