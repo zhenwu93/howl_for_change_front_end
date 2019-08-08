@@ -476,7 +476,7 @@ input[type="text"],
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  /* align-self: center */
+  align-self: center;
 }
 
 .footer-nav-ctn{
@@ -492,4 +492,28 @@ input[type="text"],
   font-style: Helvetica, sans-serif;
   color: #ffffff;
   margin: 1em;
+}
+
+.howl-footer-img {
+  max-width: 32px;
+  max-height: 32px;
+  padding: 5px;
+}
+
+.twitter-footer-img {
+  max-width: 32px;
+  max-height: 32px;
+  padding: 5px;
+}
+
+.instagram-footer-img {
+  max-width: 32px;
+  max-height: 32px;
+  padding: 5px;
+}
+
+.facebook-footer-img{
+  max-width: 32px;
+  max-height: 32px;
+  padding: 5px;
 }

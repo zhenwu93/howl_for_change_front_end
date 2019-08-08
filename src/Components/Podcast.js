@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from "react";
-import ReqInviteButton from "./ReqInviteButton";
 
 import stitcher from "../assets/more/podcast/stitcher.png";
 import apple from "../assets/more/podcast/apple.png";

@@ -29,17 +29,17 @@ class Footer extends Component {
             </li>
               <li>
                 <a href="https://twitter.com/howlforchange">
-                  <img src={twitter} alt="twitter"/>
+                  <img src={twitter} alt="twitter" className="twitter-footer-img"/>
                 </a>
               </li>
               <li>
                 <a href="https://www.instagram.com/howlforchange/">
-                  <img src={instagram} alt="ig"/>
+                  <img src={instagram} alt="ig" className="instagram-footer-img"/>
                 </a>
               </li>
               <li>
                 <a href="https://www.facebook.com/howlforchange">
-                  <img src={facebook} alt="fb"/>
+                  <img src={facebook} alt="fb" className="facebook-footer-img"/>
                 </a>
               </li>
             </ul>

@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from "react";
-import ReqInviteButton from "./ReqInviteButton";
 import hfceventicon from "../assets/events/HFCeventicon.png";
 import eventlogo from "../assets/events/events.jpg";
 
@@ -101,9 +100,9 @@ class Event extends Component {
             <video
               src={eventvideo}
               title="eventvid"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
               align="left"
               className="event-video"
             />
@@ -181,10 +180,10 @@ class Event extends Component {
             </div>
           </div>
 
-          <div className="grid-container container">
+          <div className="grid-container">
             <div className="grid-row container">
               <div className="grid-item-div">
-                <img className="grid-item" src={event1} alt="event1" />
+                <img className="event-grid-item" src={event1} alt="event1" />
               </div>
 
               <div className="grid-item-div">
@@ -437,9 +436,9 @@ class Event extends Component {
             <iframe
               src="https://www.youtube.com/embed/uX0fowPSQsY"
               title="HFCep4"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
               height="206px"
             />
           </div>
