@@ -7,7 +7,7 @@
 
 .podcast-youtube h2 {
   font-family: "BebasNeueBold";
-  font-size: 2em;
+  font-size: 2.4em;
 }
 
 .hfc-media-container {
@@ -153,7 +153,8 @@ li {
 }
 
 .hfc-app-paragraph p {
-  font-size: 2.15em;
+  font-size: 2.4em;
+
 }
 
 #app-paragraph {
@@ -183,6 +184,7 @@ li {
 
 h1.find-ar {
   margin-top: 25px;
+  margin-bottom: 25px
 }
 
 .app-store-icon {
@@ -236,4 +238,30 @@ h1.find-ar {
 .podcast-grid-item-div a {
   width: 135px;
   height: 36px;
+}
+
+.pawsonapproach{
+  width: 17vw;
+  height: auto;
+  padding-top: 75px;
+}
+
+.arapp{
+  width: 13vw;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.podcastyoutube{
+  width: 15vw;
+  height: auto;
+  padding-bottom: 20px
+}
+
+.paws-on-img-container{
+  padding-top: 100px;
+}
+
+.howl-at-us-button-container{
+  padding-top: 20px;
 }
