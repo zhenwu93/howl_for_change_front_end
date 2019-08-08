@@ -27,11 +27,16 @@
   align-items: center;
 }
 
-.empower-header h1 {
+/* .empower-header h1 {
   font-size: 2.7em;
   border-top: 5px #e4b70e solid;
   width: 409px;
   font-family: "BebasNeueBold";
+} */
+
+.empowering-header {
+  width: 20vw;
+  height: auto;
 }
 
 .empower-paragraph1 {
@@ -108,6 +113,11 @@
   justify-content: space-between;
 }
 
+.next-event-header {
+  width: 13vw;
+  height: auto;
+}
+
 .next-event-text {
   max-width: 55%;
 }
@@ -140,8 +150,12 @@
   padding-bottom: 6vh;
 }
 
-.last-event-header {
+/* .last-event-header {
   text-transform: capitalize;
+} */
+.last-event-header{
+  height: auto;
+  padding-bottom:20px;
 }
 
 .last-event-header h1 {
@@ -229,17 +243,19 @@
   padding: 5px;
 }
 
+.lastepisode {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35vw;
+  padding-bottom: 50px;
+}
+
 .credentials{
   font-size: 1em;
 }
 
 /*------------------------------*/
-.bottom-yellow-line {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40vw;
-}
 
 .listen-or-watch-p {
   text-align: center;

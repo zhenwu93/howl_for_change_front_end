@@ -28,7 +28,6 @@ import event31 from "../assets/events/HFCEvents/event31.jpg";
 import event32 from "../assets/events/HFCEvents/event32.jpg";
 import eventvideo from "../assets/events/events.MOV";
 
-import yellow from "../assets/yellow.png";
 import stitcher from "../assets/more/podcast/stitcher.png";
 import apple from "../assets/more/podcast/apple.png";
 import breaker from "../assets/more/podcast/breaker.png";
@@ -163,7 +162,11 @@ class Event extends Component {
         <div className="last-event-container">
           <div className="last-event-text">
             <div className="last-event-header">
-              <img src={lastevent} alt="lastevent" className="last-event-header"/>
+
+              <div className="last-event-img-container">
+                <img src={lastevent} alt="lastevent" className="last-event-header"/>
+              </div>
+
               <h2>EMPOWERING COMMUNITIES</h2>
               <h2>With arlan hamilton</h2>
             </div>
@@ -394,7 +397,7 @@ class Event extends Component {
         </div>
 
         <div className="event-video-container">
-        
+
           <img src={lastepisode} alt="lastepisode" className="lastepisode"/>
 
           <div className="hfc-sound-and-video-ctn">
