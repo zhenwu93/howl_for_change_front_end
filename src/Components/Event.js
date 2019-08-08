@@ -25,7 +25,7 @@ import event20 from "../assets/events/HFCEvents/event20.jpg";
 import event21 from "../assets/events/HFCEvents/event21.jpg";
 import event22 from "../assets/events/HFCEvents/event22.jpg";
 import event23 from "../assets/events/HFCEvents/event23.jpg";
-import event24 from "../assets/events/HFCEvents/event24.jpg";
+import event24 from "../assets/events/event24.jpg";
 
 import eventvideo from "../assets/events/events.MOV";
 
