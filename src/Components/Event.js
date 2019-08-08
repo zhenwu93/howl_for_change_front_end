@@ -417,27 +417,32 @@ class Event extends Component {
 
         <div className="event-video-container">
           <img src={yellow} alt="yellow line" className="bottom-yellow-line" />
-          <p align="center">LISTEN TO OR WATCH THE 4TH HFC EPISODE NOW</p>
+          <p className="listen-or-watch-p">LISTEN TO OR WATCH THE 4TH HFC EPISODE NOW</p>
 
-          <div className="hfc-sound-container">
+          <div className="hfc-sound-and-video-ctn">
+          <div className="hfc-sound-ctn">
             <iframe
               title="soundcloud"
-              className="grid-item song2"
+              className="grid-item-song2"
               scrolling="no"
               frameBorder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/620223069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+              width="205px"
+              height="206px"
             />
           </div>
 
-          <div className="hfc-video-container">
+          <div className="hfc-video-ctn">
             <iframe
               src="https://www.youtube.com/embed/uX0fowPSQsY"
               title="HFCep4"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
+              height="206px"
             />
+          </div>
           </div>
         </div>
       </Fragment>

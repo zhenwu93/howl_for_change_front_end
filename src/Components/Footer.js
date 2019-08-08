@@ -24,7 +24,7 @@ class Footer extends Component {
             <ul className="links">
             <li>
               <a href="http://littlegiantwolf.com">
-                <img src={howl} alt="howl"/>
+                <img src={howl} alt="howl" className="howl-footer-img"/>
               </a>
             </li>
               <li>
