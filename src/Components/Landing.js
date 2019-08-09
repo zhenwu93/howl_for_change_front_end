@@ -1,5 +1,4 @@
 import React, {Component} from "react"
-import ReqInviteButton from './ReqInviteButton'
 import hero from "../assets/hero/hero.jpg"
 import tagline from "../assets/issues/tagline.png"
 import hashtag from '../assets/issues/hashtag.png'

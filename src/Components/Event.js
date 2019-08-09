@@ -1,8 +1,7 @@
 import React, { Component, Fragment } from "react";
-import ReqInviteButton from "./ReqInviteButton";
 import hfceventicon from "../assets/events/HFCeventicon.png";
 import eventlogo from "../assets/events/events.jpg";
-import empowerlogo from "../assets/events/empower.jpg";
+
 import event1 from "../assets/events/HFCEvents/event1.jpg";
 import event2 from "../assets/events/HFCEvents/event2.jpg";
 import event3 from "../assets/events/HFCEvents/event3.jpg";
@@ -26,17 +25,30 @@ import event20 from "../assets/events/HFCEvents/event20.jpg";
 import event21 from "../assets/events/HFCEvents/event21.jpg";
 import event22 from "../assets/events/HFCEvents/event22.jpg";
 import event23 from "../assets/events/HFCEvents/event23.jpg";
-import event24 from "../assets/events/HFCEvents/event24.JPG";
-import event25 from "../assets/events/HFCEvents/event25.JPG";
-import event26 from "../assets/events/HFCEvents/event26.JPG";
-import event27 from "../assets/events/HFCEvents/event27.JPG";
-import event28 from "../assets/events/HFCEvents/event28.JPG";
-import event29 from "../assets/events/HFCEvents/event29.JPG";
-import event30 from "../assets/events/HFCEvents/event30.jpg";
-import event31 from "../assets/events/HFCEvents/event31.jpg";
-import event32 from "../assets/events/HFCEvents/event32.jpg";
-import eventvideo from "../assets/events/events.mp4";
-import yellow from "../assets/yellow.png";
+import event24 from "../assets/events/event24.jpg";
+
+import eventvideo from "../assets/events/events.MOV";
+
+import stitcher from "../assets/more/podcast/stitcher.png";
+import apple from "../assets/more/podcast/apple.png";
+import breaker from "../assets/more/podcast/breaker.png";
+import castbox from "../assets/more/podcast/castbox.png";
+import google from "../assets/more/podcast/google.png";
+import overcast from "../assets/more/podcast/overcast.png";
+import pocketcast from "../assets/more/podcast/pocketcast.png";
+import radiopublic from "../assets/more/podcast/radiopublic.png";
+import rss from "../assets/more/podcast/rss.png";
+import soundcloud from "../assets/more/podcast/soundcloud.png";
+import spotify from "../assets/more/podcast/spotify.png";
+import tunein from "../assets/more/podcast/tunein.png";
+import youtube from "../assets/more/podcast/youtube.png";
+import radiocom from "../assets/more/podcast/radiocom.png";
+
+import empowering from "../assets/events/empowering.png";
+import nextevent from "../assets/events/nextevent.png";
+import lastevent from "../assets/events/lastevent.png";
+import lastepisode from "../assets/events/lastepisode.png";
+import rsvp from "../assets/events/rsvp.png"
 
 import "./event.css";
 
@@ -51,7 +63,7 @@ class Event extends Component {
         <div className="empower-logo-container">
           <div className="empower-mission">
             <div className="empower-header">
-              <h1>EMPOWERING COMMUNITIES EVENTS</h1>
+              <img src={empowering} alt="empowering" className="empowering-header"/>
             </div>
 
             <div className="empower-paragraph1">
@@ -78,12 +90,13 @@ class Event extends Component {
                 actively utilize storytelling and media to shape the cultural
                 narrative and create social change.
               </p>
+              <br/>
             </div>
 
             <div className="empower-footnote">
               <p>
                 *our partner NeueHouse generously hosts our events in both their
-                NYC and LA loctaions
+                NYC and LA locations
               </p>
             </div>
           </div>
@@ -101,27 +114,32 @@ class Event extends Component {
             <video
               src={eventvideo}
               title="eventvid"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
               align="left"
               className="event-video"
             />
-            <div className="under-event-video-req-invite-ctn">
-              <ReqInviteButton />
+
+            <div className='rsvp1-btn-ctn'>
+              <a href="http://rsvp.neuehouse.com/howlforchangebelal">
+                <img src={rsvp} alt="rsvp1" className='rsvp1'/>
+              </a>
             </div>
           </div>
 
           <div className="next-event-text">
-            <h1>OUR NEXT EVENT</h1>
+            <img src={nextevent} alt="nextevent" className="next-event-header" />
             <h2>EMPOWERING COMMUNITIES</h2>
             <h2>WITH AMMAR BELAL FROM ONE432</h2>
+            <br/>
 
-            <div className="req-invite-ctn" align="right">
-              <ReqInviteButton />
-            </div>
+            <a href="http://rsvp.neuehouse.com/howlforchangebelal">
+              <img src={rsvp} alt="rsvp1" className='rsvp2'/>
+            </a>
 
             <div className="event-details" align="left">
+              <br/>
               <p>
                 Join us next Thursday 08/08 in NYC at 6:30pm at the NeueHouse
                 for Episode 6, where we host multicultural social impact fashion
@@ -144,7 +162,11 @@ class Event extends Component {
               <br />
               <p>The event is free. We can't wait to see you in NYC soon.</p>
               <br />
-              <p>xoxo</p>
+              <div className="emoji-div">
+                <p>xoxo</p>
+                <i className="em em-wolf"></i>
+                <i className="em em-sparkling_heart"></i>
+              </div>
             </div>
           </div>
         </div>
@@ -152,7 +174,9 @@ class Event extends Component {
         <div className="last-event-container">
           <div className="last-event-text">
             <div className="last-event-header">
-              <h1>Our last event</h1>
+            <div className="last-event-img-container">
+              <img src={lastevent} alt="lastevent" className="last-event-header-img"/>
+            </div>
               <h2>EMPOWERING COMMUNITIES</h2>
               <h2>With arlan hamilton</h2>
             </div>
@@ -181,263 +205,381 @@ class Event extends Component {
             </div>
           </div>
 
-          <div className="grid-container main-container">
-            <div className="grid-row main-container">
-              <div className="grid-item-div">
-                <img className="grid-item" src={event1} alt="event1" />
+          <div className="event-grid-container">
+            <div className="event-grid-row-container">
+              <div className="event-grid-item-div">
+                <img className="event-grid-item" src={event1} alt="event1" />
               </div>
 
-              <div className="grid-item-div">
-                <img className="event2 grid-item" src={event2} alt="event2" />
+              <div className="event-grid-item-div">
+                <img
+                  className="event-grid-item"
+                  src={event2}
+                  alt="event2"
+                />
               </div>
 
-              <div className="grid-item-div">
-                <img className="event3 grid-item" src={event3} alt="event3" />
+              <div className="event-grid-item-div">
+                <img
+                  className="event-grid-item"
+                  src={event3}
+                  alt="event3"
+                />
               </div>
 
-              <div className="grid-item-div">
-                <img className="event4 grid-item" src={event4} alt="event4" />
+              <div className="event-grid-item-div">
+                <img
+                  className="event-grid-item"
+                  src={event4}
+                  alt="event4"
+                />
               </div>
 
-              <div className="grid-item-div">
-                <img className="event5 grid-item" src={event5} alt="event5" />
+              <div className="event-grid-item-div">
+                <img
+                  className="event-grid-item"
+                  src={event5}
+                  alt="event5"
+                />
               </div>
 
-              <div className="grid-item-div">
-                <img className="event6 grid-item" src={event6} alt="event6" />
+              <div className="event-grid-item-div">
+                <img
+                  className="event-grid-item"
+                  src={event6}
+                  alt="event6"
+                />
               </div>
 
-              <div className="grid-item-div">
-                <img className="event7 grid-item" src={event7} alt="event7" />
+              <div className="event-grid-item-div">
+                <img
+                  className="event-grid-item"
+                  src={event7}
+                  alt="event7"
+                />
               </div>
 
-              <div className="grid-item-div">
-                <img className="event8 grid-item" src={event8} alt="event8" />
+              <div className="event-grid-item-div">
+                <img
+                  className="event-grid-item"
+                  src={event8}
+                  alt="event8"
+                />
               </div>
             </div>
 
-            <div className="grid-row main-container">
-              <div className="grid-item-div">
-                <img className="event9 grid-item" src={event9} alt="event9" />
+            <div className="event-grid-row-container">
+              <div className="event-grid-item-div">
+                <img
+                  className="event-grid-item"
+                  src={event9}
+                  alt="event9"
+                />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event10 grid-item"
+                  className="event-grid-item"
                   src={event10}
                   alt="event10"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event11 grid-item"
+                  className="event-grid-item"
                   src={event11}
                   alt="event11"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event12 grid-item"
+                  className="event-grid-item"
                   src={event12}
                   alt="event12"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event13 grid-item"
+                  className="event-grid-item"
                   src={event13}
                   alt="event13"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event14 grid-item"
+                  className="event-grid-item"
                   src={event14}
                   alt="event14"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event15 grid-item"
+                  className="event-grid-item"
                   src={event15}
                   alt="event15"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event16 grid-item"
+                  className="event-grid-item"
                   src={event16}
                   alt="event16"
                 />
               </div>
             </div>
 
-            <div className="grid-row main-container">
-              <div className="grid-item-div">
+            <div className="event-grid-row-container">
+              <div className="event-grid-item-div">
                 <img
-                  className="event17 grid-item"
+                  className="event-grid-item"
                   src={event17}
                   alt="event17"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event18 grid-item"
+                  className="event-grid-item"
                   src={event18}
                   alt="event18"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event19 grid-item"
+                  className="event-grid-item"
                   src={event19}
                   alt="event19"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event20 grid-item"
+                  className="event-grid-item"
                   src={event20}
                   alt="event20"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event21 grid-item"
+                  className="event-grid-item"
                   src={event21}
                   alt="event21"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event22 grid-item"
+                  className="event-grid-item"
                   src={event22}
                   alt="event22"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event23 grid-item"
+                  className="event-grid-item"
                   src={event23}
                   alt="event23"
                 />
               </div>
 
-              <div className="grid-item-div">
+              <div className="event-grid-item-div">
                 <img
-                  className="event24 grid-item"
+                  className="event-grid-item"
                   src={event24}
                   alt="event24"
                 />
               </div>
             </div>
-
-            <div className="grid-row main-container">
-              <div className="grid-item-div">
-                <img
-                  className="event25 grid-item"
-                  src={event25}
-                  alt="event25"
-                />
-              </div>
-
-              <div className="grid-item-div">
-                <img
-                  className="event26 grid-item"
-                  src={event26}
-                  alt="event26"
-                />
-              </div>
-
-              <div className="grid-item-div">
-                <img
-                  className="event27 grid-item"
-                  src={event27}
-                  alt="event27"
-                />
-              </div>
-
-              <div className="grid-item-div">
-                <img
-                  className="event28 grid-item"
-                  src={event28}
-                  alt="event28"
-                />
-              </div>
-
-              <div className="grid-item-div">
-                <img
-                  className="event29 grid-item"
-                  src={event29}
-                  alt="event29"
-                />
-              </div>
-
-              <div className="grid-item-div">
-                <img
-                  className="event30 grid-item"
-                  src={event30}
-                  alt="event30"
-                />
-              </div>
-
-              <div className="grid-item-div">
-                <img
-                  className="event31 grid-item"
-                  src={event31}
-                  alt="event31"
-                />
-              </div>
-
-              <div className="grid-item-div">
-                <img
-                  className="event32 grid-item"
-                  src={event32}
-                  alt="event32"
-                />
-              </div>
-            </div>
-            <p className="credentials" align="right">
-              *photos courtesy of John Bernstein, Elko Weaver, and NeueHouse.
-            </p>
           </div>
+          <p className="credentials" align="right">
+            *photos courtesy of John Bernstein, Elko Weaver, and NeueHouse.
+          </p>
         </div>
 
         <div className="event-video-container">
-          <img src={yellow} alt="yellow line" className="bottom-yellow-line" />
-          <p align="center">LISTEN TO OR WATCH THE 4TH HFC EPISODE NOW</p>
 
-          <div className="hfc-sound-container">
-            <iframe
-              title="soundcloud"
-              className="grid-item song2"
-              scrolling="no"
-              frameBorder="no"
-              allow="autoplay"
-              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303208989&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-            />
+          <img src={lastepisode} alt="lastepisode" className="lastepisode"/>
+
+          <div className="hfc-sound-and-video-ctn">
+            <div className="hfc-sound-ctn">
+              <iframe
+                title="soundcloud"
+                className="grid-item-song2"
+                scrolling="no"
+                frameBorder="no"
+                allow="autoplay"
+                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/620223069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                width="205px"
+                height="206px"
+              />
+            </div>
+
+            <div className="hfc-video-ctn">
+              <iframe
+                src="https://www.youtube.com/embed/uX0fowPSQsY"
+                title="HFCep4"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                height="206px"
+              />
+            </div>
+          </div>
+        </div>
+
+
+
+        <div className="grid-container grid-padding">
+          <div className="subscribe-div">
+            <br />
+            <p>Subscribe (it's free!) in your favorite podcast app:</p>
+          </div>
+          <div className="grid-row container" id="grid-row1">
+            <div className="podcast-grid-item-div">
+              <a href="https://www.stitcher.com/podcast/howl-for-change/the-howl-for-change-podcast">
+                <img
+                  className="podcast-grid-item"
+                  src={stitcher}
+                  alt="stitcher"
+                  href="https://www.stitcher.com/podcast/howl-for-change/the-howl-for-change-podcast"
+                />
+              </a>
+            </div>
+
+            <div className="podcast-grid-item-div">
+              <a href="https://itunes.apple.com/us/podcast/howl-for-change/id1454822383?mt=2">
+                <img
+                  className="podcast-grid-item"
+                  src={apple}
+                  alt="apple"
+                />
+              </a>
+            </div>
+
+            <div className="podcast-grid-item-div">
+              <a href="https://play.google.com/music/listen?u=0#/ps/I64oehcz5cnwnui7pw2smqxq4xe">
+                <img
+                  className="podcast-grid-item"
+                  src={google}
+                  alt="google"
+                />
+              </a>
+            </div>
+
+            <div className="podcast-grid-item-div">
+              <a href="https://overcast.fm/itunes1454822383/howl-for-change">
+                <img
+                  className="podcast-grid-item"
+                  src={overcast}
+                  alt="overcast"
+                />
+              </a>
+            </div>
+
+            <div className="podcast-grid-item-div">
+              <a href="https://pca.st/oN8e">
+                <img
+                  className="podcast-grid-item"
+                  src={pocketcast}
+                  alt="pocketcast"
+                />
+              </a>
+            </div>
+
+            <div className="podcast-grid-item-div">
+              <a href="https://www.breaker.audio/howl-for-change">
+                <img
+                  className="podcast-grid-item"
+                  src={breaker}
+                  alt="breaker"
+                />
+              </a>
+            </div>
+
+            <div className="podcast-grid-item-div">
+              <a href="http://feeds.soundcloud.com/users/soundcloud:users:586585557/sounds.rss">
+                <img className="podcast-grid-item" src={rss} alt="rss" />
+              </a>
+            </div>
           </div>
 
-          <div className="hfc-video-container">
-            <iframe
-              src="https://www.youtube.com/embed/uX0fowPSQsY"
-              title="HFCep4"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            />
+          <div className="grid-row container" id="grid-row2">
+            <div className="podcast-grid-item-div">
+              <a href="https://www.youtube.com/channel/UCqX4qeEsEYTHURnCZa2TrGg">
+                <img
+                  className="podcast-grid-item"
+                  src={youtube}
+                  alt="youtube"
+                />
+              </a>
+            </div>
+
+            <div className="podcast-grid-item-div">
+              <a href="https://open.spotify.com/show/4KQxc2FCDG0rW6GOtojxYM?si=AoicWhY9Q9OeABQWlrUjkQ">
+                <img
+                  className="podcast-grid-item"
+                  src={spotify}
+                  alt="spotify"
+                />
+              </a>
+            </div>
+
+            <div className="podcast-grid-item-div">
+              <a href="http://soundcloud.com/howl-for-change">
+                <img
+                  className="podcast-grid-item"
+                  src={soundcloud}
+                  alt="soundcloud"
+                />
+              </a>
+            </div>
+
+            <div className="podcast-grid-item-div">
+              <a href="https://castbox.fm/channel/Howl-For-Change-id2041403?country=us">
+                <img
+                  className="podcast-grid-item"
+                  src={castbox}
+                  alt="castbox"
+                />
+              </a>
+            </div>
+
+            <div className="podcast-grid-item-div">
+              <a href="http://tun.in/pjmEZ">
+                <img
+                  className="podcast-grid-item"
+                  src={tunein}
+                  alt="tunein"
+                />
+              </a>
+            </div>
+
+            <div className="podcast-grid-item-div">
+              <img
+                className="podcast-grid-item"
+                src={radiocom}
+                alt="radiocom"
+              />
+            </div>
+
+            <div className="podcast-grid-item-div">
+              <a href="https://radiopublic.com/howl-for-change-G7q1Ja">
+                <img
+                  className="podcast-grid-item"
+                  src={radiopublic}
+                  alt="radiopublic"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </Fragment>

@@ -13,20 +13,32 @@ import programming from "../assets/content/programming.png";
 import video from "../assets/content/video.png";
 import writing from "../assets/content/writing.png";
 import chariot from "../assets/content/chariot.png";
-import yellow from "../assets/yellow.png";
 import tagline from "../assets/issues/tagline.png";
+import whoweare from "../assets/who we are.png";
 // import "./gallery.css"
 import './Gallery.sass'
 
 class Gallery extends Component {
+
+  state = {
+    isOpen: false
+  }
+
+  handleShowDialog = () => {
+    this.setState({
+      isOpen: !this.state.isOpen
+    })
+    console.log('clicked');
+  }
+
   render() {
     return (
+      
       <div className="section">
         <div className="container">
           <div className="gallery grid-ctn">
             <div className="gallery-text-div">
-              <img src={yellow} alt="yellowline" className="wwr-yellowline1" />
-              <p className="gallery-header"> WHO WE ARE </p>
+              <img src={whoweare} alt="whoweare" className="whoweare" />
               <p className="gallery-paragraph rightAlignText">
                 OUR COMMUNITY IS MADE UP OF STORYTELLERS AND CONTENT CREATOR, BOTH
                 VETERAN AND EMERGING, EACH ONE FUELED BY PASSION AND CREATIVITY.

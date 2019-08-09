@@ -7,7 +7,7 @@
 
 .podcast-youtube h2 {
   font-family: "BebasNeueBold";
-  font-size: 2em;
+  font-size: 2.1em;
 }
 
 .hfc-media-container {
@@ -35,6 +35,7 @@
   height: 100px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .podcast-grid-item {
@@ -152,7 +153,8 @@ li {
 }
 
 .hfc-app-paragraph p {
-  font-size: 2.15em;
+  font-size: 2.4em;
+
 }
 
 #app-paragraph {
@@ -182,12 +184,20 @@ li {
 
 h1.find-ar {
   margin-top: 25px;
+  margin-bottom: 25px
 }
 
 .app-store-icon {
   display: flex;
   position: relative;
-  top: -50px;
+}
+
+.app-icon-img{
+  margin-right: 2.5vw;
+}
+
+.android-icon-img{
+  margin-left: 2.5vw;
 }
 
 .paws-header {
@@ -207,8 +217,51 @@ h1.find-ar {
   height: 180px;
 }
 
+.howl-at-us-btn {
+    position:relative;
+    left:25%;
+}
+
+.our-process-header {
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 1.3em;
+  margin: 0;
+}
+
 .paws-on-paragraph {
   font-size: 2.2em;
   width: 82%;
   margin-top: 10px;
+}
+
+.podcast-grid-item-div a {
+  width: 135px;
+  height: 36px;
+}
+
+.pawsonapproach{
+  width: 17vw;
+  height: auto;
+  padding-top: 75px;
+}
+
+.arapp{
+  width: 13vw;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.podcastyoutube{
+  width: 15vw;
+  height: auto;
+  padding-bottom: 20px
+}
+
+.paws-on-img-container{
+  padding-top: 100px;
+}
+
+.howl-at-us-button-container{
+  padding-top: 20px;
 }

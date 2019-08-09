@@ -15,7 +15,6 @@ class Topnav extends Component {
           </div>
 
           <div className="topnav-links">
-            <ul>
               <li>
                 <NavLink to="/process">Our Process</NavLink>
               </li>
@@ -25,10 +24,7 @@ class Topnav extends Component {
               <li>
                 <NavLink to="/podcast">More From HFC</NavLink>
               </li>
-              <li>
-                <NavLink to="/contact">Contact</NavLink>
-              </li>
-            </ul>
+              <ReqInviteButton/>
           </div>
         </div>
       </nav>

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import issues from "../assets/issues/issues.png";
-import yellow from "../assets/yellow.png";
 import inspired from "../assets/issues/inspired.png";
 
 class WhatWeDo extends Component {

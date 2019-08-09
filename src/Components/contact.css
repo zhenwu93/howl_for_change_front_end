@@ -54,20 +54,22 @@ input[type="email"].email-input {
 
 input[type="text"].first-name-input:focus,
 input[type="text"].last-name-input:focus,
+input[type="text"].phone-input:focus,
 input[type="email"].email-input:focus,
 input[type="text"].organization-input:focus {
   outline: none;
   background-color: #ebbe0f;
 }
 
-#MERGE7 {
+#MERGE4 {
+  border: 1px gray solid;
   min-width: 705px;
   max-width: 705px;
   resize: none;
-  padding: 10px;
+  padding: 6px;
 }
 
-#MERGE7:focus {
+#MERGE4:focus {
   outline: none;
 }
 
