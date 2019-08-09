@@ -431,12 +431,13 @@ class Event extends Component {
           </div>
         </div>
 
-        <div className="subscribe-div">
-          <br/>
-          <p>Subscribe (it's free!) in your favorite podcast app:</p>
-        </div>
+
 
         <div className="grid-container grid-padding">
+          <div className="subscribe-div">
+            <br />
+            <p>Subscribe (it's free!) in your favorite podcast app:</p>
+          </div>
           <div className="grid-row container" id="grid-row1">
             <div className="podcast-grid-item-div">
               <a href="https://www.stitcher.com/podcast/howl-for-change/the-howl-for-change-podcast">

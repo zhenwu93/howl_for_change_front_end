@@ -12,6 +12,11 @@
   height: auto;
 }
 
+.event-video-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .empower-mission {
   display: flex;
   flex-direction: column;
@@ -20,7 +25,7 @@
 
 .empower-logo-container {
   display: flex;
-  margin: 40px;
+  margin: 50px;
   margin-left: 100px;
   margin-right: 100px;
   justify-content: space-between;
@@ -103,7 +108,7 @@
 /*------------------------------*/
 
 .next-event-container {
-  margin: 40px;
+  margin: 50px;
   margin-left: 100px;
   margin-right: 100px;
   display: flex;
@@ -168,7 +173,7 @@
 .last-event-container {
   display: flex;
   flex-direction: column;
-  margin: 40px;
+  margin: 50px;
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -212,6 +217,8 @@
 .event-grid-container {
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
+
 }
 
 .event-grid-row-container {
@@ -266,6 +273,7 @@
 .grid-padding {
   padding-left: 30px;
   padding-right: 30px;
+  margin-bottom: 50px;
 }
 
 .podcast-grid-item-div {
