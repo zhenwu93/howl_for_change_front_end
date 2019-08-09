@@ -48,6 +48,7 @@ import empowering from "../assets/events/empowering.png";
 import nextevent from "../assets/events/nextevent.png";
 import lastevent from "../assets/events/lastevent.png";
 import lastepisode from "../assets/events/lastepisode.png";
+import rsvp from "../assets/events/rsvp.png"
 
 import "./event.css";
 
@@ -119,8 +120,11 @@ class Event extends Component {
               align="left"
               className="event-video"
             />
-            <div className="rsvp-button-ctn">
-              <a href="http://rsvp.neuehouse.com/howlforchangebelal"><button type="button" className="rsvp-button1 button">RSVP HERE</button></a>
+
+            <div className='rsvp1-btn-ctn'>
+              <a href="http://rsvp.neuehouse.com/howlforchangebelal">
+                <img src={rsvp} alt="rsvp1" className='rsvp1'/>
+              </a>
             </div>
           </div>
 
@@ -128,12 +132,14 @@ class Event extends Component {
             <img src={nextevent} alt="nextevent" className="next-event-header" />
             <h2>EMPOWERING COMMUNITIES</h2>
             <h2>WITH AMMAR BELAL FROM ONE432</h2>
+            <br/>
 
-            <div className="rsvp-button2-ctn">
-            <a href="http://rsvp.neuehouse.com/howlforchangebelal"><button type="button" className="rsvp-button2 button">RSVP HERE</button></a>
-            </div>
+            <a href="http://rsvp.neuehouse.com/howlforchangebelal">
+              <img src={rsvp} alt="rsvp1" className='rsvp2'/>
+            </a>
 
             <div className="event-details" align="left">
+              <br/>
               <p>
                 Join us next Thursday 08/08 in NYC at 6:30pm at the NeueHouse
                 for Episode 6, where we host multicultural social impact fashion

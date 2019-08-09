@@ -17,6 +17,15 @@
   margin-bottom: 50px;
 }
 
+.rsvp1 {
+  width: 10vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*-----------------------------------*/
+
 .empower-mission {
   display: flex;
   flex-direction: column;
@@ -146,14 +155,9 @@
   font-size: 2em;
   font-weight: 200;
 }
-.rsvp-button1{
-  position:relative;
-  right: 35%;
-}
 
-.rsvp-button2-ctn{
-  padding-top: 6vh;
-  padding-bottom: 6vh;
+.rsvp2 {
+  width: 10vw;
 }
 
 /* .last-event-header {
