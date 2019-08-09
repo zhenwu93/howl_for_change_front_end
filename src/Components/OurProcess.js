@@ -13,9 +13,9 @@ class OurProcess extends Component {
     return (
       <section>
         <p id='processHeader' className="processText">Our Process</p>
-        <div className="ourprocess-ctn container">
-          <div className="processRow container">
-            <div className="processItem-ctn container">
+        <div className="ourprocess-ctn main-container">
+          <div className="processRow main-container">
+            <div className="processItem-ctn main-container">
               <img className="processImg" src={process1} alt="process1" />
               <img className="processNumImg" src={one} alt="one" />
               <p className="regtext ">
@@ -25,8 +25,8 @@ class OurProcess extends Component {
             </div>
           </div>
 
-          <div className="processRow container">
-            <div className="processItem-ctn container">
+          <div className="processRow main-container">
+            <div className="processItem-ctn main-container">
               <img className="processImg" src={process2} alt="process2" />
               <img className="processNumImg" src={two} alt="two" />
               <p className="regtext ">
@@ -38,8 +38,8 @@ class OurProcess extends Component {
 
           <br />
 
-          <div className="processRow container">
-            <div className="processItem-ctn container">
+          <div className="processRow main-container">
+            <div className="processItem-ctn main-container">
               <img className="processImg" src={process3} alt="process3" />
               <img className="processNumImg" src={three} alt="three" />
               <p className="regtext ">
@@ -50,8 +50,8 @@ class OurProcess extends Component {
             </div>
           </div>
 
-          <div className="processRow container">
-            <div className="processItem-ctn container">
+          <div className="processRow main-container">
+            <div className="processItem-ctn main-container">
               <img className="processImg" src={process4} alt="process4" />
               <img className="processNumImg" src={four} alt="four" />
               <p className="regtext ">

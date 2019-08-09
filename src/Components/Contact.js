@@ -22,13 +22,13 @@ class Contact extends Component {
   render() {
     return (
       <Fragment>
-        <div className="contact-text-ctn container">
+        <div className="contact-text-ctn main-container">
           <div className="contact-text-header-div">
             <h1>HOWL AT US</h1>
           </div>
         </div>
 
-        <div className="contact-form-div container story-teller-ctn">
+        <div className="contact-form-div main-container story-teller-ctn">
           <img
             className="storytellers-image"
             src={Storytellers}
@@ -161,7 +161,7 @@ class Contact extends Component {
           </div>
         </div>
 
-        <div className="contact-form-div container">
+        <div className="contact-form-div main-container">
           <div className="nonprofits-subscribe-form">
             <form
               action="https://howlforchange.us19.list-manage.com/subscribe/post"

@@ -6,7 +6,7 @@ class WhatWeDo extends Component {
   render() {
     return (
       <section>
-        <div className="whatwedo-ctn container">
+        <div className="whatwedo-ctn main-container">
           <div className="whatwedo-text-div">
             <img src={inspired} alt="inspired" className="inspired" />
             <br />
