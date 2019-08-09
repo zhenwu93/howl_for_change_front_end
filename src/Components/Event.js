@@ -95,7 +95,7 @@ class Event extends Component {
             <div className="empower-footnote">
               <p>
                 *our partner NeueHouse generously hosts our events in both their
-                NYC and LA loctaions
+                NYC and LA locations
               </p>
             </div>
           </div>
