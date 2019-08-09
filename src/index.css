@@ -308,10 +308,10 @@ li {
   margin: 0;
 }
 
-.categoryLogo {
+.categoryLogoPhoto {
   position: relative;
-  top: -10vh;
-  left: -20px;
+  top: -3vh;
+  left: -1.5vw;
   transform: translateY(-50%);
   z-index: 10;
 }
