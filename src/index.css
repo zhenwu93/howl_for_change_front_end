@@ -532,3 +532,7 @@ input[type="text"],
   max-height: 32px;
   padding: 5px;
 }
+
+.reqinvite{
+  max-width: 18vw;
+}

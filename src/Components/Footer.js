@@ -5,6 +5,8 @@ import facebook from "../assets/social/facebook.png";
 import howl from "../assets/social/howl.png";
 import instagram from "../assets/social/instagram.png";
 import twitter from "../assets/social/twitter.png";
+import pdfpp from '../assets/pdf/HFC Privacy Policy.pdf'
+import pdftos from '../assets/pdf/HFC Terms of Service.pdf'
 
 class Footer extends Component {
   render() {
@@ -14,7 +16,12 @@ class Footer extends Component {
 
           <div className="legalinfo">
             <ul>
-              <li>Privacy Policy | Terms of Service </li>
+              <a target="_blank" href={pdfpp}>
+                <li>Privacy Policy |</li>
+              </a>
+              <a target="_blank" href={pdftos}>
+                <li> Terms of Service</li>
+              </a>
                 <br></br>
               <li>©Howl For Change 2019</li>
             </ul>
