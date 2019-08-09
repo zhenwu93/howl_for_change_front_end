@@ -25,7 +25,7 @@ class App extends Component {
         <HashRouter>
           <Topnav />
           <Switch>
-            <div className="content content-ctn main-container">
+            <div className="content content-ctn container">
               <Route exact path="/" component={About} />
               <Route path="/process" component={OurProcess} />
               <Route path="/event" component={Event} />

@@ -7,7 +7,7 @@ class Topnav extends Component {
   render() {
     return (
       <nav className="topnav">
-        <div className="topnav-ctn main-container">
+        <div className="topnav-ctn container">
           <div className="topnavlogodiv">
             <NavLink exact to="/">
               <img src={logo} className="topnavlogo" alt="hfclogo" />
