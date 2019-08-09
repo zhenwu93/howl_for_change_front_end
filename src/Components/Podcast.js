@@ -87,7 +87,7 @@ class Podcast extends Component {
             </div>
 
             <div className="grid-container grid-padding">
-              <div className="grid-row-container" id="grid-row1">
+              <div className="grid-row container" id="grid-row1">
                 <div className="podcast-grid-item-div">
                   <a href="https://www.stitcher.com/podcast/howl-for-change/the-howl-for-change-podcast">
                     <img
@@ -156,7 +156,7 @@ class Podcast extends Component {
                 </div>
               </div>
 
-              <div className="grid-row-container" id="grid-row2">
+              <div className="grid-row container" id="grid-row2">
                 <div className="podcast-grid-item-div">
                   <a href="https://www.youtube.com/channel/UCqX4qeEsEYTHURnCZa2TrGg">
                     <img
