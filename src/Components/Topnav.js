@@ -11,10 +11,10 @@ class Topnav extends Component {
 
   dropdown() {
     var x = document.getElementById("topnav");
-    if (x.className === "topnav-ctn") {
+    if (x.className === "topnav-ctn container") {
       x.className += " responsive";
     } else {
-      x.className = "topnav-ctn";
+      x.className = "topnav-ctn container";
     }
   }
 
@@ -22,13 +22,10 @@ class Topnav extends Component {
     return (
       <nav className="topnav" >
         <div className="topnav-ctn container" id='topnav'>
-          {/* <div className="topnavlogodiv"> */}
           <NavLink exact to="/">
             <img src={logo} className="topnavlogo" alt="hfclogo" />
           </NavLink>
-          {/* </div> */}
 
-          {/* <div className="topnav-links"> */}
           <NavLink to="/process">Our Process</NavLink>
           <NavLink to="/event">Community Events</NavLink>
           <NavLink to="/podcast">More From HFC</NavLink>
@@ -36,7 +33,6 @@ class Topnav extends Component {
             <i className="fa fa-bars"></i>
           </a>
           <ReqInviteButton />
-          {/* </div> */}
         </div>
       </nav>
     );
