@@ -593,4 +593,12 @@ input[type="text"],
     font-size: 40px;
     padding: 0;
   }
+
+  .content-ctn {
+    overflow: hidden;
+  }
+
+  .footer-nav-ctn {
+    overflow: hidden;
+  }
 }
