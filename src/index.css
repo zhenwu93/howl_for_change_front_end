@@ -454,8 +454,6 @@ input[type="text"],
 
 .footer-nav-ctn a {
   text-decoration: none;
-  padding-left: 10px;
-  padding-right: 10px;
   font-size: 1em;
   font-style: Helvetica, sans-serif;
   color: #ffffff;
@@ -486,9 +484,27 @@ input[type="text"],
   padding: 5px;
 }
 
+.howlForChange {
+  padding-left: 20px;
+}
+
 .reqinvite {
   max-width: 18vw;
   margin-right: 20px;
+}
+
+@media (max-width: 600px){
+  .footer-ctn {
+    flex-direction: column;
+  }
+
+  .legalinfo {
+    align-self: center;
+  }
+
+  .footer-nav-ctn {
+    padding-right: 40px;
+  }
 }
 
 @media (max-width: 600px) {
