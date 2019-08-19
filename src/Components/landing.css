@@ -1,0 +1,34 @@
+.landing-ctn {
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-img {
+    max-width: 100vw;
+    max-height: auto;
+    padding-bottom: 10px;
+}
+
+.landing-text-div {
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing-text {
+    font-size: 36pt;
+}
+
+@media (max-width: 600px) {
+    .landing-text{
+        font-size: 24px;
+    }
+    .tag-line-img {
+        max-width: 100vw;
+    }
+    .hashtag-img {
+        min-width: 45%;
+    }
+}

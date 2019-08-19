@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import issues from "../assets/issues/issues.png";
 import inspired from "../assets/issues/inspired.png";
+import './whatwedo.css';
 
 class WhatWeDo extends Component {
   render() {
