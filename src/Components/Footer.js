@@ -23,7 +23,7 @@ class Footer extends Component {
                 <li> Terms of Service</li>
               </a>
                 <br></br>
-              <li>©Howl For Change 2019</li>
+              <li className="howlForChange">©Howl For Change 2019</li>
             </ul>
           </div>
 
