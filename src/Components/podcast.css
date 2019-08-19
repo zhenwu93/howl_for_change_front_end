@@ -32,7 +32,7 @@
 .podcast-grid-item-div {
   position: relative;
   width: 12vw;
-  height: 100px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,11 +103,11 @@ li {
   width: 100%;
 }
 
-#grid-row2 {
+/* #grid-row2 {
   box-sizing: border-box;
   width: 100%;
   margin-top: -40px;
-}
+} */
 
 .grid-item-song2 {
   margin-right: 50px;
@@ -264,4 +264,72 @@ h1.find-ar {
 
 .howl-at-us-button-container{
   padding-top: 20px;
+}
+
+#grid-row1{
+    display: flex;
+    flex-wrap: wrap;
+  }
+.podcast-grid-item-div{
+  display: block;
+  width: 140px;
+}
+
+@media (max-width:1160px){
+  .podcastIcon-img{
+    position: relative;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 180px;
+  }
+  .grid-row {
+    justify-content: center;
+  }
+
+}
+
+@media (max-width:600px){
+  .podcast-container {
+    padding-top: 35px;
+    padding-left: 10px;
+  }
+  .hfc-media-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hfc-video-container{
+    max-width: 70%;
+    left: -50px;
+    position: relative;
+  }
+  .hfc-sound-container{
+    max-width: 70%;
+    left: -50px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  .podcastIcon-img{
+    height: 100%;
+    width: 100px;
+  }
+  .podcastyoutube{
+    width: 40%;
+  }
+}
+
+@media (max-width:820px){
+  .hfc-app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .phone-app {
+    width: 100%;
+    height: auto;
+  }
 }
