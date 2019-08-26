@@ -511,9 +511,7 @@ class Event extends Component {
                 <img className="podcast-grid-item" src={rss} alt="rss" />
               </a>
             </div>
-          </div>
 
-          <div className="grid-row container" id="grid-row2">
             <div className="podcast-grid-item-div">
               <a href="https://www.youtube.com/channel/UCqX4qeEsEYTHURnCZa2TrGg">
                 <img
@@ -581,6 +579,76 @@ class Event extends Component {
                 />
               </a>
             </div>
+          </div>
+
+          <div className="grid-row container" id="grid-row2">
+            {/* <div className="podcast-grid-item-div">
+              <a href="https://www.youtube.com/channel/UCqX4qeEsEYTHURnCZa2TrGg">
+                <img
+                  className="podcast-grid-item"
+                  src={youtube}
+                  alt="youtube"
+                />
+              </a>
+            </div>
+
+            <div className="podcast-grid-item-div">
+              <a href="https://open.spotify.com/show/4KQxc2FCDG0rW6GOtojxYM?si=AoicWhY9Q9OeABQWlrUjkQ">
+                <img
+                  className="podcast-grid-item"
+                  src={spotify}
+                  alt="spotify"
+                />
+              </a>
+            </div>
+
+            <div className="podcast-grid-item-div">
+              <a href="http://soundcloud.com/howl-for-change">
+                <img
+                  className="podcast-grid-item"
+                  src={soundcloud}
+                  alt="soundcloud"
+                />
+              </a>
+            </div>
+
+            <div className="podcast-grid-item-div">
+              <a href="https://castbox.fm/channel/Howl-For-Change-id2041403?country=us">
+                <img
+                  className="podcast-grid-item"
+                  src={castbox}
+                  alt="castbox"
+                />
+              </a>
+            </div>
+
+            <div className="podcast-grid-item-div">
+              <a href="http://tun.in/pjmEZ">
+                <img
+                  className="podcast-grid-item"
+                  src={tunein}
+                  alt="tunein"
+                />
+              </a>
+            </div>
+
+            <div className="podcast-grid-item-div">
+              <img
+                className="podcast-grid-item"
+                src={radiocom}
+                alt="radiocom"
+              />
+            </div>
+
+            <div className="podcast-grid-item-div">
+              <a href="https://radiopublic.com/howl-for-change-G7q1Ja">
+                <img
+                  className="podcast-grid-item"
+                  src={radiopublic}
+                  alt="radiopublic"
+                />
+              </a>
+            </div> */}
           </div>
         </div>
       </Fragment>

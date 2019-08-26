@@ -14,7 +14,7 @@
   display: flex;
   margin-top: 40px;
   margin-bottom: 60px;
-  justify-content: flex-start;
+  justify-content: center;
   padding-left: 30px;
 }
 
@@ -280,7 +280,8 @@ h1.find-ar {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
+}
+
 .podcast-grid-item-div{
   display: block;
   width: 140px;
@@ -331,10 +332,10 @@ h1.find-ar {
   width:300px;
 }
 
-.grid-item-video1{
-  height:210px;
-  width:350px;
-}
+  .grid-item-video1{
+    height:200px;
+    width:300px;
+  }
 
 @media (max-width:820px){
   .hfc-app-container{
@@ -369,11 +370,6 @@ h1.find-ar {
     left: -50px;
     position: relative;
     margin-bottom: 10px;
-  }
-
-  .grid-item-video1{
-    height:200px;
-    width:300px;
   }
 
 }
