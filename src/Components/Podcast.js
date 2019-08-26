@@ -52,8 +52,8 @@ class Podcast extends Component {
             <div className="hfc-media-container">
               <div className="hfc-sound-container">
                 <iframe
-                  height="200"
-                  width="300"
+                  // height="200"
+                  // width="300"
                   title="soundcloud"
                   className="grid-item-song2"
                   scrolling="no"
@@ -65,8 +65,8 @@ class Podcast extends Component {
 
               <div className="hfc-video-container">
                 <iframe
-                  height="210"
-                  width="350"
+                  // height="210"
+                  // width="350"
                   className="grid-item-video1"
                   src="https://www.youtube.com/embed/uX0fowPSQsY"
                   title="HFCep4"

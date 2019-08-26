@@ -397,3 +397,15 @@
     max-width: 100%;
   }
 }
+
+
+#grid-row1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.podcast-grid-item-div{
+  display: block;
+  width: 140px;
+}
